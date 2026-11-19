@@ -85,6 +85,6 @@ Ringkasan Metrik Utama
 
 Arsip Data Science
 - schema_nasi_kampus.sql — Skema relasional database MySQL (nasi_kampus_db)
-- dummy_nasikampus.ipynb — Generator dataset simulasi transaksi berbasis 14 menu resmi
+- dummy_nasikampus.ipynb — Generator dataset simulasi transaksi berbasis 14 menu
 - EDA_Nasi_Kampus_Samarinda.ipynb — Data Wrangling, Exploratory Data Analysis (EDA), dan pembersihan dataset
 - dataset_pesanan_clean_for_ai.csv — Dataset bersih beserta fitur label_prioritas_ai untuk pelatihan model klasifikasi AI
