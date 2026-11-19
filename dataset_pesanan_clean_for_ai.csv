@@ -1,0 +1,998 @@
+id_pesanan,kode_pesanan,nama_pelanggan,tgl_pemesanan,tgl_dibutuhkan,lead_time_hari,nama_menu,kategori,harga_satuan,jumlah,subtotal,status_pesanan,label_prioritas_ai,bulan,hari_pesan,jam_pesan
+1,NKS-20261004-001,RSUD AWS Informatika 81,2026-10-04 08:01:00,2026-10-05 13:01:00,1,Snack Box 2,Snack Box,7000,15,105000,selesai,Tinggi,2026-10,Sunday,8
+1,NKS-20261004-001,RSUD AWS Informatika 81,2026-10-04 08:01:00,2026-10-05 13:01:00,1,Paket Bebek,Nasi Kotak,33000,100,3300000,selesai,Tinggi,2026-10,Sunday,8
+2,NKS-20261119-002,UKM Hukum 110,2026-11-19 16:13:00,2026-11-20 21:13:00,1,Paket 1,Nasi Kotak,12000,75,900000,selesai,Tinggi,2026-11,Thursday,16
+2,NKS-20261119-002,UKM Hukum 110,2026-11-19 16:13:00,2026-11-20 21:13:00,1,Paket 4,Nasi Kotak,20000,100,2000000,selesai,Tinggi,2026-11,Thursday,16
+2,NKS-20261119-002,UKM Hukum 110,2026-11-19 16:13:00,2026-11-20 21:13:00,1,Paket 5,Nasi Kotak,25000,100,2500000,selesai,Tinggi,2026-11,Thursday,16
+3,NKS-20260913-003,Bapak Vorvo 35,2026-09-13 14:42:00,2026-09-14 15:42:00,1,Snackbox 5,Snack Box,15000,75,1125000,selesai,Tinggi,2026-09,Sunday,14
+3,NKS-20260913-003,Bapak Vorvo 35,2026-09-13 14:42:00,2026-09-14 15:42:00,1,Paket Bebek,Nasi Kotak,33000,10,330000,selesai,Tinggi,2026-09,Sunday,14
+4,NKS-20261119-004,Bapak Hendra 82,2026-11-19 12:50:00,2026-11-20 13:50:00,1,Paket 2,Nasi Kotak,15000,15,225000,selesai,Tinggi,2026-11,Thursday,12
+4,NKS-20261119-004,Bapak Hendra 82,2026-11-19 12:50:00,2026-11-20 13:50:00,1,Paket 2 Ayam Bumbu,Nasi Kotak,17000,25,425000,selesai,Tinggi,2026-11,Thursday,12
+4,NKS-20261119-004,Bapak Hendra 82,2026-11-19 12:50:00,2026-11-20 13:50:00,1,Paket Spesial,Nasi Kotak,30000,100,3000000,selesai,Tinggi,2026-11,Thursday,12
+5,NKS-20261107-005,Komunitas Rina 3,2026-11-07 20:23:00,2026-11-10 01:23:00,2,Paket Bebek,Nasi Kotak,33000,50,1650000,selesai,Sedang,2026-11,Saturday,20
+5,NKS-20261107-005,Komunitas Rina 3,2026-11-07 20:23:00,2026-11-10 01:23:00,2,Paket 5,Nasi Kotak,25000,25,625000,selesai,Tinggi,2026-11,Saturday,20
+5,NKS-20261107-005,Komunitas Rina 3,2026-11-07 20:23:00,2026-11-10 01:23:00,2,Paket 1,Nasi Kotak,12000,150,1800000,selesai,Tinggi,2026-11,Saturday,20
+6,NKS-20261116-006,Komunitas Loa Bakung 47,2026-11-16 10:16:00,2026-11-21 13:16:00,5,Paket 2,Nasi Kotak,15000,25,375000,selesai,Normal,2026-11,Monday,10
+6,NKS-20261116-006,Komunitas Loa Bakung 47,2026-11-16 10:16:00,2026-11-21 13:16:00,5,Snackbox 5,Snack Box,15000,20,300000,selesai,Sedang,2026-11,Monday,10
+6,NKS-20261116-006,Komunitas Loa Bakung 47,2026-11-16 10:16:00,2026-11-21 13:16:00,5,Snack Box 4,Snack Box,12000,30,360000,selesai,Tinggi,2026-11,Monday,10
+7,NKS-20260901-007,Karang Taruna Rina 93,2026-09-01 10:52:00,2026-09-03 11:52:00,2,Paket 4,Nasi Kotak,20000,10,200000,selesai,Normal,2026-09,Tuesday,10
+7,NKS-20260901-007,Karang Taruna Rina 93,2026-09-01 10:52:00,2026-09-03 11:52:00,2,Paket 2 Ayam Bumbu,Nasi Kotak,17000,25,425000,selesai,Sedang,2026-09,Tuesday,10
+7,NKS-20260901-007,Karang Taruna Rina 93,2026-09-01 10:52:00,2026-09-03 11:52:00,2,Snack Box Premium,Snack Box,25000,40,1000000,selesai,Tinggi,2026-09,Tuesday,10
+8,NKS-20261030-008,UKM Hukum 110,2026-10-30 12:19:00,2026-11-01 17:19:00,2,Paket 2 Ayam Bumbu,Nasi Kotak,17000,20,340000,dibatalkan,Normal,2026-10,Friday,12
+9,NKS-20261029-009,Bapak Rina 17,2026-10-29 15:42:00,2026-10-30 18:42:00,1,Snack Box 3,Snack Box,10000,10,100000,selesai,Tinggi,2026-10,Thursday,15
+9,NKS-20261029-009,Bapak Rina 17,2026-10-29 15:42:00,2026-10-30 18:42:00,1,Paket 5,Nasi Kotak,25000,150,3750000,selesai,Tinggi,2026-10,Thursday,15
+10,NKS-20260914-010,Ibu Yusuf 68,2026-09-14 18:30:00,2026-09-14 19:30:00,0,Snack Box 3,Snack Box,10000,25,250000,selesai,Tinggi,2026-09,Monday,18
+10,NKS-20260914-010,Ibu Yusuf 68,2026-09-14 18:30:00,2026-09-14 19:30:00,0,Paket 2 Ayam Bumbu,Nasi Kotak,17000,150,2550000,selesai,Tinggi,2026-09,Monday,18
+11,NKS-20261017-011,UKM Hukum 110,2026-10-17 19:38:00,2026-10-18 21:38:00,1,Paket 5,Nasi Kotak,25000,75,1875000,selesai,Tinggi,2026-10,Saturday,19
+12,NKS-20260917-012,Panitia Seminar Hendra 28,2026-09-17 09:46:00,2026-09-17 14:46:00,0,Paket Spesial,Nasi Kotak,30000,75,2250000,selesai,Tinggi,2026-09,Thursday,9
+12,NKS-20260917-012,Panitia Seminar Hendra 28,2026-09-17 09:46:00,2026-09-17 14:46:00,0,Snack Box 2,Snack Box,7000,15,105000,selesai,Tinggi,2026-09,Thursday,9
+13,NKS-20260913-013,Fakultas Teknik Hendra 2,2026-09-13 18:19:00,2026-09-15 21:19:00,2,Paket 2 Ayam Bumbu,Nasi Kotak,17000,100,1700000,selesai,Tinggi,2026-09,Sunday,18
+13,NKS-20260913-013,Fakultas Teknik Hendra 2,2026-09-13 18:19:00,2026-09-15 21:19:00,2,Paket Bebek,Nasi Kotak,33000,25,825000,selesai,Tinggi,2026-09,Sunday,18
+13,NKS-20260913-013,Fakultas Teknik Hendra 2,2026-09-13 18:19:00,2026-09-15 21:19:00,2,Paket 2,Nasi Kotak,15000,20,300000,selesai,Tinggi,2026-09,Sunday,18
+14,NKS-20260908-014,Bapak Rina 33,2026-09-08 15:59:00,2026-09-10 17:59:00,2,Snackbox 5,Snack Box,15000,50,750000,selesai,Sedang,2026-09,Tuesday,15
+15,NKS-20260911-015,RSUD AWS Nadia 66,2026-09-11 17:22:00,2026-09-13 22:22:00,2,Snack Box 2,Snack Box,7000,100,700000,selesai,Tinggi,2026-09,Friday,17
+15,NKS-20260911-015,RSUD AWS Nadia 66,2026-09-11 17:22:00,2026-09-13 22:22:00,2,Snack Box 4,Snack Box,12000,25,300000,selesai,Tinggi,2026-09,Friday,17
+16,NKS-20260924-016,Bank Kaltimtara Sempaja 39,2026-09-24 11:47:00,2026-09-26 14:47:00,2,Snack Box 4,Snack Box,12000,40,480000,selesai,Sedang,2026-09,Thursday,11
+16,NKS-20260924-016,Bank Kaltimtara Sempaja 39,2026-09-24 11:47:00,2026-09-26 14:47:00,2,Snackbox 1,Snack Box,5000,40,200000,selesai,Tinggi,2026-09,Thursday,11
+17,NKS-20260908-017,Fakultas Teknik Vorvo 25,2026-09-08 08:15:00,2026-09-10 09:15:00,2,Snack Box Premium,Snack Box,25000,15,375000,selesai,Normal,2026-09,Tuesday,8
+18,NKS-20260911-018,FEB Unmul Hukum 99,2026-09-11 09:15:00,2026-09-13 14:15:00,2,Paket 4,Nasi Kotak,20000,40,800000,selesai,Sedang,2026-09,Friday,9
+19,NKS-20260925-019,RSUD AWS Hukum 42,2026-09-25 11:38:00,2026-09-25 14:38:00,0,Paket 2,Nasi Kotak,15000,75,1125000,selesai,Tinggi,2026-09,Friday,11
+19,NKS-20260925-019,RSUD AWS Hukum 42,2026-09-25 11:38:00,2026-09-25 14:38:00,0,Snack Box 2,Snack Box,7000,15,105000,selesai,Tinggi,2026-09,Friday,11
+19,NKS-20260925-019,RSUD AWS Hukum 42,2026-09-25 11:38:00,2026-09-25 14:38:00,0,Snackbox 5,Snack Box,15000,50,750000,selesai,Tinggi,2026-09,Friday,11
+20,NKS-20260902-020,Pengajian Sari 49,2026-09-02 10:58:00,2026-09-07 15:58:00,5,Paket 2,Nasi Kotak,15000,100,1500000,selesai,Tinggi,2026-09,Wednesday,10
+20,NKS-20260902-020,Pengajian Sari 49,2026-09-02 10:58:00,2026-09-07 15:58:00,5,Paket Bebek,Nasi Kotak,33000,20,660000,selesai,Tinggi,2026-09,Wednesday,10
+20,NKS-20260902-020,Pengajian Sari 49,2026-09-02 10:58:00,2026-09-07 15:58:00,5,Paket 5,Nasi Kotak,25000,15,375000,selesai,Tinggi,2026-09,Wednesday,10
+21,NKS-20261017-021,BEM Ekonomi 74,2026-10-17 15:07:00,2026-10-18 16:07:00,1,Paket 3,Nasi Kotak,17000,20,340000,selesai,Tinggi,2026-10,Saturday,15
+21,NKS-20261017-021,BEM Ekonomi 74,2026-10-17 15:07:00,2026-10-18 16:07:00,1,Snack Box 3,Snack Box,10000,20,200000,selesai,Tinggi,2026-10,Saturday,15
+22,NKS-20261018-022,Bapak Rizky 114,2026-10-18 10:37:00,2026-10-19 14:37:00,1,Snack Box Premium,Snack Box,25000,15,375000,selesai,Tinggi,2026-10,Sunday,10
+23,NKS-20261026-023,Komunitas Sistem Informasi 61,2026-10-26 20:25:00,2026-10-31 21:25:00,5,Snackbox 5,Snack Box,15000,40,600000,selesai,Sedang,2026-10,Monday,20
+23,NKS-20261026-023,Komunitas Sistem Informasi 61,2026-10-26 20:25:00,2026-10-31 21:25:00,5,Snack Box 3,Snack Box,10000,25,250000,selesai,Sedang,2026-10,Monday,20
+23,NKS-20261026-023,Komunitas Sistem Informasi 61,2026-10-26 20:25:00,2026-10-31 21:25:00,5,Paket Bebek,Nasi Kotak,33000,15,495000,selesai,Tinggi,2026-10,Monday,20
+24,NKS-20261005-024,UKM Yusuf 85,2026-10-05 10:16:00,2026-10-08 14:16:00,3,Paket 5,Nasi Kotak,25000,50,1250000,selesai,Sedang,2026-10,Monday,10
+25,NKS-20260930-025,Kantor Dinas Yusuf 10,2026-09-30 19:30:00,2026-10-03 00:30:00,2,Paket 3,Nasi Kotak,17000,30,510000,dibatalkan,Sedang,2026-09,Wednesday,19
+25,NKS-20260930-025,Kantor Dinas Yusuf 10,2026-09-30 19:30:00,2026-10-03 00:30:00,2,Snackbox 1,Snack Box,5000,10,50000,dibatalkan,Sedang,2026-09,Wednesday,19
+26,NKS-20261112-026,FKIP Unmul Rizky 45,2026-11-12 11:16:00,2026-11-12 12:16:00,0,Snackbox 1,Snack Box,5000,50,250000,selesai,Tinggi,2026-11,Thursday,11
+26,NKS-20261112-026,FKIP Unmul Rizky 45,2026-11-12 11:16:00,2026-11-12 12:16:00,0,Snack Box Premium,Snack Box,25000,75,1875000,selesai,Tinggi,2026-11,Thursday,11
+27,NKS-20261025-027,Ibu Dewi 79,2026-10-25 19:30:00,2026-10-28 20:30:00,3,Snack Box Premium,Snack Box,25000,75,1875000,selesai,Tinggi,2026-10,Sunday,19
+27,NKS-20261025-027,Ibu Dewi 79,2026-10-25 19:30:00,2026-10-28 20:30:00,3,Paket 2,Nasi Kotak,15000,150,2250000,selesai,Tinggi,2026-10,Sunday,19
+27,NKS-20261025-027,Ibu Dewi 79,2026-10-25 19:30:00,2026-10-28 20:30:00,3,Paket 5,Nasi Kotak,25000,50,1250000,selesai,Tinggi,2026-10,Sunday,19
+28,NKS-20261006-028,Ibu Vorvo 65,2026-10-06 17:33:00,2026-10-08 21:33:00,2,Snack Box 2,Snack Box,7000,10,70000,selesai,Normal,2026-10,Tuesday,17
+29,NKS-20261012-029,FEB Unmul Sistem Informasi 78,2026-10-12 13:54:00,2026-10-12 15:54:00,0,Paket 2,Nasi Kotak,15000,10,150000,selesai,Tinggi,2026-10,Monday,13
+30,NKS-20261018-030,Kantor Dinas Antasari 24,2026-10-18 20:53:00,2026-10-19 23:53:00,1,Paket Bebek,Nasi Kotak,33000,10,330000,selesai,Tinggi,2026-10,Sunday,20
+30,NKS-20261018-030,Kantor Dinas Antasari 24,2026-10-18 20:53:00,2026-10-19 23:53:00,1,Paket 1,Nasi Kotak,12000,30,360000,selesai,Tinggi,2026-10,Sunday,20
+30,NKS-20261018-030,Kantor Dinas Antasari 24,2026-10-18 20:53:00,2026-10-19 23:53:00,1,Snack Box Premium,Snack Box,25000,10,250000,selesai,Tinggi,2026-10,Sunday,20
+31,NKS-20261028-031,RSUD AWS Antasari 1,2026-10-28 13:54:00,2026-11-02 16:54:00,5,Snackbox 5,Snack Box,15000,150,2250000,selesai,Tinggi,2026-10,Wednesday,13
+31,NKS-20261028-031,RSUD AWS Antasari 1,2026-10-28 13:54:00,2026-11-02 16:54:00,5,Paket 4,Nasi Kotak,20000,15,300000,selesai,Tinggi,2026-10,Wednesday,13
+32,NKS-20261003-032,UKM Yusuf 85,2026-10-03 12:41:00,2026-10-10 16:41:00,7,Paket 2 Ayam Bumbu,Nasi Kotak,17000,50,850000,selesai,Sedang,2026-10,Saturday,12
+32,NKS-20261003-032,UKM Yusuf 85,2026-10-03 12:41:00,2026-10-10 16:41:00,7,Paket Bebek,Nasi Kotak,33000,10,330000,selesai,Sedang,2026-10,Saturday,12
+32,NKS-20261003-032,UKM Yusuf 85,2026-10-03 12:41:00,2026-10-10 16:41:00,7,Paket 1,Nasi Kotak,12000,30,360000,selesai,Tinggi,2026-10,Saturday,12
+33,NKS-20260928-033,Ibu Loa Bakung 94,2026-09-28 15:43:00,2026-09-30 20:43:00,2,Paket 4,Nasi Kotak,20000,15,300000,selesai,Normal,2026-09,Monday,15
+33,NKS-20260928-033,Ibu Loa Bakung 94,2026-09-28 15:43:00,2026-09-30 20:43:00,2,Paket 1,Nasi Kotak,12000,50,600000,selesai,Sedang,2026-09,Monday,15
+33,NKS-20260928-033,Ibu Loa Bakung 94,2026-09-28 15:43:00,2026-09-30 20:43:00,2,Snack Box 4,Snack Box,12000,10,120000,selesai,Tinggi,2026-09,Monday,15
+34,NKS-20261015-034,Bapak Rina 17,2026-10-15 10:07:00,2026-10-17 15:07:00,2,Paket Bebek,Nasi Kotak,33000,20,660000,selesai,Normal,2026-10,Thursday,10
+35,NKS-20260912-035,Panitia Seminar Sari 6,2026-09-12 15:43:00,2026-09-14 17:43:00,2,Paket 2 Ayam Bumbu,Nasi Kotak,17000,10,170000,selesai,Normal,2026-09,Saturday,15
+36,NKS-20261102-036,Kantor Dinas Yusuf 10,2026-11-02 08:11:00,2026-11-04 11:11:00,2,Paket 1,Nasi Kotak,12000,100,1200000,selesai,Tinggi,2026-11,Monday,8
+36,NKS-20261102-036,Kantor Dinas Yusuf 10,2026-11-02 08:11:00,2026-11-04 11:11:00,2,Paket 5,Nasi Kotak,25000,75,1875000,selesai,Tinggi,2026-11,Monday,8
+37,NKS-20261002-037,RSUD AWS Nadia 66,2026-10-02 20:01:00,2026-10-10 01:01:00,7,Paket 1,Nasi Kotak,12000,10,120000,selesai,Normal,2026-10,Friday,20
+37,NKS-20261002-037,RSUD AWS Nadia 66,2026-10-02 20:01:00,2026-10-10 01:01:00,7,Snack Box 4,Snack Box,12000,15,180000,selesai,Normal,2026-10,Friday,20
+38,NKS-20261002-038,Himpunan Mahasiswa Rizky 89,2026-10-02 10:51:00,2026-10-02 12:51:00,0,Snack Box 4,Snack Box,12000,15,180000,selesai,Tinggi,2026-10,Friday,10
+38,NKS-20261002-038,Himpunan Mahasiswa Rizky 89,2026-10-02 10:51:00,2026-10-02 12:51:00,0,Snackbox 1,Snack Box,5000,50,250000,selesai,Tinggi,2026-10,Friday,10
+38,NKS-20261002-038,Himpunan Mahasiswa Rizky 89,2026-10-02 10:51:00,2026-10-02 12:51:00,0,Snackbox 5,Snack Box,15000,25,375000,selesai,Tinggi,2026-10,Friday,10
+39,NKS-20261009-039,UKM Antasari 76,2026-10-09 08:55:00,2026-10-12 12:55:00,3,Paket 1,Nasi Kotak,12000,30,360000,selesai,Sedang,2026-10,Friday,8
+40,NKS-20260914-040,Bank Kaltimtara Sistem Informasi 69,2026-09-14 17:12:00,2026-09-16 20:12:00,2,Paket 5,Nasi Kotak,25000,75,1875000,selesai,Tinggi,2026-09,Monday,17
+41,NKS-20261027-041,UKM Yusuf 85,2026-10-27 20:18:00,2026-10-29 21:18:00,2,Snackbox 1,Snack Box,5000,150,750000,selesai,Tinggi,2026-10,Tuesday,20
+41,NKS-20261027-041,UKM Yusuf 85,2026-10-27 20:18:00,2026-10-29 21:18:00,2,Paket 2 Ayam Bumbu,Nasi Kotak,17000,75,1275000,selesai,Tinggi,2026-10,Tuesday,20
+41,NKS-20261027-041,UKM Yusuf 85,2026-10-27 20:18:00,2026-10-29 21:18:00,2,Paket 2,Nasi Kotak,15000,15,225000,selesai,Tinggi,2026-10,Tuesday,20
+42,NKS-20261007-042,FEB Unmul Informatika 64,2026-10-07 20:07:00,2026-10-13 00:07:00,5,Paket 1,Nasi Kotak,12000,15,180000,selesai,Normal,2026-10,Wednesday,20
+42,NKS-20261007-042,FEB Unmul Informatika 64,2026-10-07 20:07:00,2026-10-13 00:07:00,5,Paket Spesial,Nasi Kotak,30000,40,1200000,selesai,Sedang,2026-10,Wednesday,20
+42,NKS-20261007-042,FEB Unmul Informatika 64,2026-10-07 20:07:00,2026-10-13 00:07:00,5,Snack Box 3,Snack Box,10000,15,150000,selesai,Sedang,2026-10,Wednesday,20
+43,NKS-20260906-043,Bank Kaltimtara Rina 58,2026-09-06 16:43:00,2026-09-07 18:43:00,1,Snackbox 5,Snack Box,15000,100,1500000,selesai,Tinggi,2026-09,Sunday,16
+43,NKS-20260906-043,Bank Kaltimtara Rina 58,2026-09-06 16:43:00,2026-09-07 18:43:00,1,Snack Box 3,Snack Box,10000,40,400000,selesai,Tinggi,2026-09,Sunday,16
+44,NKS-20260901-044,Panitia Seminar Hendra 28,2026-09-01 19:22:00,2026-09-03 00:22:00,1,Paket 5,Nasi Kotak,25000,30,750000,selesai,Tinggi,2026-09,Tuesday,19
+44,NKS-20260901-044,Panitia Seminar Hendra 28,2026-09-01 19:22:00,2026-09-03 00:22:00,1,Snackbox 5,Snack Box,15000,75,1125000,selesai,Tinggi,2026-09,Tuesday,19
+44,NKS-20260901-044,Panitia Seminar Hendra 28,2026-09-01 19:22:00,2026-09-03 00:22:00,1,Paket Spesial,Nasi Kotak,30000,10,300000,selesai,Tinggi,2026-09,Tuesday,19
+45,NKS-20260910-045,Bank Kaltimtara Rina 70,2026-09-10 08:00:00,2026-09-11 10:00:00,1,Snackbox 5,Snack Box,15000,30,450000,selesai,Tinggi,2026-09,Thursday,8
+45,NKS-20260910-045,Bank Kaltimtara Rina 70,2026-09-10 08:00:00,2026-09-11 10:00:00,1,Paket 3,Nasi Kotak,17000,15,255000,selesai,Tinggi,2026-09,Thursday,8
+45,NKS-20260910-045,Bank Kaltimtara Rina 70,2026-09-10 08:00:00,2026-09-11 10:00:00,1,Snack Box 2,Snack Box,7000,150,1050000,selesai,Tinggi,2026-09,Thursday,8
+46,NKS-20261014-046,Himpunan Mahasiswa Dewi 91,2026-10-14 12:31:00,2026-10-14 15:31:00,0,Snack Box Premium,Snack Box,25000,10,250000,selesai,Tinggi,2026-10,Wednesday,12
+46,NKS-20261014-046,Himpunan Mahasiswa Dewi 91,2026-10-14 12:31:00,2026-10-14 15:31:00,0,Snack Box 4,Snack Box,12000,10,120000,selesai,Tinggi,2026-10,Wednesday,12
+47,NKS-20261108-047,Panitia Seminar Ekonomi 54,2026-11-08 20:52:00,2026-11-11 21:52:00,3,Snackbox 5,Snack Box,15000,100,1500000,dibatalkan,Tinggi,2026-11,Sunday,20
+48,NKS-20260918-048,FKIP Unmul Hukum 46,2026-09-18 13:10:00,2026-09-20 15:10:00,2,Snack Box 4,Snack Box,12000,100,1200000,selesai,Tinggi,2026-09,Friday,13
+48,NKS-20260918-048,FKIP Unmul Hukum 46,2026-09-18 13:10:00,2026-09-20 15:10:00,2,Paket 4,Nasi Kotak,20000,30,600000,selesai,Tinggi,2026-09,Friday,13
+49,NKS-20260902-049,Bank Kaltimtara Sempaja 63,2026-09-02 16:27:00,2026-09-04 21:27:00,2,Snackbox 1,Snack Box,5000,25,125000,selesai,Normal,2026-09,Wednesday,16
+50,NKS-20261027-050,Ibu Loa Bakung 94,2026-10-27 16:55:00,2026-10-27 20:55:00,0,Paket 2,Nasi Kotak,15000,20,300000,selesai,Tinggi,2026-10,Tuesday,16
+50,NKS-20261027-050,Ibu Loa Bakung 94,2026-10-27 16:55:00,2026-10-27 20:55:00,0,Snack Box Premium,Snack Box,25000,30,750000,selesai,Tinggi,2026-10,Tuesday,16
+50,NKS-20261027-050,Ibu Loa Bakung 94,2026-10-27 16:55:00,2026-10-27 20:55:00,0,Paket 1,Nasi Kotak,12000,30,360000,selesai,Tinggi,2026-10,Tuesday,16
+51,NKS-20261010-051,RSUD AWS Hukum 42,2026-10-10 13:32:00,2026-10-15 18:32:00,5,Paket 2,Nasi Kotak,15000,10,150000,selesai,Normal,2026-10,Saturday,13
+51,NKS-20261010-051,RSUD AWS Hukum 42,2026-10-10 13:32:00,2026-10-15 18:32:00,5,Snackbox 1,Snack Box,5000,75,375000,selesai,Tinggi,2026-10,Saturday,13
+51,NKS-20261010-051,RSUD AWS Hukum 42,2026-10-10 13:32:00,2026-10-15 18:32:00,5,Paket 5,Nasi Kotak,25000,150,3750000,selesai,Tinggi,2026-10,Saturday,13
+52,NKS-20261110-052,Bapak Rina 17,2026-11-10 15:04:00,2026-11-12 18:04:00,2,Paket Spesial,Nasi Kotak,30000,50,1500000,selesai,Sedang,2026-11,Tuesday,15
+52,NKS-20261110-052,Bapak Rina 17,2026-11-10 15:04:00,2026-11-12 18:04:00,2,Snack Box 3,Snack Box,10000,150,1500000,selesai,Tinggi,2026-11,Tuesday,15
+52,NKS-20261110-052,Bapak Rina 17,2026-11-10 15:04:00,2026-11-12 18:04:00,2,Snack Box Premium,Snack Box,25000,40,1000000,selesai,Tinggi,2026-11,Tuesday,15
+53,NKS-20260919-053,FEB Unmul Air Hitam 9,2026-09-19 08:43:00,2026-09-20 11:43:00,1,Snackbox 5,Snack Box,15000,150,2250000,selesai,Tinggi,2026-09,Saturday,8
+53,NKS-20260919-053,FEB Unmul Air Hitam 9,2026-09-19 08:43:00,2026-09-20 11:43:00,1,Snackbox 1,Snack Box,5000,30,150000,selesai,Tinggi,2026-09,Saturday,8
+54,NKS-20261109-054,Panitia Seminar Air Hitam 52,2026-11-09 17:44:00,2026-11-10 18:44:00,1,Snackbox 1,Snack Box,5000,20,100000,selesai,Tinggi,2026-11,Monday,17
+55,NKS-20261116-055,FEB Unmul Sistem Informasi 78,2026-11-16 16:13:00,2026-11-16 18:13:00,0,Snack Box Premium,Snack Box,25000,50,1250000,selesai,Tinggi,2026-11,Monday,16
+55,NKS-20261116-055,FEB Unmul Sistem Informasi 78,2026-11-16 16:13:00,2026-11-16 18:13:00,0,Paket 2 Ayam Bumbu,Nasi Kotak,17000,10,170000,selesai,Tinggi,2026-11,Monday,16
+56,NKS-20261107-056,FEB Unmul Vorvo 71,2026-11-07 08:27:00,2026-11-08 11:27:00,1,Snack Box Premium,Snack Box,25000,75,1875000,selesai,Tinggi,2026-11,Saturday,8
+56,NKS-20261107-056,FEB Unmul Vorvo 71,2026-11-07 08:27:00,2026-11-08 11:27:00,1,Snackbox 1,Snack Box,5000,150,750000,selesai,Tinggi,2026-11,Saturday,8
+57,NKS-20261013-057,Bank Kaltimtara Sempaja 39,2026-10-13 20:55:00,2026-10-15 00:55:00,1,Paket Bebek,Nasi Kotak,33000,50,1650000,selesai,Tinggi,2026-10,Tuesday,20
+57,NKS-20261013-057,Bank Kaltimtara Sempaja 39,2026-10-13 20:55:00,2026-10-15 00:55:00,1,Paket 2 Ayam Bumbu,Nasi Kotak,17000,10,170000,selesai,Tinggi,2026-10,Tuesday,20
+57,NKS-20261013-057,Bank Kaltimtara Sempaja 39,2026-10-13 20:55:00,2026-10-15 00:55:00,1,Snack Box 4,Snack Box,12000,75,900000,selesai,Tinggi,2026-10,Tuesday,20
+58,NKS-20261109-058,BEM Sistem Informasi 53,2026-11-09 19:18:00,2026-11-12 00:18:00,2,Snack Box Premium,Snack Box,25000,50,1250000,dibatalkan,Sedang,2026-11,Monday,19
+58,NKS-20261109-058,BEM Sistem Informasi 53,2026-11-09 19:18:00,2026-11-12 00:18:00,2,Paket Bebek,Nasi Kotak,33000,150,4950000,dibatalkan,Tinggi,2026-11,Monday,19
+59,NKS-20261023-059,Pengajian Antasari 103,2026-10-23 08:26:00,2026-10-24 09:26:00,1,Snackbox 1,Snack Box,5000,150,750000,selesai,Tinggi,2026-10,Friday,8
+60,NKS-20260919-060,Komunitas Sistem Informasi 61,2026-09-19 20:14:00,2026-09-19 22:14:00,0,Paket 5,Nasi Kotak,25000,10,250000,selesai,Tinggi,2026-09,Saturday,20
+61,NKS-20261101-061,Kantor Dinas Antasari 24,2026-11-01 18:19:00,2026-11-01 19:19:00,0,Snack Box 4,Snack Box,12000,100,1200000,selesai,Tinggi,2026-11,Sunday,18
+61,NKS-20261101-061,Kantor Dinas Antasari 24,2026-11-01 18:19:00,2026-11-01 19:19:00,0,Paket Bebek,Nasi Kotak,33000,100,3300000,selesai,Tinggi,2026-11,Sunday,18
+62,NKS-20261015-062,Himpunan Mahasiswa Nadia 12,2026-10-15 14:18:00,2026-10-18 18:18:00,3,Paket 5,Nasi Kotak,25000,150,3750000,dibatalkan,Tinggi,2026-10,Thursday,14
+62,NKS-20261015-062,Himpunan Mahasiswa Nadia 12,2026-10-15 14:18:00,2026-10-18 18:18:00,3,Paket 2,Nasi Kotak,15000,10,150000,dibatalkan,Tinggi,2026-10,Thursday,14
+62,NKS-20261015-062,Himpunan Mahasiswa Nadia 12,2026-10-15 14:18:00,2026-10-18 18:18:00,3,Snack Box 2,Snack Box,7000,40,280000,dibatalkan,Tinggi,2026-10,Thursday,14
+63,NKS-20260902-063,Fakultas Teknik Ekonomi 14,2026-09-02 09:19:00,2026-09-02 11:19:00,0,Snackbox 1,Snack Box,5000,10,50000,selesai,Tinggi,2026-09,Wednesday,9
+64,NKS-20261010-064,Bank Kaltimtara Rina 58,2026-10-10 18:06:00,2026-10-12 22:06:00,2,Paket Bebek,Nasi Kotak,33000,50,1650000,selesai,Sedang,2026-10,Saturday,18
+64,NKS-20261010-064,Bank Kaltimtara Rina 58,2026-10-10 18:06:00,2026-10-12 22:06:00,2,Snackbox 1,Snack Box,5000,30,150000,selesai,Tinggi,2026-10,Saturday,18
+64,NKS-20261010-064,Bank Kaltimtara Rina 58,2026-10-10 18:06:00,2026-10-12 22:06:00,2,Snackbox 5,Snack Box,15000,10,150000,selesai,Tinggi,2026-10,Saturday,18
+65,NKS-20261021-065,Komunitas Sistem Informasi 62,2026-10-21 16:24:00,2026-10-21 17:24:00,0,Snack Box 3,Snack Box,10000,40,400000,selesai,Tinggi,2026-10,Wednesday,16
+66,NKS-20261002-066,Pengajian Antasari 103,2026-10-02 11:51:00,2026-10-02 14:51:00,0,Paket Bebek,Nasi Kotak,33000,25,825000,dibatalkan,Tinggi,2026-10,Friday,11
+66,NKS-20261002-066,Pengajian Antasari 103,2026-10-02 11:51:00,2026-10-02 14:51:00,0,Paket 2 Ayam Bumbu,Nasi Kotak,17000,15,255000,dibatalkan,Tinggi,2026-10,Friday,11
+66,NKS-20261002-066,Pengajian Antasari 103,2026-10-02 11:51:00,2026-10-02 14:51:00,0,Paket 2,Nasi Kotak,15000,50,750000,dibatalkan,Tinggi,2026-10,Friday,11
+67,NKS-20261108-067,FKIP Unmul Loa Bakung 51,2026-11-08 09:05:00,2026-11-10 11:05:00,2,Snack Box 2,Snack Box,7000,10,70000,selesai,Normal,2026-11,Sunday,9
+67,NKS-20261108-067,FKIP Unmul Loa Bakung 51,2026-11-08 09:05:00,2026-11-10 11:05:00,2,Snack Box Premium,Snack Box,25000,150,3750000,selesai,Tinggi,2026-11,Sunday,9
+68,NKS-20261108-068,RSUD AWS Hendra 8,2026-11-08 13:36:00,2026-11-09 15:36:00,1,Paket Bebek,Nasi Kotak,33000,40,1320000,selesai,Tinggi,2026-11,Sunday,13
+69,NKS-20261029-069,Bapak Rizky 100,2026-10-29 19:42:00,2026-11-05 20:42:00,7,Paket 1,Nasi Kotak,12000,100,1200000,selesai,Tinggi,2026-10,Thursday,19
+70,NKS-20261019-070,Kantor Dinas Yusuf 10,2026-10-19 16:36:00,2026-10-21 17:36:00,2,Snackbox 1,Snack Box,5000,15,75000,selesai,Normal,2026-10,Monday,16
+70,NKS-20261019-070,Kantor Dinas Yusuf 10,2026-10-19 16:36:00,2026-10-21 17:36:00,2,Paket 1,Nasi Kotak,12000,30,360000,selesai,Sedang,2026-10,Monday,16
+70,NKS-20261019-070,Kantor Dinas Yusuf 10,2026-10-19 16:36:00,2026-10-21 17:36:00,2,Paket 2 Ayam Bumbu,Nasi Kotak,17000,40,680000,selesai,Tinggi,2026-10,Monday,16
+71,NKS-20260910-071,Pengajian Antasari 84,2026-09-10 11:24:00,2026-09-12 14:24:00,2,Snackbox 1,Snack Box,5000,25,125000,selesai,Normal,2026-09,Thursday,11
+71,NKS-20260910-071,Pengajian Antasari 84,2026-09-10 11:24:00,2026-09-12 14:24:00,2,Paket 2 Ayam Bumbu,Nasi Kotak,17000,15,255000,selesai,Sedang,2026-09,Thursday,11
+72,NKS-20261002-072,Fakultas Teknik Hendra 2,2026-10-02 14:15:00,2026-10-09 17:15:00,7,Paket 2,Nasi Kotak,15000,15,225000,selesai,Normal,2026-10,Friday,14
+72,NKS-20261002-072,Fakultas Teknik Hendra 2,2026-10-02 14:15:00,2026-10-09 17:15:00,7,Paket Spesial,Nasi Kotak,30000,150,4500000,selesai,Tinggi,2026-10,Friday,14
+72,NKS-20261002-072,Fakultas Teknik Hendra 2,2026-10-02 14:15:00,2026-10-09 17:15:00,7,Snack Box Premium,Snack Box,25000,15,375000,selesai,Tinggi,2026-10,Friday,14
+73,NKS-20261023-073,BEM Sistem Informasi 53,2026-10-23 09:52:00,2026-10-26 12:52:00,3,Paket 1,Nasi Kotak,12000,150,1800000,selesai,Tinggi,2026-10,Friday,9
+73,NKS-20261023-073,BEM Sistem Informasi 53,2026-10-23 09:52:00,2026-10-26 12:52:00,3,Paket 3,Nasi Kotak,17000,40,680000,selesai,Tinggi,2026-10,Friday,9
+73,NKS-20261023-073,BEM Sistem Informasi 53,2026-10-23 09:52:00,2026-10-26 12:52:00,3,Paket 2 Ayam Bumbu,Nasi Kotak,17000,30,510000,selesai,Tinggi,2026-10,Friday,9
+74,NKS-20260930-074,Himpunan Mahasiswa Rizky 89,2026-09-30 09:33:00,2026-10-01 12:33:00,1,Snack Box 2,Snack Box,7000,15,105000,selesai,Tinggi,2026-09,Wednesday,9
+75,NKS-20261022-075,Bapak Sempaja 4,2026-10-22 15:37:00,2026-10-22 18:37:00,0,Snack Box 2,Snack Box,7000,25,175000,selesai,Tinggi,2026-10,Thursday,15
+76,NKS-20261105-076,FEB Unmul Sistem Informasi 78,2026-11-05 11:33:00,2026-11-10 13:33:00,5,Paket 2 Ayam Bumbu,Nasi Kotak,17000,25,425000,selesai,Normal,2026-11,Thursday,11
+76,NKS-20261105-076,FEB Unmul Sistem Informasi 78,2026-11-05 11:33:00,2026-11-10 13:33:00,5,Snackbox 1,Snack Box,5000,40,200000,selesai,Sedang,2026-11,Thursday,11
+77,NKS-20261005-077,Bank Kaltimtara Sempaja 108,2026-10-05 19:14:00,2026-10-06 23:14:00,1,Paket 5,Nasi Kotak,25000,15,375000,dibatalkan,Tinggi,2026-10,Monday,19
+77,NKS-20261005-077,Bank Kaltimtara Sempaja 108,2026-10-05 19:14:00,2026-10-06 23:14:00,1,Snackbox 5,Snack Box,15000,20,300000,dibatalkan,Tinggi,2026-10,Monday,19
+77,NKS-20261005-077,Bank Kaltimtara Sempaja 108,2026-10-05 19:14:00,2026-10-06 23:14:00,1,Paket 2,Nasi Kotak,15000,75,1125000,dibatalkan,Tinggi,2026-10,Monday,19
+78,NKS-20260926-078,Kantor Dinas Loa Bakung 77,2026-09-26 08:23:00,2026-09-28 13:23:00,2,Paket 4,Nasi Kotak,20000,20,400000,selesai,Normal,2026-09,Saturday,8
+78,NKS-20260926-078,Kantor Dinas Loa Bakung 77,2026-09-26 08:23:00,2026-09-28 13:23:00,2,Paket Bebek,Nasi Kotak,33000,15,495000,selesai,Sedang,2026-09,Saturday,8
+78,NKS-20260926-078,Kantor Dinas Loa Bakung 77,2026-09-26 08:23:00,2026-09-28 13:23:00,2,Snackbox 5,Snack Box,15000,15,225000,selesai,Sedang,2026-09,Saturday,8
+79,NKS-20261002-079,FKIP Unmul Antasari 115,2026-10-02 17:18:00,2026-10-05 21:18:00,3,Paket 2,Nasi Kotak,15000,150,2250000,selesai,Tinggi,2026-10,Friday,17
+80,NKS-20261031-080,Karang Taruna Sari 112,2026-10-31 19:01:00,2026-11-02 22:01:00,2,Snack Box 4,Snack Box,12000,40,480000,selesai,Sedang,2026-10,Saturday,19
+80,NKS-20261031-080,Karang Taruna Sari 112,2026-10-31 19:01:00,2026-11-02 22:01:00,2,Paket 2,Nasi Kotak,15000,50,750000,selesai,Tinggi,2026-10,Saturday,19
+80,NKS-20261031-080,Karang Taruna Sari 112,2026-10-31 19:01:00,2026-11-02 22:01:00,2,Snack Box 2,Snack Box,7000,30,210000,selesai,Tinggi,2026-10,Saturday,19
+81,NKS-20260918-081,Komunitas Loa Bakung 47,2026-09-18 08:50:00,2026-09-19 13:50:00,1,Paket 5,Nasi Kotak,25000,15,375000,selesai,Tinggi,2026-09,Friday,8
+81,NKS-20260918-081,Komunitas Loa Bakung 47,2026-09-18 08:50:00,2026-09-19 13:50:00,1,Snackbox 5,Snack Box,15000,75,1125000,selesai,Tinggi,2026-09,Friday,8
+81,NKS-20260918-081,Komunitas Loa Bakung 47,2026-09-18 08:50:00,2026-09-19 13:50:00,1,Paket 2 Ayam Bumbu,Nasi Kotak,17000,20,340000,selesai,Tinggi,2026-09,Friday,8
+82,NKS-20261115-082,Fakultas Teknik Loa Bakung 102,2026-11-15 18:20:00,2026-11-17 21:20:00,2,Paket 5,Nasi Kotak,25000,40,1000000,selesai,Sedang,2026-11,Sunday,18
+83,NKS-20260918-083,FKIP Unmul Rizky 45,2026-09-18 10:25:00,2026-09-18 14:25:00,0,Paket 5,Nasi Kotak,25000,150,3750000,selesai,Tinggi,2026-09,Friday,10
+84,NKS-20261115-084,FEB Unmul Dewi 106,2026-11-15 16:26:00,2026-11-16 17:26:00,1,Paket 2 Ayam Bumbu,Nasi Kotak,17000,30,510000,selesai,Tinggi,2026-11,Sunday,16
+84,NKS-20261115-084,FEB Unmul Dewi 106,2026-11-15 16:26:00,2026-11-16 17:26:00,1,Paket 1,Nasi Kotak,12000,100,1200000,selesai,Tinggi,2026-11,Sunday,16
+85,NKS-20261016-085,RSUD AWS Informatika 81,2026-10-16 15:18:00,2026-10-17 20:18:00,1,Paket Spesial,Nasi Kotak,30000,50,1500000,selesai,Tinggi,2026-10,Friday,15
+85,NKS-20261016-085,RSUD AWS Informatika 81,2026-10-16 15:18:00,2026-10-17 20:18:00,1,Paket Bebek,Nasi Kotak,33000,30,990000,selesai,Tinggi,2026-10,Friday,15
+85,NKS-20261016-085,RSUD AWS Informatika 81,2026-10-16 15:18:00,2026-10-17 20:18:00,1,Snackbox 1,Snack Box,5000,10,50000,selesai,Tinggi,2026-10,Friday,15
+86,NKS-20260908-086,Ibu Air Hitam 101,2026-09-08 08:54:00,2026-09-08 09:54:00,0,Snackbox 1,Snack Box,5000,15,75000,selesai,Tinggi,2026-09,Tuesday,8
+87,NKS-20261022-087,Fakultas Teknik Fajar 116,2026-10-22 19:24:00,2026-10-22 21:24:00,0,Snack Box Premium,Snack Box,25000,75,1875000,selesai,Tinggi,2026-10,Thursday,19
+87,NKS-20261022-087,Fakultas Teknik Fajar 116,2026-10-22 19:24:00,2026-10-22 21:24:00,0,Snack Box 3,Snack Box,10000,30,300000,selesai,Tinggi,2026-10,Thursday,19
+87,NKS-20261022-087,Fakultas Teknik Fajar 116,2026-10-22 19:24:00,2026-10-22 21:24:00,0,Snack Box 4,Snack Box,12000,40,480000,selesai,Tinggi,2026-10,Thursday,19
+88,NKS-20261113-088,FEB Unmul Rizky 30,2026-11-13 12:12:00,2026-11-15 15:12:00,2,Paket 4,Nasi Kotak,20000,30,600000,selesai,Sedang,2026-11,Friday,12
+88,NKS-20261113-088,FEB Unmul Rizky 30,2026-11-13 12:12:00,2026-11-15 15:12:00,2,Snack Box Premium,Snack Box,25000,20,500000,selesai,Sedang,2026-11,Friday,12
+89,NKS-20261104-089,FEB Unmul Ekonomi 26,2026-11-04 10:47:00,2026-11-09 12:47:00,5,Paket Bebek,Nasi Kotak,33000,150,4950000,selesai,Tinggi,2026-11,Wednesday,10
+89,NKS-20261104-089,FEB Unmul Ekonomi 26,2026-11-04 10:47:00,2026-11-09 12:47:00,5,Paket 2,Nasi Kotak,15000,25,375000,selesai,Tinggi,2026-11,Wednesday,10
+89,NKS-20261104-089,FEB Unmul Ekonomi 26,2026-11-04 10:47:00,2026-11-09 12:47:00,5,Snack Box 4,Snack Box,12000,50,600000,selesai,Tinggi,2026-11,Wednesday,10
+90,NKS-20260925-090,BEM Fajar 55,2026-09-25 13:52:00,2026-09-28 17:52:00,3,Snack Box 2,Snack Box,7000,150,1050000,selesai,Tinggi,2026-09,Friday,13
+91,NKS-20260916-091,UKM Yusuf 85,2026-09-16 11:48:00,2026-09-17 14:48:00,1,Paket 2,Nasi Kotak,15000,50,750000,dibatalkan,Tinggi,2026-09,Wednesday,11
+91,NKS-20260916-091,UKM Yusuf 85,2026-09-16 11:48:00,2026-09-17 14:48:00,1,Snack Box Premium,Snack Box,25000,15,375000,dibatalkan,Tinggi,2026-09,Wednesday,11
+91,NKS-20260916-091,UKM Yusuf 85,2026-09-16 11:48:00,2026-09-17 14:48:00,1,Paket 4,Nasi Kotak,20000,10,200000,dibatalkan,Tinggi,2026-09,Wednesday,11
+92,NKS-20260919-092,FKIP Unmul Rizky 45,2026-09-19 10:32:00,2026-09-22 13:32:00,3,Paket 2 Ayam Bumbu,Nasi Kotak,17000,20,340000,selesai,Normal,2026-09,Saturday,10
+92,NKS-20260919-092,FKIP Unmul Rizky 45,2026-09-19 10:32:00,2026-09-22 13:32:00,3,Paket Spesial,Nasi Kotak,30000,75,2250000,selesai,Tinggi,2026-09,Saturday,10
+92,NKS-20260919-092,FKIP Unmul Rizky 45,2026-09-19 10:32:00,2026-09-22 13:32:00,3,Snack Box 2,Snack Box,7000,50,350000,selesai,Tinggi,2026-09,Saturday,10
+93,NKS-20260902-093,Komunitas Sistem Informasi 62,2026-09-02 18:42:00,2026-09-04 19:42:00,2,Paket 1,Nasi Kotak,12000,25,300000,selesai,Normal,2026-09,Wednesday,18
+94,NKS-20261010-094,Kantor Dinas Antasari 24,2026-10-10 20:59:00,2026-10-11 00:59:00,0,Snack Box 4,Snack Box,12000,50,600000,selesai,Tinggi,2026-10,Saturday,20
+94,NKS-20261010-094,Kantor Dinas Antasari 24,2026-10-10 20:59:00,2026-10-11 00:59:00,0,Snackbox 5,Snack Box,15000,15,225000,selesai,Tinggi,2026-10,Saturday,20
+94,NKS-20261010-094,Kantor Dinas Antasari 24,2026-10-10 20:59:00,2026-10-11 00:59:00,0,Snack Box 3,Snack Box,10000,25,250000,selesai,Tinggi,2026-10,Saturday,20
+95,NKS-20261016-095,FKIP Unmul Ekonomi 83,2026-10-16 19:35:00,2026-10-19 00:35:00,2,Snack Box Premium,Snack Box,25000,30,750000,selesai,Sedang,2026-10,Friday,19
+95,NKS-20261016-095,FKIP Unmul Ekonomi 83,2026-10-16 19:35:00,2026-10-19 00:35:00,2,Paket 2,Nasi Kotak,15000,30,450000,selesai,Sedang,2026-10,Friday,19
+95,NKS-20261016-095,FKIP Unmul Ekonomi 83,2026-10-16 19:35:00,2026-10-19 00:35:00,2,Paket 5,Nasi Kotak,25000,40,1000000,selesai,Tinggi,2026-10,Friday,19
+96,NKS-20260901-096,Kantor Dinas Yusuf 10,2026-09-01 13:56:00,2026-09-04 18:56:00,3,Paket 5,Nasi Kotak,25000,100,2500000,selesai,Tinggi,2026-09,Tuesday,13
+97,NKS-20261031-097,Bapak Rizky 100,2026-10-31 08:55:00,2026-11-03 12:55:00,3,Snack Box 4,Snack Box,12000,20,240000,selesai,Normal,2026-10,Saturday,8
+98,NKS-20261101-098,Fakultas Teknik Ekonomi 14,2026-11-01 10:17:00,2026-11-02 15:17:00,1,Paket Spesial,Nasi Kotak,30000,50,1500000,selesai,Tinggi,2026-11,Sunday,10
+98,NKS-20261101-098,Fakultas Teknik Ekonomi 14,2026-11-01 10:17:00,2026-11-02 15:17:00,1,Paket 2 Ayam Bumbu,Nasi Kotak,17000,25,425000,selesai,Tinggi,2026-11,Sunday,10
+98,NKS-20261101-098,Fakultas Teknik Ekonomi 14,2026-11-01 10:17:00,2026-11-02 15:17:00,1,Paket Bebek,Nasi Kotak,33000,75,2475000,selesai,Tinggi,2026-11,Sunday,10
+99,NKS-20261106-099,Komunitas Air Hitam 109,2026-11-06 18:47:00,2026-11-08 23:47:00,2,Paket 3,Nasi Kotak,17000,40,680000,selesai,Sedang,2026-11,Friday,18
+100,NKS-20260922-100,UKM Yusuf 85,2026-09-22 19:09:00,2026-09-25 00:09:00,2,Snack Box 3,Snack Box,10000,30,300000,selesai,Sedang,2026-09,Tuesday,19
+100,NKS-20260922-100,UKM Yusuf 85,2026-09-22 19:09:00,2026-09-25 00:09:00,2,Paket 2 Ayam Bumbu,Nasi Kotak,17000,30,510000,selesai,Sedang,2026-09,Tuesday,19
+101,NKS-20261107-101,Panitia Seminar Rizky 22,2026-11-07 09:05:00,2026-11-07 14:05:00,0,Paket 4,Nasi Kotak,20000,30,600000,selesai,Tinggi,2026-11,Saturday,9
+101,NKS-20261107-101,Panitia Seminar Rizky 22,2026-11-07 09:05:00,2026-11-07 14:05:00,0,Snack Box 4,Snack Box,12000,10,120000,selesai,Tinggi,2026-11,Saturday,9
+101,NKS-20261107-101,Panitia Seminar Rizky 22,2026-11-07 09:05:00,2026-11-07 14:05:00,0,Paket 2,Nasi Kotak,15000,40,600000,selesai,Tinggi,2026-11,Saturday,9
+102,NKS-20261101-102,Pengajian Yusuf 120,2026-11-01 11:51:00,2026-11-04 14:51:00,3,Paket 1,Nasi Kotak,12000,10,120000,selesai,Normal,2026-11,Sunday,11
+102,NKS-20261101-102,Pengajian Yusuf 120,2026-11-01 11:51:00,2026-11-04 14:51:00,3,Snack Box 4,Snack Box,12000,15,180000,selesai,Normal,2026-11,Sunday,11
+103,NKS-20261008-103,Bapak Sempaja 29,2026-10-08 08:00:00,2026-10-15 12:00:00,7,Snackbox 5,Snack Box,15000,30,450000,selesai,Sedang,2026-10,Thursday,8
+103,NKS-20261008-103,Bapak Sempaja 29,2026-10-08 08:00:00,2026-10-15 12:00:00,7,Snack Box 3,Snack Box,10000,15,150000,selesai,Sedang,2026-10,Thursday,8
+103,NKS-20261008-103,Bapak Sempaja 29,2026-10-08 08:00:00,2026-10-15 12:00:00,7,Snack Box 4,Snack Box,12000,15,180000,selesai,Sedang,2026-10,Thursday,8
+104,NKS-20261027-104,Kantor Dinas Yusuf 10,2026-10-27 15:02:00,2026-11-01 18:02:00,5,Paket Spesial,Nasi Kotak,30000,25,750000,selesai,Normal,2026-10,Tuesday,15
+105,NKS-20261010-105,FEB Unmul Dewi 106,2026-10-10 12:26:00,2026-10-11 14:26:00,1,Paket 2,Nasi Kotak,15000,50,750000,selesai,Tinggi,2026-10,Saturday,12
+106,NKS-20261103-106,FKIP Unmul Loa Bakung 51,2026-11-03 14:51:00,2026-11-03 15:51:00,0,Paket 1,Nasi Kotak,12000,20,240000,selesai,Tinggi,2026-11,Tuesday,14
+106,NKS-20261103-106,FKIP Unmul Loa Bakung 51,2026-11-03 14:51:00,2026-11-03 15:51:00,0,Paket 2,Nasi Kotak,15000,30,450000,selesai,Tinggi,2026-11,Tuesday,14
+107,NKS-20261005-107,Karang Taruna Ekonomi 88,2026-10-05 16:36:00,2026-10-06 20:36:00,1,Paket 3,Nasi Kotak,17000,30,510000,selesai,Tinggi,2026-10,Monday,16
+108,NKS-20261103-108,Ibu Air Hitam 101,2026-11-03 10:27:00,2026-11-08 11:27:00,5,Snack Box 2,Snack Box,7000,100,700000,selesai,Tinggi,2026-11,Tuesday,10
+109,NKS-20260929-109,Bank Kaltimtara Sempaja 39,2026-09-29 16:14:00,2026-09-30 20:14:00,1,Paket 4,Nasi Kotak,20000,15,300000,selesai,Tinggi,2026-09,Tuesday,16
+110,NKS-20260920-110,Fakultas Teknik Loa Bakung 102,2026-09-20 18:31:00,2026-09-21 22:31:00,1,Snack Box Premium,Snack Box,25000,40,1000000,selesai,Tinggi,2026-09,Sunday,18
+110,NKS-20260920-110,Fakultas Teknik Loa Bakung 102,2026-09-20 18:31:00,2026-09-21 22:31:00,1,Paket 3,Nasi Kotak,17000,15,255000,selesai,Tinggi,2026-09,Sunday,18
+110,NKS-20260920-110,Fakultas Teknik Loa Bakung 102,2026-09-20 18:31:00,2026-09-21 22:31:00,1,Snackbox 5,Snack Box,15000,15,225000,selesai,Tinggi,2026-09,Sunday,18
+111,NKS-20261023-111,FEB Unmul Informatika 64,2026-10-23 10:19:00,2026-10-28 13:19:00,5,Paket Bebek,Nasi Kotak,33000,15,495000,selesai,Normal,2026-10,Friday,10
+111,NKS-20261023-111,FEB Unmul Informatika 64,2026-10-23 10:19:00,2026-10-28 13:19:00,5,Snackbox 1,Snack Box,5000,50,250000,selesai,Sedang,2026-10,Friday,10
+111,NKS-20261023-111,FEB Unmul Informatika 64,2026-10-23 10:19:00,2026-10-28 13:19:00,5,Snack Box Premium,Snack Box,25000,150,3750000,selesai,Tinggi,2026-10,Friday,10
+112,NKS-20260927-112,Bank Kaltimtara Informatika 80,2026-09-27 17:29:00,2026-09-28 22:29:00,1,Snack Box 2,Snack Box,7000,150,1050000,dibatalkan,Tinggi,2026-09,Sunday,17
+112,NKS-20260927-112,Bank Kaltimtara Informatika 80,2026-09-27 17:29:00,2026-09-28 22:29:00,1,Paket Bebek,Nasi Kotak,33000,15,495000,dibatalkan,Tinggi,2026-09,Sunday,17
+112,NKS-20260927-112,Bank Kaltimtara Informatika 80,2026-09-27 17:29:00,2026-09-28 22:29:00,1,Snackbox 5,Snack Box,15000,10,150000,dibatalkan,Tinggi,2026-09,Sunday,17
+113,NKS-20261109-113,Fakultas Teknik Fajar 116,2026-11-09 16:57:00,2026-11-10 18:57:00,1,Paket Bebek,Nasi Kotak,33000,25,825000,selesai,Tinggi,2026-11,Monday,16
+113,NKS-20261109-113,Fakultas Teknik Fajar 116,2026-11-09 16:57:00,2026-11-10 18:57:00,1,Snack Box 3,Snack Box,10000,50,500000,selesai,Tinggi,2026-11,Monday,16
+114,NKS-20260924-114,Karang Taruna Sari 112,2026-09-24 09:08:00,2026-10-01 11:08:00,7,Snack Box 4,Snack Box,12000,25,300000,selesai,Normal,2026-09,Thursday,9
+114,NKS-20260924-114,Karang Taruna Sari 112,2026-09-24 09:08:00,2026-10-01 11:08:00,7,Paket 4,Nasi Kotak,20000,40,800000,selesai,Sedang,2026-09,Thursday,9
+114,NKS-20260924-114,Karang Taruna Sari 112,2026-09-24 09:08:00,2026-10-01 11:08:00,7,Snack Box Premium,Snack Box,25000,30,750000,selesai,Tinggi,2026-09,Thursday,9
+115,NKS-20260925-115,Ibu Loa Bakung 94,2026-09-25 09:24:00,2026-09-25 10:24:00,0,Paket 5,Nasi Kotak,25000,25,625000,selesai,Tinggi,2026-09,Friday,9
+115,NKS-20260925-115,Ibu Loa Bakung 94,2026-09-25 09:24:00,2026-09-25 10:24:00,0,Snack Box 2,Snack Box,7000,25,175000,selesai,Tinggi,2026-09,Friday,9
+115,NKS-20260925-115,Ibu Loa Bakung 94,2026-09-25 09:24:00,2026-09-25 10:24:00,0,Paket 2,Nasi Kotak,15000,10,150000,selesai,Tinggi,2026-09,Friday,9
+116,NKS-20260923-116,Komunitas Loa Bakung 47,2026-09-23 10:20:00,2026-09-24 12:20:00,1,Paket 3,Nasi Kotak,17000,100,1700000,selesai,Tinggi,2026-09,Wednesday,10
+116,NKS-20260923-116,Komunitas Loa Bakung 47,2026-09-23 10:20:00,2026-09-24 12:20:00,1,Snack Box 4,Snack Box,12000,20,240000,selesai,Tinggi,2026-09,Wednesday,10
+117,NKS-20261002-117,RSUD AWS Hendra 8,2026-10-02 11:31:00,2026-10-09 14:31:00,7,Snack Box 3,Snack Box,10000,50,500000,selesai,Sedang,2026-10,Friday,11
+118,NKS-20261112-118,Ibu Vorvo 65,2026-11-12 10:07:00,2026-11-13 15:07:00,1,Paket 2,Nasi Kotak,15000,150,2250000,selesai,Tinggi,2026-11,Thursday,10
+118,NKS-20261112-118,Ibu Vorvo 65,2026-11-12 10:07:00,2026-11-13 15:07:00,1,Snack Box Premium,Snack Box,25000,100,2500000,selesai,Tinggi,2026-11,Thursday,10
+118,NKS-20261112-118,Ibu Vorvo 65,2026-11-12 10:07:00,2026-11-13 15:07:00,1,Paket 2 Ayam Bumbu,Nasi Kotak,17000,50,850000,selesai,Tinggi,2026-11,Thursday,10
+119,NKS-20261029-119,FKIP Unmul Antasari 115,2026-10-29 10:30:00,2026-10-30 15:30:00,1,Paket Spesial,Nasi Kotak,30000,15,450000,selesai,Tinggi,2026-10,Thursday,10
+119,NKS-20261029-119,FKIP Unmul Antasari 115,2026-10-29 10:30:00,2026-10-30 15:30:00,1,Paket 3,Nasi Kotak,17000,10,170000,selesai,Tinggi,2026-10,Thursday,10
+119,NKS-20261029-119,FKIP Unmul Antasari 115,2026-10-29 10:30:00,2026-10-30 15:30:00,1,Paket 4,Nasi Kotak,20000,10,200000,selesai,Tinggi,2026-10,Thursday,10
+120,NKS-20261019-120,FEB Unmul Antasari 98,2026-10-19 19:18:00,2026-10-20 23:18:00,1,Snack Box 3,Snack Box,10000,30,300000,selesai,Tinggi,2026-10,Monday,19
+121,NKS-20260906-121,Bapak Sari 90,2026-09-06 11:12:00,2026-09-07 15:12:00,1,Paket 2 Ayam Bumbu,Nasi Kotak,17000,40,680000,selesai,Tinggi,2026-09,Sunday,11
+122,NKS-20261109-122,Bank Kaltimtara Sempaja 39,2026-11-09 08:35:00,2026-11-10 13:35:00,1,Paket 4,Nasi Kotak,20000,75,1500000,selesai,Tinggi,2026-11,Monday,8
+122,NKS-20261109-122,Bank Kaltimtara Sempaja 39,2026-11-09 08:35:00,2026-11-10 13:35:00,1,Paket 2 Ayam Bumbu,Nasi Kotak,17000,75,1275000,selesai,Tinggi,2026-11,Monday,8
+123,NKS-20260906-123,Fakultas Teknik Ekonomi 14,2026-09-06 17:42:00,2026-09-08 20:42:00,2,Snack Box 3,Snack Box,10000,25,250000,selesai,Normal,2026-09,Sunday,17
+123,NKS-20260906-123,Fakultas Teknik Ekonomi 14,2026-09-06 17:42:00,2026-09-08 20:42:00,2,Paket 4,Nasi Kotak,20000,40,800000,selesai,Sedang,2026-09,Sunday,17
+123,NKS-20260906-123,Fakultas Teknik Ekonomi 14,2026-09-06 17:42:00,2026-09-08 20:42:00,2,Snackbox 5,Snack Box,15000,75,1125000,selesai,Tinggi,2026-09,Sunday,17
+124,NKS-20260924-124,FEB Unmul Rina 67,2026-09-24 09:52:00,2026-09-25 13:52:00,1,Paket 3,Nasi Kotak,17000,15,255000,selesai,Tinggi,2026-09,Thursday,9
+124,NKS-20260924-124,FEB Unmul Rina 67,2026-09-24 09:52:00,2026-09-25 13:52:00,1,Paket 5,Nasi Kotak,25000,15,375000,selesai,Tinggi,2026-09,Thursday,9
+124,NKS-20260924-124,FEB Unmul Rina 67,2026-09-24 09:52:00,2026-09-25 13:52:00,1,Snack Box 3,Snack Box,10000,15,150000,selesai,Tinggi,2026-09,Thursday,9
+125,NKS-20261018-125,Karang Taruna Rina 93,2026-10-18 11:05:00,2026-10-19 14:05:00,1,Snackbox 1,Snack Box,5000,10,50000,selesai,Tinggi,2026-10,Sunday,11
+125,NKS-20261018-125,Karang Taruna Rina 93,2026-10-18 11:05:00,2026-10-19 14:05:00,1,Paket Bebek,Nasi Kotak,33000,75,2475000,selesai,Tinggi,2026-10,Sunday,11
+126,NKS-20260916-126,Kantor Dinas Hendra 60,2026-09-16 17:57:00,2026-09-21 22:57:00,5,Paket 2 Ayam Bumbu,Nasi Kotak,17000,15,255000,selesai,Normal,2026-09,Wednesday,17
+126,NKS-20260916-126,Kantor Dinas Hendra 60,2026-09-16 17:57:00,2026-09-21 22:57:00,5,Paket Bebek,Nasi Kotak,33000,15,495000,selesai,Sedang,2026-09,Wednesday,17
+126,NKS-20260916-126,Kantor Dinas Hendra 60,2026-09-16 17:57:00,2026-09-21 22:57:00,5,Paket Spesial,Nasi Kotak,30000,40,1200000,selesai,Sedang,2026-09,Wednesday,17
+127,NKS-20261030-127,Panitia Seminar Sari 6,2026-10-30 11:49:00,2026-11-02 13:49:00,3,Paket 5,Nasi Kotak,25000,15,375000,selesai,Normal,2026-10,Friday,11
+127,NKS-20261030-127,Panitia Seminar Sari 6,2026-10-30 11:49:00,2026-11-02 13:49:00,3,Snackbox 5,Snack Box,15000,150,2250000,selesai,Tinggi,2026-10,Friday,11
+128,NKS-20261009-128,FEB Unmul Hukum 99,2026-10-09 14:45:00,2026-10-12 15:45:00,3,Paket 2 Ayam Bumbu,Nasi Kotak,17000,150,2550000,selesai,Tinggi,2026-10,Friday,14
+129,NKS-20261026-129,Bank Kaltimtara Sempaja 63,2026-10-26 13:08:00,2026-10-31 18:08:00,5,Snack Box 4,Snack Box,12000,40,480000,selesai,Sedang,2026-10,Monday,13
+129,NKS-20261026-129,Bank Kaltimtara Sempaja 63,2026-10-26 13:08:00,2026-10-31 18:08:00,5,Paket 2,Nasi Kotak,15000,50,750000,selesai,Tinggi,2026-10,Monday,13
+129,NKS-20261026-129,Bank Kaltimtara Sempaja 63,2026-10-26 13:08:00,2026-10-31 18:08:00,5,Paket 2 Ayam Bumbu,Nasi Kotak,17000,10,170000,selesai,Tinggi,2026-10,Monday,13
+130,NKS-20260915-130,Fakultas Teknik Ekonomi 43,2026-09-15 18:44:00,2026-09-16 21:44:00,1,Paket 3,Nasi Kotak,17000,40,680000,selesai,Tinggi,2026-09,Tuesday,18
+130,NKS-20260915-130,Fakultas Teknik Ekonomi 43,2026-09-15 18:44:00,2026-09-16 21:44:00,1,Paket Spesial,Nasi Kotak,30000,75,2250000,selesai,Tinggi,2026-09,Tuesday,18
+131,NKS-20261022-131,Bapak Loa Bakung 96,2026-10-22 18:36:00,2026-10-25 20:36:00,3,Snack Box 4,Snack Box,12000,40,480000,selesai,Sedang,2026-10,Thursday,18
+132,NKS-20261112-132,BEM Air Hitam 34,2026-11-12 18:43:00,2026-11-13 22:43:00,1,Paket 2 Ayam Bumbu,Nasi Kotak,17000,10,170000,selesai,Tinggi,2026-11,Thursday,18
+132,NKS-20261112-132,BEM Air Hitam 34,2026-11-12 18:43:00,2026-11-13 22:43:00,1,Snack Box Premium,Snack Box,25000,40,1000000,selesai,Tinggi,2026-11,Thursday,18
+133,NKS-20260913-133,Panitia Seminar Air Hitam 52,2026-09-13 09:00:00,2026-09-13 10:00:00,0,Paket Bebek,Nasi Kotak,33000,100,3300000,selesai,Tinggi,2026-09,Sunday,9
+133,NKS-20260913-133,Panitia Seminar Air Hitam 52,2026-09-13 09:00:00,2026-09-13 10:00:00,0,Snack Box 2,Snack Box,7000,100,700000,selesai,Tinggi,2026-09,Sunday,9
+134,NKS-20261101-134,Fakultas Teknik Ekonomi 14,2026-11-01 11:56:00,2026-11-02 13:56:00,1,Snack Box 2,Snack Box,7000,25,175000,selesai,Tinggi,2026-11,Sunday,11
+135,NKS-20261012-135,Fakultas Teknik Vorvo 25,2026-10-12 19:20:00,2026-10-13 20:20:00,1,Paket 1,Nasi Kotak,12000,30,360000,selesai,Tinggi,2026-10,Monday,19
+135,NKS-20261012-135,Fakultas Teknik Vorvo 25,2026-10-12 19:20:00,2026-10-13 20:20:00,1,Paket 4,Nasi Kotak,20000,15,300000,selesai,Tinggi,2026-10,Monday,19
+136,NKS-20261019-136,Komunitas Samarinda Seberang 119,2026-10-19 18:24:00,2026-10-20 19:24:00,1,Snack Box 2,Snack Box,7000,10,70000,selesai,Tinggi,2026-10,Monday,18
+136,NKS-20261019-136,Komunitas Samarinda Seberang 119,2026-10-19 18:24:00,2026-10-20 19:24:00,1,Paket 4,Nasi Kotak,20000,150,3000000,selesai,Tinggi,2026-10,Monday,18
+137,NKS-20261110-137,Panitia Seminar Sari 6,2026-11-10 10:34:00,2026-11-10 12:34:00,0,Snackbox 1,Snack Box,5000,25,125000,selesai,Tinggi,2026-11,Tuesday,10
+138,NKS-20261101-138,Karang Taruna Ekonomi 88,2026-11-01 16:53:00,2026-11-06 20:53:00,5,Paket 4,Nasi Kotak,20000,20,400000,selesai,Normal,2026-11,Sunday,16
+139,NKS-20260911-139,FEB Unmul Rina 67,2026-09-11 11:41:00,2026-09-13 12:41:00,2,Snack Box Premium,Snack Box,25000,50,1250000,selesai,Sedang,2026-09,Friday,11
+139,NKS-20260911-139,FEB Unmul Rina 67,2026-09-11 11:41:00,2026-09-13 12:41:00,2,Paket 1,Nasi Kotak,12000,50,600000,selesai,Tinggi,2026-09,Friday,11
+140,NKS-20260920-140,Bapak Rina 33,2026-09-20 17:38:00,2026-09-21 22:38:00,1,Paket 3,Nasi Kotak,17000,75,1275000,selesai,Tinggi,2026-09,Sunday,17
+141,NKS-20260920-141,Karang Taruna Vorvo 86,2026-09-20 11:30:00,2026-09-21 13:30:00,1,Paket 2,Nasi Kotak,15000,40,600000,selesai,Tinggi,2026-09,Sunday,11
+141,NKS-20260920-141,Karang Taruna Vorvo 86,2026-09-20 11:30:00,2026-09-21 13:30:00,1,Paket 1,Nasi Kotak,12000,25,300000,selesai,Tinggi,2026-09,Sunday,11
+141,NKS-20260920-141,Karang Taruna Vorvo 86,2026-09-20 11:30:00,2026-09-21 13:30:00,1,Snack Box 3,Snack Box,10000,75,750000,selesai,Tinggi,2026-09,Sunday,11
+142,NKS-20261024-142,UKM Ekonomi 5,2026-10-24 12:30:00,2026-10-24 15:30:00,0,Paket Bebek,Nasi Kotak,33000,150,4950000,selesai,Tinggi,2026-10,Saturday,12
+142,NKS-20261024-142,UKM Ekonomi 5,2026-10-24 12:30:00,2026-10-24 15:30:00,0,Paket Spesial,Nasi Kotak,30000,25,750000,selesai,Tinggi,2026-10,Saturday,12
+143,NKS-20261107-143,Bank Kaltimtara Sempaja 63,2026-11-07 12:30:00,2026-11-09 17:30:00,2,Paket 3,Nasi Kotak,17000,15,255000,selesai,Normal,2026-11,Saturday,12
+144,NKS-20261019-144,Komunitas Loa Bakung 47,2026-10-19 14:45:00,2026-10-22 19:45:00,3,Snack Box 4,Snack Box,12000,25,300000,selesai,Normal,2026-10,Monday,14
+145,NKS-20260929-145,Bank Kaltimtara Yusuf 21,2026-09-29 20:53:00,2026-10-03 00:53:00,3,Snackbox 5,Snack Box,15000,150,2250000,selesai,Tinggi,2026-09,Tuesday,20
+145,NKS-20260929-145,Bank Kaltimtara Yusuf 21,2026-09-29 20:53:00,2026-10-03 00:53:00,3,Snack Box 4,Snack Box,12000,25,300000,selesai,Tinggi,2026-09,Tuesday,20
+145,NKS-20260929-145,Bank Kaltimtara Yusuf 21,2026-09-29 20:53:00,2026-10-03 00:53:00,3,Snack Box Premium,Snack Box,25000,30,750000,selesai,Tinggi,2026-09,Tuesday,20
+146,NKS-20261106-146,Ibu Vorvo 65,2026-11-06 16:01:00,2026-11-08 19:01:00,2,Snack Box 3,Snack Box,10000,20,200000,selesai,Normal,2026-11,Friday,16
+146,NKS-20261106-146,Ibu Vorvo 65,2026-11-06 16:01:00,2026-11-08 19:01:00,2,Paket Spesial,Nasi Kotak,30000,150,4500000,selesai,Tinggi,2026-11,Friday,16
+147,NKS-20261021-147,Ibu Air Hitam 56,2026-10-21 13:16:00,2026-10-21 16:16:00,0,Snackbox 1,Snack Box,5000,10,50000,selesai,Tinggi,2026-10,Wednesday,13
+147,NKS-20261021-147,Ibu Air Hitam 56,2026-10-21 13:16:00,2026-10-21 16:16:00,0,Paket 4,Nasi Kotak,20000,25,500000,selesai,Tinggi,2026-10,Wednesday,13
+147,NKS-20261021-147,Ibu Air Hitam 56,2026-10-21 13:16:00,2026-10-21 16:16:00,0,Paket 3,Nasi Kotak,17000,100,1700000,selesai,Tinggi,2026-10,Wednesday,13
+148,NKS-20261025-148,FKIP Unmul Rizky 45,2026-10-25 14:06:00,2026-10-26 16:06:00,1,Snack Box 3,Snack Box,10000,75,750000,selesai,Tinggi,2026-10,Sunday,14
+148,NKS-20261025-148,FKIP Unmul Rizky 45,2026-10-25 14:06:00,2026-10-26 16:06:00,1,Paket 3,Nasi Kotak,17000,25,425000,selesai,Tinggi,2026-10,Sunday,14
+148,NKS-20261025-148,FKIP Unmul Rizky 45,2026-10-25 14:06:00,2026-10-26 16:06:00,1,Snack Box Premium,Snack Box,25000,50,1250000,selesai,Tinggi,2026-10,Sunday,14
+149,NKS-20261031-149,Bank Kaltimtara Sempaja 39,2026-10-31 11:05:00,2026-11-01 12:05:00,1,Snack Box 3,Snack Box,10000,75,750000,selesai,Tinggi,2026-10,Saturday,11
+149,NKS-20261031-149,Bank Kaltimtara Sempaja 39,2026-10-31 11:05:00,2026-11-01 12:05:00,1,Paket 5,Nasi Kotak,25000,25,625000,selesai,Tinggi,2026-10,Saturday,11
+150,NKS-20261107-150,Ibu Sari 105,2026-11-07 19:17:00,2026-11-07 23:17:00,0,Paket 4,Nasi Kotak,20000,75,1500000,selesai,Tinggi,2026-11,Saturday,19
+150,NKS-20261107-150,Ibu Sari 105,2026-11-07 19:17:00,2026-11-07 23:17:00,0,Paket 2 Ayam Bumbu,Nasi Kotak,17000,10,170000,selesai,Tinggi,2026-11,Saturday,19
+151,NKS-20261023-151,Bank Kaltimtara Sempaja 108,2026-10-23 14:24:00,2026-10-23 18:24:00,0,Paket Bebek,Nasi Kotak,33000,20,660000,selesai,Tinggi,2026-10,Friday,14
+152,NKS-20261006-152,RSUD AWS Antasari 1,2026-10-06 14:38:00,2026-10-07 18:38:00,1,Paket 5,Nasi Kotak,25000,150,3750000,selesai,Tinggi,2026-10,Tuesday,14
+152,NKS-20261006-152,RSUD AWS Antasari 1,2026-10-06 14:38:00,2026-10-07 18:38:00,1,Snackbox 5,Snack Box,15000,20,300000,selesai,Tinggi,2026-10,Tuesday,14
+152,NKS-20261006-152,RSUD AWS Antasari 1,2026-10-06 14:38:00,2026-10-07 18:38:00,1,Snack Box 2,Snack Box,7000,150,1050000,selesai,Tinggi,2026-10,Tuesday,14
+153,NKS-20260925-153,BEM Air Hitam 34,2026-09-25 15:44:00,2026-09-28 18:44:00,3,Snack Box Premium,Snack Box,25000,150,3750000,selesai,Tinggi,2026-09,Friday,15
+153,NKS-20260925-153,BEM Air Hitam 34,2026-09-25 15:44:00,2026-09-28 18:44:00,3,Snackbox 1,Snack Box,5000,100,500000,selesai,Tinggi,2026-09,Friday,15
+154,NKS-20260904-154,FKIP Unmul Antasari 115,2026-09-04 13:33:00,2026-09-06 18:33:00,2,Paket 2,Nasi Kotak,15000,100,1500000,selesai,Tinggi,2026-09,Friday,13
+154,NKS-20260904-154,FKIP Unmul Antasari 115,2026-09-04 13:33:00,2026-09-06 18:33:00,2,Paket 2 Ayam Bumbu,Nasi Kotak,17000,75,1275000,selesai,Tinggi,2026-09,Friday,13
+155,NKS-20261016-155,FKIP Unmul Hukum 46,2026-10-16 14:55:00,2026-10-19 18:55:00,3,Paket 5,Nasi Kotak,25000,20,500000,selesai,Normal,2026-10,Friday,14
+155,NKS-20261016-155,FKIP Unmul Hukum 46,2026-10-16 14:55:00,2026-10-19 18:55:00,3,Paket 1,Nasi Kotak,12000,75,900000,selesai,Tinggi,2026-10,Friday,14
+156,NKS-20261103-156,Pengajian Informatika 72,2026-11-03 12:30:00,2026-11-04 14:30:00,1,Paket 5,Nasi Kotak,25000,30,750000,selesai,Tinggi,2026-11,Tuesday,12
+157,NKS-20260910-157,RSUD AWS Air Hitam 41,2026-09-10 15:20:00,2026-09-12 16:20:00,2,Snack Box 4,Snack Box,12000,100,1200000,selesai,Tinggi,2026-09,Thursday,15
+157,NKS-20260910-157,RSUD AWS Air Hitam 41,2026-09-10 15:20:00,2026-09-12 16:20:00,2,Paket Spesial,Nasi Kotak,30000,50,1500000,selesai,Tinggi,2026-09,Thursday,15
+157,NKS-20260910-157,RSUD AWS Air Hitam 41,2026-09-10 15:20:00,2026-09-12 16:20:00,2,Paket Bebek,Nasi Kotak,33000,40,1320000,selesai,Tinggi,2026-09,Thursday,15
+158,NKS-20260928-158,Fakultas Teknik Hendra 2,2026-09-28 12:24:00,2026-09-29 14:24:00,1,Paket 4,Nasi Kotak,20000,100,2000000,selesai,Tinggi,2026-09,Monday,12
+158,NKS-20260928-158,Fakultas Teknik Hendra 2,2026-09-28 12:24:00,2026-09-29 14:24:00,1,Paket 1,Nasi Kotak,12000,150,1800000,selesai,Tinggi,2026-09,Monday,12
+158,NKS-20260928-158,Fakultas Teknik Hendra 2,2026-09-28 12:24:00,2026-09-29 14:24:00,1,Paket Bebek,Nasi Kotak,33000,75,2475000,selesai,Tinggi,2026-09,Monday,12
+159,NKS-20261016-159,Ibu Air Hitam 56,2026-10-16 14:49:00,2026-10-18 18:49:00,2,Paket 4,Nasi Kotak,20000,40,800000,dibatalkan,Sedang,2026-10,Friday,14
+159,NKS-20261016-159,Ibu Air Hitam 56,2026-10-16 14:49:00,2026-10-18 18:49:00,2,Snack Box 3,Snack Box,10000,10,100000,dibatalkan,Sedang,2026-10,Friday,14
+160,NKS-20260914-160,Komunitas Samarinda Seberang 119,2026-09-14 13:47:00,2026-09-21 18:47:00,7,Paket Bebek,Nasi Kotak,33000,10,330000,selesai,Normal,2026-09,Monday,13
+160,NKS-20260914-160,Komunitas Samarinda Seberang 119,2026-09-14 13:47:00,2026-09-21 18:47:00,7,Paket 2 Ayam Bumbu,Nasi Kotak,17000,25,425000,selesai,Sedang,2026-09,Monday,13
+160,NKS-20260914-160,Komunitas Samarinda Seberang 119,2026-09-14 13:47:00,2026-09-21 18:47:00,7,Snack Box 2,Snack Box,7000,20,140000,selesai,Sedang,2026-09,Monday,13
+161,NKS-20261117-161,Komunitas Loa Bakung 47,2026-11-17 19:37:00,2026-11-19 23:37:00,2,Paket Bebek,Nasi Kotak,33000,15,495000,dibatalkan,Normal,2026-11,Tuesday,19
+161,NKS-20261117-161,Komunitas Loa Bakung 47,2026-11-17 19:37:00,2026-11-19 23:37:00,2,Paket Spesial,Nasi Kotak,30000,150,4500000,dibatalkan,Tinggi,2026-11,Tuesday,19
+161,NKS-20261117-161,Komunitas Loa Bakung 47,2026-11-17 19:37:00,2026-11-19 23:37:00,2,Paket 4,Nasi Kotak,20000,100,2000000,dibatalkan,Tinggi,2026-11,Tuesday,19
+162,NKS-20261010-162,Himpunan Mahasiswa Nadia 92,2026-10-10 16:59:00,2026-10-11 21:59:00,1,Snackbox 1,Snack Box,5000,150,750000,selesai,Tinggi,2026-10,Saturday,16
+162,NKS-20261010-162,Himpunan Mahasiswa Nadia 92,2026-10-10 16:59:00,2026-10-11 21:59:00,1,Paket Bebek,Nasi Kotak,33000,25,825000,selesai,Tinggi,2026-10,Saturday,16
+163,NKS-20261026-163,Fakultas Teknik Ekonomi 14,2026-10-26 15:15:00,2026-11-02 17:15:00,7,Snack Box 3,Snack Box,10000,100,1000000,selesai,Tinggi,2026-10,Monday,15
+164,NKS-20260906-164,Pengajian Rina 111,2026-09-06 13:56:00,2026-09-07 18:56:00,1,Paket 3,Nasi Kotak,17000,15,255000,selesai,Tinggi,2026-09,Sunday,13
+164,NKS-20260906-164,Pengajian Rina 111,2026-09-06 13:56:00,2026-09-07 18:56:00,1,Snack Box Premium,Snack Box,25000,150,3750000,selesai,Tinggi,2026-09,Sunday,13
+165,NKS-20261106-165,RSUD AWS Antasari 1,2026-11-06 15:44:00,2026-11-07 19:44:00,1,Paket Spesial,Nasi Kotak,30000,20,600000,selesai,Tinggi,2026-11,Friday,15
+165,NKS-20261106-165,RSUD AWS Antasari 1,2026-11-06 15:44:00,2026-11-07 19:44:00,1,Paket 3,Nasi Kotak,17000,100,1700000,selesai,Tinggi,2026-11,Friday,15
+166,NKS-20261022-166,Himpunan Mahasiswa Rizky 89,2026-10-22 15:02:00,2026-10-22 20:02:00,0,Paket 3,Nasi Kotak,17000,25,425000,selesai,Tinggi,2026-10,Thursday,15
+166,NKS-20261022-166,Himpunan Mahasiswa Rizky 89,2026-10-22 15:02:00,2026-10-22 20:02:00,0,Paket 2 Ayam Bumbu,Nasi Kotak,17000,30,510000,selesai,Tinggi,2026-10,Thursday,15
+167,NKS-20260916-167,Komunitas Loa Bakung 47,2026-09-16 17:03:00,2026-09-19 20:03:00,3,Paket Spesial,Nasi Kotak,30000,20,600000,selesai,Normal,2026-09,Wednesday,17
+168,NKS-20261001-168,Panitia Seminar Hendra 28,2026-10-01 14:13:00,2026-10-04 15:13:00,3,Paket 4,Nasi Kotak,20000,15,300000,selesai,Normal,2026-10,Thursday,14
+169,NKS-20261104-169,Karang Taruna Samarinda Seberang 113,2026-11-04 19:21:00,2026-11-05 20:21:00,1,Snack Box 2,Snack Box,7000,150,1050000,selesai,Tinggi,2026-11,Wednesday,19
+170,NKS-20261014-170,Komunitas Loa Bakung 47,2026-10-14 20:31:00,2026-10-16 22:31:00,2,Paket 4,Nasi Kotak,20000,100,2000000,selesai,Tinggi,2026-10,Wednesday,20
+171,NKS-20260922-171,UKM Ekonomi 5,2026-09-22 14:35:00,2026-09-23 18:35:00,1,Paket Bebek,Nasi Kotak,33000,30,990000,selesai,Tinggi,2026-09,Tuesday,14
+171,NKS-20260922-171,UKM Ekonomi 5,2026-09-22 14:35:00,2026-09-23 18:35:00,1,Paket 4,Nasi Kotak,20000,75,1500000,selesai,Tinggi,2026-09,Tuesday,14
+172,NKS-20260924-172,RSUD AWS Hukum 42,2026-09-24 15:43:00,2026-10-01 18:43:00,7,Paket 2,Nasi Kotak,15000,150,2250000,selesai,Tinggi,2026-09,Thursday,15
+172,NKS-20260924-172,RSUD AWS Hukum 42,2026-09-24 15:43:00,2026-10-01 18:43:00,7,Snack Box 4,Snack Box,12000,40,480000,selesai,Tinggi,2026-09,Thursday,15
+172,NKS-20260924-172,RSUD AWS Hukum 42,2026-09-24 15:43:00,2026-10-01 18:43:00,7,Paket 2 Ayam Bumbu,Nasi Kotak,17000,30,510000,selesai,Tinggi,2026-09,Thursday,15
+173,NKS-20261030-173,Karang Taruna Vorvo 86,2026-10-30 12:38:00,2026-10-31 13:38:00,1,Paket Spesial,Nasi Kotak,30000,40,1200000,selesai,Tinggi,2026-10,Friday,12
+173,NKS-20261030-173,Karang Taruna Vorvo 86,2026-10-30 12:38:00,2026-10-31 13:38:00,1,Paket 4,Nasi Kotak,20000,100,2000000,selesai,Tinggi,2026-10,Friday,12
+173,NKS-20261030-173,Karang Taruna Vorvo 86,2026-10-30 12:38:00,2026-10-31 13:38:00,1,Snack Box 4,Snack Box,12000,75,900000,selesai,Tinggi,2026-10,Friday,12
+174,NKS-20261002-174,Bank Kaltimtara Samarinda Seberang 23,2026-10-02 14:32:00,2026-10-05 15:32:00,3,Snack Box 3,Snack Box,10000,50,500000,selesai,Sedang,2026-10,Friday,14
+174,NKS-20261002-174,Bank Kaltimtara Samarinda Seberang 23,2026-10-02 14:32:00,2026-10-05 15:32:00,3,Paket 3,Nasi Kotak,17000,40,680000,selesai,Tinggi,2026-10,Friday,14
+175,NKS-20261110-175,Pengajian Informatika 72,2026-11-10 15:36:00,2026-11-11 17:36:00,1,Snackbox 1,Snack Box,5000,100,500000,selesai,Tinggi,2026-11,Tuesday,15
+176,NKS-20261106-176,FKIP Unmul Hukum 46,2026-11-06 08:47:00,2026-11-08 09:47:00,2,Snackbox 1,Snack Box,5000,75,375000,selesai,Tinggi,2026-11,Friday,8
+176,NKS-20261106-176,FKIP Unmul Hukum 46,2026-11-06 08:47:00,2026-11-08 09:47:00,2,Snack Box Premium,Snack Box,25000,150,3750000,selesai,Tinggi,2026-11,Friday,8
+176,NKS-20261106-176,FKIP Unmul Hukum 46,2026-11-06 08:47:00,2026-11-08 09:47:00,2,Paket 4,Nasi Kotak,20000,20,400000,selesai,Tinggi,2026-11,Friday,8
+177,NKS-20261027-177,Karang Taruna Vorvo 86,2026-10-27 16:16:00,2026-10-30 20:16:00,3,Paket 4,Nasi Kotak,20000,100,2000000,selesai,Tinggi,2026-10,Tuesday,16
+177,NKS-20261027-177,Karang Taruna Vorvo 86,2026-10-27 16:16:00,2026-10-30 20:16:00,3,Paket 5,Nasi Kotak,25000,10,250000,selesai,Tinggi,2026-10,Tuesday,16
+178,NKS-20261011-178,Fakultas Teknik Sari 107,2026-10-11 10:16:00,2026-10-13 13:16:00,2,Paket 1,Nasi Kotak,12000,75,900000,selesai,Tinggi,2026-10,Sunday,10
+178,NKS-20261011-178,Fakultas Teknik Sari 107,2026-10-11 10:16:00,2026-10-13 13:16:00,2,Snack Box 2,Snack Box,7000,20,140000,selesai,Tinggi,2026-10,Sunday,10
+179,NKS-20260922-179,Himpunan Mahasiswa Rizky 89,2026-09-22 09:56:00,2026-09-22 13:56:00,0,Paket 4,Nasi Kotak,20000,30,600000,selesai,Tinggi,2026-09,Tuesday,9
+180,NKS-20261021-180,Kantor Dinas Loa Bakung 77,2026-10-21 15:42:00,2026-10-23 20:42:00,2,Paket 2 Ayam Bumbu,Nasi Kotak,17000,25,425000,dibatalkan,Normal,2026-10,Wednesday,15
+181,NKS-20261113-181,Karang Taruna Sari 112,2026-11-13 16:24:00,2026-11-14 18:24:00,1,Paket 2,Nasi Kotak,15000,150,2250000,selesai,Tinggi,2026-11,Friday,16
+181,NKS-20261113-181,Karang Taruna Sari 112,2026-11-13 16:24:00,2026-11-14 18:24:00,1,Paket Spesial,Nasi Kotak,30000,10,300000,selesai,Tinggi,2026-11,Friday,16
+182,NKS-20261023-182,Karang Taruna Ekonomi 88,2026-10-23 13:37:00,2026-10-24 17:37:00,1,Paket 3,Nasi Kotak,17000,30,510000,selesai,Tinggi,2026-10,Friday,13
+182,NKS-20261023-182,Karang Taruna Ekonomi 88,2026-10-23 13:37:00,2026-10-24 17:37:00,1,Paket 2,Nasi Kotak,15000,100,1500000,selesai,Tinggi,2026-10,Friday,13
+182,NKS-20261023-182,Karang Taruna Ekonomi 88,2026-10-23 13:37:00,2026-10-24 17:37:00,1,Paket Bebek,Nasi Kotak,33000,75,2475000,selesai,Tinggi,2026-10,Friday,13
+183,NKS-20261004-183,UKM Informatika 117,2026-10-04 12:12:00,2026-10-09 15:12:00,5,Paket 2 Ayam Bumbu,Nasi Kotak,17000,75,1275000,selesai,Tinggi,2026-10,Sunday,12
+183,NKS-20261004-183,UKM Informatika 117,2026-10-04 12:12:00,2026-10-09 15:12:00,5,Snack Box 2,Snack Box,7000,15,105000,selesai,Tinggi,2026-10,Sunday,12
+183,NKS-20261004-183,UKM Informatika 117,2026-10-04 12:12:00,2026-10-09 15:12:00,5,Paket 2,Nasi Kotak,15000,50,750000,selesai,Tinggi,2026-10,Sunday,12
+184,NKS-20260928-184,Bapak Loa Bakung 96,2026-09-28 16:04:00,2026-09-30 19:04:00,2,Paket 2,Nasi Kotak,15000,30,450000,selesai,Sedang,2026-09,Monday,16
+184,NKS-20260928-184,Bapak Loa Bakung 96,2026-09-28 16:04:00,2026-09-30 19:04:00,2,Snack Box Premium,Snack Box,25000,20,500000,selesai,Sedang,2026-09,Monday,16
+185,NKS-20261028-185,Ibu Air Hitam 101,2026-10-28 13:53:00,2026-10-28 18:53:00,0,Snack Box 4,Snack Box,12000,50,600000,selesai,Tinggi,2026-10,Wednesday,13
+185,NKS-20261028-185,Ibu Air Hitam 101,2026-10-28 13:53:00,2026-10-28 18:53:00,0,Paket 4,Nasi Kotak,20000,40,800000,selesai,Tinggi,2026-10,Wednesday,13
+185,NKS-20261028-185,Ibu Air Hitam 101,2026-10-28 13:53:00,2026-10-28 18:53:00,0,Paket 2 Ayam Bumbu,Nasi Kotak,17000,50,850000,selesai,Tinggi,2026-10,Wednesday,13
+186,NKS-20261110-186,Pengajian Nadia 36,2026-11-10 08:22:00,2026-11-15 10:22:00,5,Paket 2 Ayam Bumbu,Nasi Kotak,17000,40,680000,selesai,Sedang,2026-11,Tuesday,8
+186,NKS-20261110-186,Pengajian Nadia 36,2026-11-10 08:22:00,2026-11-15 10:22:00,5,Snack Box 2,Snack Box,7000,50,350000,selesai,Tinggi,2026-11,Tuesday,8
+187,NKS-20261023-187,FEB Unmul Air Hitam 20,2026-10-23 20:14:00,2026-10-30 23:14:00,7,Paket 4,Nasi Kotak,20000,100,2000000,selesai,Tinggi,2026-10,Friday,20
+187,NKS-20261023-187,FEB Unmul Air Hitam 20,2026-10-23 20:14:00,2026-10-30 23:14:00,7,Paket Spesial,Nasi Kotak,30000,150,4500000,selesai,Tinggi,2026-10,Friday,20
+188,NKS-20260929-188,Karang Taruna Ekonomi 88,2026-09-29 18:10:00,2026-09-30 22:10:00,1,Paket 2 Ayam Bumbu,Nasi Kotak,17000,20,340000,selesai,Tinggi,2026-09,Tuesday,18
+188,NKS-20260929-188,Karang Taruna Ekonomi 88,2026-09-29 18:10:00,2026-09-30 22:10:00,1,Paket 4,Nasi Kotak,20000,75,1500000,selesai,Tinggi,2026-09,Tuesday,18
+188,NKS-20260929-188,Karang Taruna Ekonomi 88,2026-09-29 18:10:00,2026-09-30 22:10:00,1,Snackbox 5,Snack Box,15000,15,225000,selesai,Tinggi,2026-09,Tuesday,18
+189,NKS-20261024-189,Himpunan Mahasiswa Nadia 92,2026-10-24 12:11:00,2026-10-25 14:11:00,1,Paket 3,Nasi Kotak,17000,25,425000,selesai,Tinggi,2026-10,Saturday,12
+189,NKS-20261024-189,Himpunan Mahasiswa Nadia 92,2026-10-24 12:11:00,2026-10-25 14:11:00,1,Snack Box 4,Snack Box,12000,50,600000,selesai,Tinggi,2026-10,Saturday,12
+189,NKS-20261024-189,Himpunan Mahasiswa Nadia 92,2026-10-24 12:11:00,2026-10-25 14:11:00,1,Snackbox 5,Snack Box,15000,40,600000,selesai,Tinggi,2026-10,Saturday,12
+190,NKS-20261018-190,Pengajian Informatika 18,2026-10-18 17:02:00,2026-10-21 22:02:00,3,Snack Box 4,Snack Box,12000,30,360000,selesai,Sedang,2026-10,Sunday,17
+191,NKS-20261001-191,Bapak Vorvo 35,2026-10-01 10:19:00,2026-10-08 15:19:00,7,Paket Bebek,Nasi Kotak,33000,40,1320000,selesai,Sedang,2026-10,Thursday,10
+191,NKS-20261001-191,Bapak Vorvo 35,2026-10-01 10:19:00,2026-10-08 15:19:00,7,Paket 2 Ayam Bumbu,Nasi Kotak,17000,100,1700000,selesai,Tinggi,2026-10,Thursday,10
+191,NKS-20261001-191,Bapak Vorvo 35,2026-10-01 10:19:00,2026-10-08 15:19:00,7,Paket 3,Nasi Kotak,17000,150,2550000,selesai,Tinggi,2026-10,Thursday,10
+192,NKS-20260917-192,Bank Kaltimtara Rina 58,2026-09-17 19:50:00,2026-09-17 21:50:00,0,Snack Box Premium,Snack Box,25000,20,500000,selesai,Tinggi,2026-09,Thursday,19
+192,NKS-20260917-192,Bank Kaltimtara Rina 58,2026-09-17 19:50:00,2026-09-17 21:50:00,0,Paket 2,Nasi Kotak,15000,75,1125000,selesai,Tinggi,2026-09,Thursday,19
+192,NKS-20260917-192,Bank Kaltimtara Rina 58,2026-09-17 19:50:00,2026-09-17 21:50:00,0,Paket Bebek,Nasi Kotak,33000,30,990000,selesai,Tinggi,2026-09,Thursday,19
+193,NKS-20260926-193,Himpunan Mahasiswa Dewi 91,2026-09-26 14:52:00,2026-09-28 19:52:00,2,Paket 5,Nasi Kotak,25000,75,1875000,selesai,Tinggi,2026-09,Saturday,14
+194,NKS-20260920-194,Fakultas Teknik Loa Bakung 15,2026-09-20 20:38:00,2026-09-22 23:38:00,2,Snack Box 3,Snack Box,10000,20,200000,selesai,Normal,2026-09,Sunday,20
+195,NKS-20260929-195,Karang Taruna Ekonomi 88,2026-09-29 15:45:00,2026-09-30 16:45:00,1,Paket 4,Nasi Kotak,20000,100,2000000,selesai,Tinggi,2026-09,Tuesday,15
+195,NKS-20260929-195,Karang Taruna Ekonomi 88,2026-09-29 15:45:00,2026-09-30 16:45:00,1,Snack Box Premium,Snack Box,25000,40,1000000,selesai,Tinggi,2026-09,Tuesday,15
+196,NKS-20260924-196,RSUD AWS Hendra 40,2026-09-24 11:03:00,2026-10-01 13:03:00,7,Paket 4,Nasi Kotak,20000,75,1500000,selesai,Tinggi,2026-09,Thursday,11
+196,NKS-20260924-196,RSUD AWS Hendra 40,2026-09-24 11:03:00,2026-10-01 13:03:00,7,Paket Bebek,Nasi Kotak,33000,100,3300000,selesai,Tinggi,2026-09,Thursday,11
+196,NKS-20260924-196,RSUD AWS Hendra 40,2026-09-24 11:03:00,2026-10-01 13:03:00,7,Paket 5,Nasi Kotak,25000,50,1250000,selesai,Tinggi,2026-09,Thursday,11
+197,NKS-20260930-197,Bank Kaltimtara Yusuf 21,2026-09-30 15:32:00,2026-10-03 16:32:00,3,Snack Box 2,Snack Box,7000,25,175000,selesai,Normal,2026-09,Wednesday,15
+197,NKS-20260930-197,Bank Kaltimtara Yusuf 21,2026-09-30 15:32:00,2026-10-03 16:32:00,3,Snackbox 1,Snack Box,5000,75,375000,selesai,Tinggi,2026-09,Wednesday,15
+198,NKS-20261012-198,Ibu Dewi 79,2026-10-12 10:45:00,2026-10-12 15:45:00,0,Snackbox 5,Snack Box,15000,150,2250000,selesai,Tinggi,2026-10,Monday,10
+198,NKS-20261012-198,Ibu Dewi 79,2026-10-12 10:45:00,2026-10-12 15:45:00,0,Paket 3,Nasi Kotak,17000,25,425000,selesai,Tinggi,2026-10,Monday,10
+198,NKS-20261012-198,Ibu Dewi 79,2026-10-12 10:45:00,2026-10-12 15:45:00,0,Paket 1,Nasi Kotak,12000,150,1800000,selesai,Tinggi,2026-10,Monday,10
+199,NKS-20261118-199,Karang Taruna Informatika 7,2026-11-18 19:30:00,2026-11-23 22:30:00,5,Snackbox 1,Snack Box,5000,150,750000,selesai,Tinggi,2026-11,Wednesday,19
+199,NKS-20261118-199,Karang Taruna Informatika 7,2026-11-18 19:30:00,2026-11-23 22:30:00,5,Paket 5,Nasi Kotak,25000,75,1875000,selesai,Tinggi,2026-11,Wednesday,19
+199,NKS-20261118-199,Karang Taruna Informatika 7,2026-11-18 19:30:00,2026-11-23 22:30:00,5,Paket Bebek,Nasi Kotak,33000,150,4950000,selesai,Tinggi,2026-11,Wednesday,19
+200,NKS-20260927-200,Karang Taruna Sari 112,2026-09-27 08:03:00,2026-09-30 09:03:00,3,Paket 5,Nasi Kotak,25000,50,1250000,selesai,Sedang,2026-09,Sunday,8
+201,NKS-20261111-201,FEB Unmul Air Hitam 20,2026-11-11 08:35:00,2026-11-12 09:35:00,1,Snack Box 2,Snack Box,7000,150,1050000,selesai,Tinggi,2026-11,Wednesday,8
+201,NKS-20261111-201,FEB Unmul Air Hitam 20,2026-11-11 08:35:00,2026-11-12 09:35:00,1,Paket 2 Ayam Bumbu,Nasi Kotak,17000,20,340000,selesai,Tinggi,2026-11,Wednesday,8
+202,NKS-20260922-202,UKM Ekonomi 5,2026-09-22 18:31:00,2026-09-23 21:31:00,1,Snack Box 2,Snack Box,7000,100,700000,selesai,Tinggi,2026-09,Tuesday,18
+202,NKS-20260922-202,UKM Ekonomi 5,2026-09-22 18:31:00,2026-09-23 21:31:00,1,Paket 2,Nasi Kotak,15000,40,600000,selesai,Tinggi,2026-09,Tuesday,18
+202,NKS-20260922-202,UKM Ekonomi 5,2026-09-22 18:31:00,2026-09-23 21:31:00,1,Paket 1,Nasi Kotak,12000,25,300000,selesai,Tinggi,2026-09,Tuesday,18
+203,NKS-20260916-203,Bapak Sari 90,2026-09-16 17:08:00,2026-09-16 21:08:00,0,Paket 4,Nasi Kotak,20000,30,600000,dibatalkan,Tinggi,2026-09,Wednesday,17
+204,NKS-20261025-204,Panitia Seminar Informatika 27,2026-10-25 17:36:00,2026-10-27 19:36:00,2,Snack Box 3,Snack Box,10000,75,750000,selesai,Tinggi,2026-10,Sunday,17
+204,NKS-20261025-204,Panitia Seminar Informatika 27,2026-10-25 17:36:00,2026-10-27 19:36:00,2,Paket 2 Ayam Bumbu,Nasi Kotak,17000,50,850000,selesai,Tinggi,2026-10,Sunday,17
+205,NKS-20261118-205,FEB Unmul Rina 67,2026-11-18 18:18:00,2026-11-20 20:18:00,2,Paket 3,Nasi Kotak,17000,10,170000,selesai,Normal,2026-11,Wednesday,18
+205,NKS-20261118-205,FEB Unmul Rina 67,2026-11-18 18:18:00,2026-11-20 20:18:00,2,Snack Box 4,Snack Box,12000,20,240000,selesai,Sedang,2026-11,Wednesday,18
+206,NKS-20261117-206,FKIP Unmul Hukum 46,2026-11-17 19:27:00,2026-11-19 00:27:00,1,Paket 1,Nasi Kotak,12000,25,300000,selesai,Tinggi,2026-11,Tuesday,19
+207,NKS-20260909-207,Komunitas Informatika 32,2026-09-09 09:50:00,2026-09-12 10:50:00,3,Paket 2,Nasi Kotak,15000,75,1125000,selesai,Tinggi,2026-09,Wednesday,9
+208,NKS-20260909-208,FEB Unmul Rina 67,2026-09-09 14:02:00,2026-09-10 15:02:00,1,Snackbox 5,Snack Box,15000,15,225000,selesai,Tinggi,2026-09,Wednesday,14
+208,NKS-20260909-208,FEB Unmul Rina 67,2026-09-09 14:02:00,2026-09-10 15:02:00,1,Paket 2 Ayam Bumbu,Nasi Kotak,17000,150,2550000,selesai,Tinggi,2026-09,Wednesday,14
+208,NKS-20260909-208,FEB Unmul Rina 67,2026-09-09 14:02:00,2026-09-10 15:02:00,1,Snack Box 4,Snack Box,12000,50,600000,selesai,Tinggi,2026-09,Wednesday,14
+209,NKS-20261118-209,Komunitas Informatika 32,2026-11-18 08:08:00,2026-11-19 12:08:00,1,Snack Box 4,Snack Box,12000,40,480000,selesai,Tinggi,2026-11,Wednesday,8
+210,NKS-20260926-210,Himpunan Mahasiswa Nadia 92,2026-09-26 18:39:00,2026-09-26 21:39:00,0,Paket 5,Nasi Kotak,25000,75,1875000,selesai,Tinggi,2026-09,Saturday,18
+211,NKS-20261116-211,Himpunan Mahasiswa Dewi 91,2026-11-16 10:10:00,2026-11-18 13:10:00,2,Paket Spesial,Nasi Kotak,30000,25,750000,selesai,Normal,2026-11,Monday,10
+211,NKS-20261116-211,Himpunan Mahasiswa Dewi 91,2026-11-16 10:10:00,2026-11-18 13:10:00,2,Snack Box 3,Snack Box,10000,30,300000,selesai,Sedang,2026-11,Monday,10
+211,NKS-20261116-211,Himpunan Mahasiswa Dewi 91,2026-11-16 10:10:00,2026-11-18 13:10:00,2,Snackbox 1,Snack Box,5000,10,50000,selesai,Sedang,2026-11,Monday,10
+212,NKS-20260929-212,FKIP Unmul Hukum 46,2026-09-29 18:10:00,2026-10-04 21:10:00,5,Paket Bebek,Nasi Kotak,33000,50,1650000,selesai,Sedang,2026-09,Tuesday,18
+213,NKS-20260928-213,Pengajian Antasari 84,2026-09-28 12:50:00,2026-09-29 17:50:00,1,Paket Spesial,Nasi Kotak,30000,25,750000,selesai,Tinggi,2026-09,Monday,12
+214,NKS-20261018-214,Fakultas Teknik Fajar 116,2026-10-18 09:22:00,2026-10-20 12:22:00,2,Snack Box 4,Snack Box,12000,20,240000,selesai,Normal,2026-10,Sunday,9
+215,NKS-20261010-215,Bank Kaltimtara Yusuf 21,2026-10-10 17:24:00,2026-10-13 20:24:00,3,Paket 4,Nasi Kotak,20000,50,1000000,selesai,Sedang,2026-10,Saturday,17
+216,NKS-20261006-216,BEM Air Hitam 34,2026-10-06 20:48:00,2026-10-08 01:48:00,1,Snack Box Premium,Snack Box,25000,150,3750000,selesai,Tinggi,2026-10,Tuesday,20
+217,NKS-20260912-217,Fakultas Teknik Vorvo 25,2026-09-12 13:00:00,2026-09-13 15:00:00,1,Snackbox 1,Snack Box,5000,40,200000,selesai,Tinggi,2026-09,Saturday,13
+218,NKS-20261002-218,FEB Unmul Hukum 99,2026-10-02 08:13:00,2026-10-09 11:13:00,7,Snack Box 3,Snack Box,10000,10,100000,selesai,Normal,2026-10,Friday,8
+219,NKS-20261103-219,UKM Dewi 48,2026-11-03 18:19:00,2026-11-03 22:19:00,0,Paket 2 Ayam Bumbu,Nasi Kotak,17000,30,510000,selesai,Tinggi,2026-11,Tuesday,18
+220,NKS-20260901-220,FKIP Unmul Hukum 46,2026-09-01 18:44:00,2026-09-02 19:44:00,1,Snackbox 5,Snack Box,15000,40,600000,selesai,Tinggi,2026-09,Tuesday,18
+221,NKS-20260916-221,Himpunan Mahasiswa Rizky 37,2026-09-16 14:14:00,2026-09-17 15:14:00,1,Snackbox 1,Snack Box,5000,150,750000,selesai,Tinggi,2026-09,Wednesday,14
+221,NKS-20260916-221,Himpunan Mahasiswa Rizky 37,2026-09-16 14:14:00,2026-09-17 15:14:00,1,Paket 2 Ayam Bumbu,Nasi Kotak,17000,10,170000,selesai,Tinggi,2026-09,Wednesday,14
+221,NKS-20260916-221,Himpunan Mahasiswa Rizky 37,2026-09-16 14:14:00,2026-09-17 15:14:00,1,Paket 2,Nasi Kotak,15000,150,2250000,selesai,Tinggi,2026-09,Wednesday,14
+222,NKS-20260902-222,Bapak Sari 90,2026-09-02 16:32:00,2026-09-03 18:32:00,1,Paket 2 Ayam Bumbu,Nasi Kotak,17000,50,850000,selesai,Tinggi,2026-09,Wednesday,16
+223,NKS-20261011-223,Kantor Dinas Ekonomi 57,2026-10-11 18:10:00,2026-10-11 22:10:00,0,Snackbox 1,Snack Box,5000,20,100000,selesai,Tinggi,2026-10,Sunday,18
+224,NKS-20261008-224,FKIP Unmul Rizky 45,2026-10-08 13:31:00,2026-10-11 17:31:00,3,Snack Box 2,Snack Box,7000,150,1050000,selesai,Tinggi,2026-10,Thursday,13
+225,NKS-20261025-225,Karang Taruna Vorvo 86,2026-10-25 18:03:00,2026-10-28 21:03:00,3,Paket 3,Nasi Kotak,17000,25,425000,selesai,Normal,2026-10,Sunday,18
+226,NKS-20261004-226,BEM Fajar 55,2026-10-04 14:27:00,2026-10-11 19:27:00,7,Snack Box 3,Snack Box,10000,15,150000,selesai,Normal,2026-10,Sunday,14
+227,NKS-20261103-227,Himpunan Mahasiswa Nadia 92,2026-11-03 14:38:00,2026-11-08 17:38:00,5,Paket Bebek,Nasi Kotak,33000,50,1650000,selesai,Sedang,2026-11,Tuesday,14
+228,NKS-20260914-228,UKM Ekonomi 5,2026-09-14 17:07:00,2026-09-15 20:07:00,1,Snackbox 5,Snack Box,15000,20,300000,selesai,Tinggi,2026-09,Monday,17
+229,NKS-20260902-229,FEB Unmul Ekonomi 26,2026-09-02 17:18:00,2026-09-04 22:18:00,2,Paket 2,Nasi Kotak,15000,40,600000,selesai,Sedang,2026-09,Wednesday,17
+230,NKS-20260917-230,FEB Unmul Sistem Informasi 78,2026-09-17 10:42:00,2026-09-17 14:42:00,0,Snackbox 5,Snack Box,15000,25,375000,selesai,Tinggi,2026-09,Thursday,10
+230,NKS-20260917-230,FEB Unmul Sistem Informasi 78,2026-09-17 10:42:00,2026-09-17 14:42:00,0,Paket 3,Nasi Kotak,17000,75,1275000,selesai,Tinggi,2026-09,Thursday,10
+230,NKS-20260917-230,FEB Unmul Sistem Informasi 78,2026-09-17 10:42:00,2026-09-17 14:42:00,0,Paket 4,Nasi Kotak,20000,15,300000,selesai,Tinggi,2026-09,Thursday,10
+231,NKS-20260926-231,Fakultas Teknik Ekonomi 14,2026-09-26 19:29:00,2026-10-01 22:29:00,5,Paket 2 Ayam Bumbu,Nasi Kotak,17000,100,1700000,selesai,Tinggi,2026-09,Saturday,19
+231,NKS-20260926-231,Fakultas Teknik Ekonomi 14,2026-09-26 19:29:00,2026-10-01 22:29:00,5,Paket 5,Nasi Kotak,25000,75,1875000,selesai,Tinggi,2026-09,Saturday,19
+232,NKS-20261024-232,Komunitas Sistem Informasi 62,2026-10-24 14:14:00,2026-10-25 16:14:00,1,Paket 4,Nasi Kotak,20000,10,200000,selesai,Tinggi,2026-10,Saturday,14
+232,NKS-20261024-232,Komunitas Sistem Informasi 62,2026-10-24 14:14:00,2026-10-25 16:14:00,1,Snackbox 1,Snack Box,5000,25,125000,selesai,Tinggi,2026-10,Saturday,14
+232,NKS-20261024-232,Komunitas Sistem Informasi 62,2026-10-24 14:14:00,2026-10-25 16:14:00,1,Snack Box 4,Snack Box,12000,100,1200000,selesai,Tinggi,2026-10,Saturday,14
+233,NKS-20261110-233,Fakultas Teknik Hendra 2,2026-11-10 19:42:00,2026-11-11 22:42:00,1,Paket 5,Nasi Kotak,25000,25,625000,selesai,Tinggi,2026-11,Tuesday,19
+233,NKS-20261110-233,Fakultas Teknik Hendra 2,2026-11-10 19:42:00,2026-11-11 22:42:00,1,Snackbox 5,Snack Box,15000,40,600000,selesai,Tinggi,2026-11,Tuesday,19
+233,NKS-20261110-233,Fakultas Teknik Hendra 2,2026-11-10 19:42:00,2026-11-11 22:42:00,1,Paket 2,Nasi Kotak,15000,75,1125000,selesai,Tinggi,2026-11,Tuesday,19
+234,NKS-20261025-234,RSUD AWS Air Hitam 41,2026-10-25 09:43:00,2026-10-26 10:43:00,1,Snackbox 5,Snack Box,15000,10,150000,selesai,Tinggi,2026-10,Sunday,9
+235,NKS-20261106-235,Pengajian Loa Bakung 95,2026-11-06 11:55:00,2026-11-08 16:55:00,2,Paket 3,Nasi Kotak,17000,15,255000,selesai,Normal,2026-11,Friday,11
+235,NKS-20261106-235,Pengajian Loa Bakung 95,2026-11-06 11:55:00,2026-11-08 16:55:00,2,Paket 2 Ayam Bumbu,Nasi Kotak,17000,50,850000,selesai,Sedang,2026-11,Friday,11
+235,NKS-20261106-235,Pengajian Loa Bakung 95,2026-11-06 11:55:00,2026-11-08 16:55:00,2,Snackbox 5,Snack Box,15000,15,225000,selesai,Tinggi,2026-11,Friday,11
+236,NKS-20261112-236,FEB Unmul Rizky 30,2026-11-12 17:31:00,2026-11-14 21:31:00,2,Snackbox 5,Snack Box,15000,30,450000,selesai,Sedang,2026-11,Thursday,17
+236,NKS-20261112-236,FEB Unmul Rizky 30,2026-11-12 17:31:00,2026-11-14 21:31:00,2,Paket 3,Nasi Kotak,17000,40,680000,selesai,Sedang,2026-11,Thursday,17
+236,NKS-20261112-236,FEB Unmul Rizky 30,2026-11-12 17:31:00,2026-11-14 21:31:00,2,Snack Box 4,Snack Box,12000,20,240000,selesai,Tinggi,2026-11,Thursday,17
+237,NKS-20261023-237,Karang Taruna Loa Bakung 97,2026-10-23 08:18:00,2026-10-30 10:18:00,7,Paket 4,Nasi Kotak,20000,100,2000000,selesai,Tinggi,2026-10,Friday,8
+237,NKS-20261023-237,Karang Taruna Loa Bakung 97,2026-10-23 08:18:00,2026-10-30 10:18:00,7,Snack Box 3,Snack Box,10000,100,1000000,selesai,Tinggi,2026-10,Friday,8
+237,NKS-20261023-237,Karang Taruna Loa Bakung 97,2026-10-23 08:18:00,2026-10-30 10:18:00,7,Snack Box 4,Snack Box,12000,75,900000,selesai,Tinggi,2026-10,Friday,8
+238,NKS-20261025-238,Kantor Dinas Yusuf 10,2026-10-25 20:45:00,2026-10-31 01:45:00,5,Paket 2 Ayam Bumbu,Nasi Kotak,17000,15,255000,selesai,Normal,2026-10,Sunday,20
+239,NKS-20261016-239,Fakultas Teknik Vorvo 25,2026-10-16 13:34:00,2026-10-17 16:34:00,1,Paket Bebek,Nasi Kotak,33000,20,660000,selesai,Tinggi,2026-10,Friday,13
+239,NKS-20261016-239,Fakultas Teknik Vorvo 25,2026-10-16 13:34:00,2026-10-17 16:34:00,1,Paket 3,Nasi Kotak,17000,25,425000,selesai,Tinggi,2026-10,Friday,13
+239,NKS-20261016-239,Fakultas Teknik Vorvo 25,2026-10-16 13:34:00,2026-10-17 16:34:00,1,Snack Box 4,Snack Box,12000,30,360000,selesai,Tinggi,2026-10,Friday,13
+240,NKS-20261106-240,Panitia Seminar Sari 6,2026-11-06 12:42:00,2026-11-06 15:42:00,0,Snackbox 5,Snack Box,15000,50,750000,selesai,Tinggi,2026-11,Friday,12
+241,NKS-20261001-241,Komunitas Sistem Informasi 62,2026-10-01 14:25:00,2026-10-01 17:25:00,0,Paket 5,Nasi Kotak,25000,25,625000,selesai,Tinggi,2026-10,Thursday,14
+242,NKS-20261026-242,Bank Kaltimtara Sistem Informasi 69,2026-10-26 20:05:00,2026-10-28 21:05:00,2,Snackbox 1,Snack Box,5000,30,150000,selesai,Sedang,2026-10,Monday,20
+243,NKS-20261109-243,Komunitas Loa Bakung 47,2026-11-09 10:18:00,2026-11-10 14:18:00,1,Snack Box 4,Snack Box,12000,25,300000,selesai,Tinggi,2026-11,Monday,10
+243,NKS-20261109-243,Komunitas Loa Bakung 47,2026-11-09 10:18:00,2026-11-10 14:18:00,1,Paket 5,Nasi Kotak,25000,30,750000,selesai,Tinggi,2026-11,Monday,10
+244,NKS-20261114-244,FEB Unmul Rina 67,2026-11-14 14:58:00,2026-11-19 18:58:00,5,Snackbox 5,Snack Box,15000,150,2250000,selesai,Tinggi,2026-11,Saturday,14
+244,NKS-20261114-244,FEB Unmul Rina 67,2026-11-14 14:58:00,2026-11-19 18:58:00,5,Paket Spesial,Nasi Kotak,30000,25,750000,selesai,Tinggi,2026-11,Saturday,14
+245,NKS-20260915-245,Bapak Sempaja 4,2026-09-15 14:14:00,2026-09-16 16:14:00,1,Paket Bebek,Nasi Kotak,33000,10,330000,dibatalkan,Tinggi,2026-09,Tuesday,14
+245,NKS-20260915-245,Bapak Sempaja 4,2026-09-15 14:14:00,2026-09-16 16:14:00,1,Paket 2 Ayam Bumbu,Nasi Kotak,17000,30,510000,dibatalkan,Tinggi,2026-09,Tuesday,14
+245,NKS-20260915-245,Bapak Sempaja 4,2026-09-15 14:14:00,2026-09-16 16:14:00,1,Snack Box 4,Snack Box,12000,100,1200000,dibatalkan,Tinggi,2026-09,Tuesday,14
+246,NKS-20261005-246,Komunitas Informatika 32,2026-10-05 11:12:00,2026-10-06 13:12:00,1,Paket 1,Nasi Kotak,12000,50,600000,selesai,Tinggi,2026-10,Monday,11
+247,NKS-20261113-247,Bank Kaltimtara Sempaja 63,2026-11-13 11:46:00,2026-11-13 16:46:00,0,Snack Box 3,Snack Box,10000,75,750000,selesai,Tinggi,2026-11,Friday,11
+248,NKS-20260909-248,Bapak Sari 90,2026-09-09 14:18:00,2026-09-10 17:18:00,1,Paket 4,Nasi Kotak,20000,25,500000,selesai,Tinggi,2026-09,Wednesday,14
+248,NKS-20260909-248,Bapak Sari 90,2026-09-09 14:18:00,2026-09-10 17:18:00,1,Snackbox 5,Snack Box,15000,150,2250000,selesai,Tinggi,2026-09,Wednesday,14
+249,NKS-20261114-249,Bapak Rina 33,2026-11-14 18:56:00,2026-11-16 21:56:00,2,Paket Bebek,Nasi Kotak,33000,25,825000,selesai,Normal,2026-11,Saturday,18
+249,NKS-20261114-249,Bapak Rina 33,2026-11-14 18:56:00,2026-11-16 21:56:00,2,Paket 1,Nasi Kotak,12000,30,360000,selesai,Sedang,2026-11,Saturday,18
+250,NKS-20260908-250,Bapak Loa Bakung 96,2026-09-08 11:02:00,2026-09-11 14:02:00,3,Snackbox 1,Snack Box,5000,30,150000,selesai,Sedang,2026-09,Tuesday,11
+250,NKS-20260908-250,Bapak Loa Bakung 96,2026-09-08 11:02:00,2026-09-11 14:02:00,3,Snack Box Premium,Snack Box,25000,75,1875000,selesai,Tinggi,2026-09,Tuesday,11
+251,NKS-20261112-251,BEM Loa Bakung 31,2026-11-12 19:30:00,2026-11-20 00:30:00,7,Paket 3,Nasi Kotak,17000,15,255000,selesai,Normal,2026-11,Thursday,19
+251,NKS-20261112-251,BEM Loa Bakung 31,2026-11-12 19:30:00,2026-11-20 00:30:00,7,Paket Spesial,Nasi Kotak,30000,30,900000,selesai,Sedang,2026-11,Thursday,19
+252,NKS-20260906-252,Pengajian Nadia 36,2026-09-06 19:22:00,2026-09-07 20:22:00,1,Snackbox 5,Snack Box,15000,100,1500000,selesai,Tinggi,2026-09,Sunday,19
+252,NKS-20260906-252,Pengajian Nadia 36,2026-09-06 19:22:00,2026-09-07 20:22:00,1,Snack Box 4,Snack Box,12000,15,180000,selesai,Tinggi,2026-09,Sunday,19
+253,NKS-20260907-253,Komunitas Rina 3,2026-09-07 17:33:00,2026-09-08 21:33:00,1,Snackbox 1,Snack Box,5000,100,500000,selesai,Tinggi,2026-09,Monday,17
+253,NKS-20260907-253,Komunitas Rina 3,2026-09-07 17:33:00,2026-09-08 21:33:00,1,Paket 4,Nasi Kotak,20000,75,1500000,selesai,Tinggi,2026-09,Monday,17
+254,NKS-20260909-254,Ibu Air Hitam 56,2026-09-09 14:17:00,2026-09-12 17:17:00,3,Snack Box 2,Snack Box,7000,75,525000,selesai,Tinggi,2026-09,Wednesday,14
+254,NKS-20260909-254,Ibu Air Hitam 56,2026-09-09 14:17:00,2026-09-12 17:17:00,3,Paket Bebek,Nasi Kotak,33000,20,660000,selesai,Tinggi,2026-09,Wednesday,14
+254,NKS-20260909-254,Ibu Air Hitam 56,2026-09-09 14:17:00,2026-09-12 17:17:00,3,Paket Spesial,Nasi Kotak,30000,30,900000,selesai,Tinggi,2026-09,Wednesday,14
+255,NKS-20260923-255,FEB Unmul Informatika 64,2026-09-23 12:37:00,2026-09-23 15:37:00,0,Paket 4,Nasi Kotak,20000,40,800000,selesai,Tinggi,2026-09,Wednesday,12
+255,NKS-20260923-255,FEB Unmul Informatika 64,2026-09-23 12:37:00,2026-09-23 15:37:00,0,Paket 1,Nasi Kotak,12000,150,1800000,selesai,Tinggi,2026-09,Wednesday,12
+255,NKS-20260923-255,FEB Unmul Informatika 64,2026-09-23 12:37:00,2026-09-23 15:37:00,0,Snackbox 1,Snack Box,5000,15,75000,selesai,Tinggi,2026-09,Wednesday,12
+256,NKS-20261024-256,Fakultas Teknik Fajar 116,2026-10-24 19:30:00,2026-10-27 22:30:00,3,Snackbox 5,Snack Box,15000,75,1125000,selesai,Tinggi,2026-10,Saturday,19
+256,NKS-20261024-256,Fakultas Teknik Fajar 116,2026-10-24 19:30:00,2026-10-27 22:30:00,3,Snack Box 2,Snack Box,7000,75,525000,selesai,Tinggi,2026-10,Saturday,19
+257,NKS-20260905-257,Fakultas Teknik Vorvo 25,2026-09-05 19:19:00,2026-09-06 23:19:00,1,Snackbox 1,Snack Box,5000,30,150000,selesai,Tinggi,2026-09,Saturday,19
+258,NKS-20261111-258,Panitia Seminar Sari 6,2026-11-11 08:06:00,2026-11-13 11:06:00,2,Paket Bebek,Nasi Kotak,33000,50,1650000,selesai,Sedang,2026-11,Wednesday,8
+258,NKS-20261111-258,Panitia Seminar Sari 6,2026-11-11 08:06:00,2026-11-13 11:06:00,2,Snack Box Premium,Snack Box,25000,150,3750000,selesai,Tinggi,2026-11,Wednesday,8
+259,NKS-20260918-259,Komunitas Loa Bakung 47,2026-09-18 14:25:00,2026-09-21 18:25:00,3,Paket 1,Nasi Kotak,12000,15,180000,selesai,Normal,2026-09,Friday,14
+259,NKS-20260918-259,Komunitas Loa Bakung 47,2026-09-18 14:25:00,2026-09-21 18:25:00,3,Paket 2,Nasi Kotak,15000,25,375000,selesai,Sedang,2026-09,Friday,14
+259,NKS-20260918-259,Komunitas Loa Bakung 47,2026-09-18 14:25:00,2026-09-21 18:25:00,3,Snack Box Premium,Snack Box,25000,40,1000000,selesai,Tinggi,2026-09,Friday,14
+260,NKS-20261012-260,BEM Sistem Informasi 53,2026-10-12 15:27:00,2026-10-13 18:27:00,1,Snack Box 4,Snack Box,12000,15,180000,selesai,Tinggi,2026-10,Monday,15
+261,NKS-20261012-261,Fakultas Teknik Ekonomi 14,2026-10-12 18:29:00,2026-10-13 22:29:00,1,Paket 1,Nasi Kotak,12000,75,900000,dibatalkan,Tinggi,2026-10,Monday,18
+262,NKS-20261118-262,Bank Kaltimtara Sistem Informasi 69,2026-11-18 08:40:00,2026-11-21 09:40:00,3,Paket Spesial,Nasi Kotak,30000,10,300000,selesai,Normal,2026-11,Wednesday,8
+262,NKS-20261118-262,Bank Kaltimtara Sistem Informasi 69,2026-11-18 08:40:00,2026-11-21 09:40:00,3,Paket 3,Nasi Kotak,17000,30,510000,selesai,Sedang,2026-11,Wednesday,8
+263,NKS-20261029-263,Panitia Seminar Ekonomi 54,2026-10-29 13:20:00,2026-11-01 14:20:00,3,Paket 3,Nasi Kotak,17000,75,1275000,selesai,Tinggi,2026-10,Thursday,13
+264,NKS-20261105-264,Kantor Dinas Yusuf 10,2026-11-05 08:22:00,2026-11-10 13:22:00,5,Snack Box 3,Snack Box,10000,30,300000,selesai,Sedang,2026-11,Thursday,8
+264,NKS-20261105-264,Kantor Dinas Yusuf 10,2026-11-05 08:22:00,2026-11-10 13:22:00,5,Snack Box 2,Snack Box,7000,75,525000,selesai,Tinggi,2026-11,Thursday,8
+264,NKS-20261105-264,Kantor Dinas Yusuf 10,2026-11-05 08:22:00,2026-11-10 13:22:00,5,Paket 3,Nasi Kotak,17000,50,850000,selesai,Tinggi,2026-11,Thursday,8
+265,NKS-20261004-265,RSUD AWS Sari 50,2026-10-04 12:24:00,2026-10-05 13:24:00,1,Paket 2 Ayam Bumbu,Nasi Kotak,17000,150,2550000,selesai,Tinggi,2026-10,Sunday,12
+265,NKS-20261004-265,RSUD AWS Sari 50,2026-10-04 12:24:00,2026-10-05 13:24:00,1,Snack Box 2,Snack Box,7000,75,525000,selesai,Tinggi,2026-10,Sunday,12
+266,NKS-20260913-266,Himpunan Mahasiswa Dewi 91,2026-09-13 18:03:00,2026-09-15 22:03:00,2,Paket 1,Nasi Kotak,12000,40,480000,selesai,Sedang,2026-09,Sunday,18
+267,NKS-20261014-267,Panitia Seminar Informatika 27,2026-10-14 09:52:00,2026-10-14 12:52:00,0,Paket Bebek,Nasi Kotak,33000,10,330000,selesai,Tinggi,2026-10,Wednesday,9
+268,NKS-20261001-268,Himpunan Mahasiswa Nadia 12,2026-10-01 09:33:00,2026-10-01 14:33:00,0,Paket 2 Ayam Bumbu,Nasi Kotak,17000,25,425000,selesai,Tinggi,2026-10,Thursday,9
+268,NKS-20261001-268,Himpunan Mahasiswa Nadia 12,2026-10-01 09:33:00,2026-10-01 14:33:00,0,Paket 4,Nasi Kotak,20000,50,1000000,selesai,Tinggi,2026-10,Thursday,9
+269,NKS-20261031-269,Bank Kaltimtara Antasari 13,2026-10-31 18:47:00,2026-11-01 22:47:00,1,Snack Box 4,Snack Box,12000,20,240000,selesai,Tinggi,2026-10,Saturday,18
+270,NKS-20261023-270,UKM Dewi 48,2026-10-23 13:09:00,2026-10-24 16:09:00,1,Snackbox 5,Snack Box,15000,150,2250000,selesai,Tinggi,2026-10,Friday,13
+271,NKS-20260927-271,Pengajian Informatika 18,2026-09-27 17:29:00,2026-09-29 22:29:00,2,Paket 1,Nasi Kotak,12000,75,900000,selesai,Tinggi,2026-09,Sunday,17
+272,NKS-20260908-272,Fakultas Teknik Vorvo 25,2026-09-08 11:08:00,2026-09-13 12:08:00,5,Snackbox 1,Snack Box,5000,150,750000,selesai,Tinggi,2026-09,Tuesday,11
+273,NKS-20261105-273,UKM Sempaja 19,2026-11-05 19:39:00,2026-11-07 21:39:00,2,Snack Box 3,Snack Box,10000,15,150000,selesai,Normal,2026-11,Thursday,19
+274,NKS-20260911-274,Panitia Seminar Hendra 28,2026-09-11 08:02:00,2026-09-14 12:02:00,3,Paket Bebek,Nasi Kotak,33000,150,4950000,selesai,Tinggi,2026-09,Friday,8
+275,NKS-20261116-275,Pengajian Nadia 36,2026-11-16 09:26:00,2026-11-19 13:26:00,3,Snack Box 4,Snack Box,12000,10,120000,selesai,Normal,2026-11,Monday,9
+276,NKS-20260919-276,Pengajian Loa Bakung 95,2026-09-19 13:39:00,2026-09-22 15:39:00,3,Snack Box 2,Snack Box,7000,10,70000,selesai,Normal,2026-09,Saturday,13
+277,NKS-20261015-277,Karang Taruna Sari 112,2026-10-15 12:27:00,2026-10-15 16:27:00,0,Paket 4,Nasi Kotak,20000,100,2000000,selesai,Tinggi,2026-10,Thursday,12
+277,NKS-20261015-277,Karang Taruna Sari 112,2026-10-15 12:27:00,2026-10-15 16:27:00,0,Paket 1,Nasi Kotak,12000,150,1800000,selesai,Tinggi,2026-10,Thursday,12
+277,NKS-20261015-277,Karang Taruna Sari 112,2026-10-15 12:27:00,2026-10-15 16:27:00,0,Paket 2,Nasi Kotak,15000,10,150000,selesai,Tinggi,2026-10,Thursday,12
+278,NKS-20260903-278,BEM Loa Bakung 31,2026-09-03 16:00:00,2026-09-04 19:00:00,1,Paket 2,Nasi Kotak,15000,150,2250000,selesai,Tinggi,2026-09,Thursday,16
+278,NKS-20260903-278,BEM Loa Bakung 31,2026-09-03 16:00:00,2026-09-04 19:00:00,1,Paket Spesial,Nasi Kotak,30000,150,4500000,selesai,Tinggi,2026-09,Thursday,16
+279,NKS-20261013-279,FEB Unmul Hukum 99,2026-10-13 20:51:00,2026-10-19 00:51:00,5,Snack Box 4,Snack Box,12000,10,120000,selesai,Normal,2026-10,Tuesday,20
+279,NKS-20261013-279,FEB Unmul Hukum 99,2026-10-13 20:51:00,2026-10-19 00:51:00,5,Paket Bebek,Nasi Kotak,33000,50,1650000,selesai,Sedang,2026-10,Tuesday,20
+280,NKS-20261015-280,Panitia Seminar Ekonomi 54,2026-10-15 09:39:00,2026-10-20 14:39:00,5,Paket 1,Nasi Kotak,12000,20,240000,selesai,Normal,2026-10,Thursday,9
+281,NKS-20260930-281,Fakultas Teknik Fajar 116,2026-09-30 19:29:00,2026-09-30 22:29:00,0,Snackbox 5,Snack Box,15000,150,2250000,selesai,Tinggi,2026-09,Wednesday,19
+282,NKS-20260927-282,Bapak Rizky 114,2026-09-27 12:57:00,2026-09-29 16:57:00,2,Snack Box 4,Snack Box,12000,10,120000,selesai,Normal,2026-09,Sunday,12
+282,NKS-20260927-282,Bapak Rizky 114,2026-09-27 12:57:00,2026-09-29 16:57:00,2,Snackbox 1,Snack Box,5000,150,750000,selesai,Tinggi,2026-09,Sunday,12
+283,NKS-20260922-283,RSUD AWS Antasari 1,2026-09-22 11:14:00,2026-09-27 16:14:00,5,Paket 1,Nasi Kotak,12000,150,1800000,selesai,Tinggi,2026-09,Tuesday,11
+284,NKS-20260925-284,FEB Unmul Ekonomi 26,2026-09-25 16:26:00,2026-09-27 18:26:00,2,Paket 4,Nasi Kotak,20000,40,800000,selesai,Sedang,2026-09,Friday,16
+285,NKS-20261011-285,Bank Kaltimtara Yusuf 21,2026-10-11 19:44:00,2026-10-17 00:44:00,5,Snack Box Premium,Snack Box,25000,10,250000,selesai,Normal,2026-10,Sunday,19
+285,NKS-20261011-285,Bank Kaltimtara Yusuf 21,2026-10-11 19:44:00,2026-10-17 00:44:00,5,Paket Spesial,Nasi Kotak,30000,25,750000,selesai,Sedang,2026-10,Sunday,19
+286,NKS-20261116-286,Kantor Dinas Hendra 60,2026-11-16 19:37:00,2026-11-18 00:37:00,1,Paket 5,Nasi Kotak,25000,40,1000000,selesai,Tinggi,2026-11,Monday,19
+286,NKS-20261116-286,Kantor Dinas Hendra 60,2026-11-16 19:37:00,2026-11-18 00:37:00,1,Paket Spesial,Nasi Kotak,30000,75,2250000,selesai,Tinggi,2026-11,Monday,19
+286,NKS-20261116-286,Kantor Dinas Hendra 60,2026-11-16 19:37:00,2026-11-18 00:37:00,1,Snackbox 5,Snack Box,15000,25,375000,selesai,Tinggi,2026-11,Monday,19
+287,NKS-20261102-287,Bapak Rina 33,2026-11-02 16:50:00,2026-11-03 18:50:00,1,Snackbox 1,Snack Box,5000,40,200000,selesai,Tinggi,2026-11,Monday,16
+287,NKS-20261102-287,Bapak Rina 33,2026-11-02 16:50:00,2026-11-03 18:50:00,1,Paket 1,Nasi Kotak,12000,75,900000,selesai,Tinggi,2026-11,Monday,16
+287,NKS-20261102-287,Bapak Rina 33,2026-11-02 16:50:00,2026-11-03 18:50:00,1,Paket Spesial,Nasi Kotak,30000,150,4500000,selesai,Tinggi,2026-11,Monday,16
+288,NKS-20261001-288,Pengajian Informatika 18,2026-10-01 17:46:00,2026-10-02 21:46:00,1,Paket 5,Nasi Kotak,25000,15,375000,selesai,Tinggi,2026-10,Thursday,17
+288,NKS-20261001-288,Pengajian Informatika 18,2026-10-01 17:46:00,2026-10-02 21:46:00,1,Paket Spesial,Nasi Kotak,30000,50,1500000,selesai,Tinggi,2026-10,Thursday,17
+289,NKS-20261021-289,Bank Kaltimtara Rina 58,2026-10-21 14:33:00,2026-10-26 17:33:00,5,Snackbox 5,Snack Box,15000,15,225000,selesai,Normal,2026-10,Wednesday,14
+289,NKS-20261021-289,Bank Kaltimtara Rina 58,2026-10-21 14:33:00,2026-10-26 17:33:00,5,Snackbox 1,Snack Box,5000,10,50000,selesai,Normal,2026-10,Wednesday,14
+290,NKS-20261018-290,Bank Kaltimtara Yusuf 21,2026-10-18 08:50:00,2026-10-19 13:50:00,1,Snack Box 2,Snack Box,7000,10,70000,selesai,Tinggi,2026-10,Sunday,8
+291,NKS-20260916-291,Komunitas Sistem Informasi 62,2026-09-16 15:46:00,2026-09-18 19:46:00,2,Snack Box 3,Snack Box,10000,10,100000,selesai,Normal,2026-09,Wednesday,15
+291,NKS-20260916-291,Komunitas Sistem Informasi 62,2026-09-16 15:46:00,2026-09-18 19:46:00,2,Snackbox 1,Snack Box,5000,100,500000,selesai,Tinggi,2026-09,Wednesday,15
+291,NKS-20260916-291,Komunitas Sistem Informasi 62,2026-09-16 15:46:00,2026-09-18 19:46:00,2,Paket 2,Nasi Kotak,15000,150,2250000,selesai,Tinggi,2026-09,Wednesday,15
+292,NKS-20261012-292,Pengajian Informatika 72,2026-10-12 17:16:00,2026-10-14 18:16:00,2,Paket Bebek,Nasi Kotak,33000,20,660000,selesai,Normal,2026-10,Monday,17
+293,NKS-20261028-293,Pengajian Informatika 72,2026-10-28 17:35:00,2026-10-31 20:35:00,3,Paket 5,Nasi Kotak,25000,30,750000,selesai,Sedang,2026-10,Wednesday,17
+294,NKS-20261022-294,Karang Taruna Informatika 7,2026-10-22 13:30:00,2026-10-24 14:30:00,2,Snack Box Premium,Snack Box,25000,40,1000000,selesai,Sedang,2026-10,Thursday,13
+294,NKS-20261022-294,Karang Taruna Informatika 7,2026-10-22 13:30:00,2026-10-24 14:30:00,2,Snack Box 3,Snack Box,10000,40,400000,selesai,Tinggi,2026-10,Thursday,13
+294,NKS-20261022-294,Karang Taruna Informatika 7,2026-10-22 13:30:00,2026-10-24 14:30:00,2,Paket Spesial,Nasi Kotak,30000,15,450000,selesai,Tinggi,2026-10,Thursday,13
+295,NKS-20260918-295,UKM Antasari 76,2026-09-18 11:49:00,2026-09-18 16:49:00,0,Paket 2,Nasi Kotak,15000,50,750000,selesai,Tinggi,2026-09,Friday,11
+296,NKS-20261109-296,Ibu Air Hitam 101,2026-11-09 16:48:00,2026-11-09 18:48:00,0,Snack Box Premium,Snack Box,25000,40,1000000,selesai,Tinggi,2026-11,Monday,16
+297,NKS-20260919-297,UKM Hukum 110,2026-09-19 13:57:00,2026-09-20 14:57:00,1,Paket 5,Nasi Kotak,25000,25,625000,selesai,Tinggi,2026-09,Saturday,13
+297,NKS-20260919-297,UKM Hukum 110,2026-09-19 13:57:00,2026-09-20 14:57:00,1,Paket 3,Nasi Kotak,17000,40,680000,selesai,Tinggi,2026-09,Saturday,13
+297,NKS-20260919-297,UKM Hukum 110,2026-09-19 13:57:00,2026-09-20 14:57:00,1,Snack Box 4,Snack Box,12000,15,180000,selesai,Tinggi,2026-09,Saturday,13
+298,NKS-20261102-298,Komunitas Rina 3,2026-11-02 09:12:00,2026-11-03 13:12:00,1,Paket 2,Nasi Kotak,15000,50,750000,selesai,Tinggi,2026-11,Monday,9
+298,NKS-20261102-298,Komunitas Rina 3,2026-11-02 09:12:00,2026-11-03 13:12:00,1,Snackbox 1,Snack Box,5000,100,500000,selesai,Tinggi,2026-11,Monday,9
+299,NKS-20260906-299,Panitia Seminar Rizky 22,2026-09-06 18:11:00,2026-09-08 21:11:00,2,Snack Box 4,Snack Box,12000,30,360000,selesai,Sedang,2026-09,Sunday,18
+300,NKS-20261108-300,BEM Fajar 55,2026-11-08 20:14:00,2026-11-10 00:14:00,1,Paket 1,Nasi Kotak,12000,100,1200000,selesai,Tinggi,2026-11,Sunday,20
+300,NKS-20261108-300,BEM Fajar 55,2026-11-08 20:14:00,2026-11-10 00:14:00,1,Snackbox 1,Snack Box,5000,40,200000,selesai,Tinggi,2026-11,Sunday,20
+301,NKS-20260907-301,Panitia Seminar Informatika 27,2026-09-07 15:38:00,2026-09-08 18:38:00,1,Snack Box 4,Snack Box,12000,50,600000,selesai,Tinggi,2026-09,Monday,15
+301,NKS-20260907-301,Panitia Seminar Informatika 27,2026-09-07 15:38:00,2026-09-08 18:38:00,1,Paket 3,Nasi Kotak,17000,15,255000,selesai,Tinggi,2026-09,Monday,15
+301,NKS-20260907-301,Panitia Seminar Informatika 27,2026-09-07 15:38:00,2026-09-08 18:38:00,1,Paket 2 Ayam Bumbu,Nasi Kotak,17000,25,425000,selesai,Tinggi,2026-09,Monday,15
+302,NKS-20260927-302,RSUD AWS Informatika 81,2026-09-27 08:38:00,2026-09-28 11:38:00,1,Paket Spesial,Nasi Kotak,30000,20,600000,selesai,Tinggi,2026-09,Sunday,8
+303,NKS-20260912-303,Karang Taruna Informatika 7,2026-09-12 10:05:00,2026-09-14 12:05:00,2,Paket 1,Nasi Kotak,12000,10,120000,selesai,Normal,2026-09,Saturday,10
+303,NKS-20260912-303,Karang Taruna Informatika 7,2026-09-12 10:05:00,2026-09-14 12:05:00,2,Paket Spesial,Nasi Kotak,30000,25,750000,selesai,Sedang,2026-09,Saturday,10
+303,NKS-20260912-303,Karang Taruna Informatika 7,2026-09-12 10:05:00,2026-09-14 12:05:00,2,Paket 4,Nasi Kotak,20000,30,600000,selesai,Sedang,2026-09,Saturday,10
+304,NKS-20261025-304,FKIP Unmul Sempaja 87,2026-10-25 15:35:00,2026-10-26 20:35:00,1,Paket 2 Ayam Bumbu,Nasi Kotak,17000,100,1700000,selesai,Tinggi,2026-10,Sunday,15
+304,NKS-20261025-304,FKIP Unmul Sempaja 87,2026-10-25 15:35:00,2026-10-26 20:35:00,1,Snack Box 4,Snack Box,12000,100,1200000,selesai,Tinggi,2026-10,Sunday,15
+304,NKS-20261025-304,FKIP Unmul Sempaja 87,2026-10-25 15:35:00,2026-10-26 20:35:00,1,Paket 2,Nasi Kotak,15000,20,300000,selesai,Tinggi,2026-10,Sunday,15
+305,NKS-20260922-305,RSUD AWS Nadia 66,2026-09-22 13:46:00,2026-09-23 15:46:00,1,Snack Box 3,Snack Box,10000,150,1500000,selesai,Tinggi,2026-09,Tuesday,13
+305,NKS-20260922-305,RSUD AWS Nadia 66,2026-09-22 13:46:00,2026-09-23 15:46:00,1,Snackbox 1,Snack Box,5000,25,125000,selesai,Tinggi,2026-09,Tuesday,13
+305,NKS-20260922-305,RSUD AWS Nadia 66,2026-09-22 13:46:00,2026-09-23 15:46:00,1,Snackbox 5,Snack Box,15000,50,750000,selesai,Tinggi,2026-09,Tuesday,13
+306,NKS-20260901-306,Fakultas Teknik Hendra 2,2026-09-01 18:12:00,2026-09-06 20:12:00,5,Snack Box Premium,Snack Box,25000,150,3750000,selesai,Tinggi,2026-09,Tuesday,18
+306,NKS-20260901-306,Fakultas Teknik Hendra 2,2026-09-01 18:12:00,2026-09-06 20:12:00,5,Snack Box 4,Snack Box,12000,30,360000,selesai,Tinggi,2026-09,Tuesday,18
+306,NKS-20260901-306,Fakultas Teknik Hendra 2,2026-09-01 18:12:00,2026-09-06 20:12:00,5,Paket 1,Nasi Kotak,12000,30,360000,selesai,Tinggi,2026-09,Tuesday,18
+307,NKS-20260918-307,BEM Sistem Informasi 53,2026-09-18 10:53:00,2026-09-19 13:53:00,1,Paket 4,Nasi Kotak,20000,25,500000,dibatalkan,Tinggi,2026-09,Friday,10
+307,NKS-20260918-307,BEM Sistem Informasi 53,2026-09-18 10:53:00,2026-09-19 13:53:00,1,Snack Box 2,Snack Box,7000,50,350000,dibatalkan,Tinggi,2026-09,Friday,10
+307,NKS-20260918-307,BEM Sistem Informasi 53,2026-09-18 10:53:00,2026-09-19 13:53:00,1,Paket Spesial,Nasi Kotak,30000,40,1200000,dibatalkan,Tinggi,2026-09,Friday,10
+308,NKS-20261016-308,Kantor Dinas Hendra 60,2026-10-16 18:23:00,2026-10-17 21:23:00,1,Paket 5,Nasi Kotak,25000,10,250000,selesai,Tinggi,2026-10,Friday,18
+308,NKS-20261016-308,Kantor Dinas Hendra 60,2026-10-16 18:23:00,2026-10-17 21:23:00,1,Paket 2 Ayam Bumbu,Nasi Kotak,17000,150,2550000,selesai,Tinggi,2026-10,Friday,18
+308,NKS-20261016-308,Kantor Dinas Hendra 60,2026-10-16 18:23:00,2026-10-17 21:23:00,1,Snack Box 3,Snack Box,10000,15,150000,selesai,Tinggi,2026-10,Friday,18
+309,NKS-20260930-309,Fakultas Teknik Sari 107,2026-09-30 14:58:00,2026-10-02 18:58:00,2,Snack Box Premium,Snack Box,25000,50,1250000,selesai,Sedang,2026-09,Wednesday,14
+309,NKS-20260930-309,Fakultas Teknik Sari 107,2026-09-30 14:58:00,2026-10-02 18:58:00,2,Paket 1,Nasi Kotak,12000,20,240000,selesai,Sedang,2026-09,Wednesday,14
+309,NKS-20260930-309,Fakultas Teknik Sari 107,2026-09-30 14:58:00,2026-10-02 18:58:00,2,Paket 5,Nasi Kotak,25000,150,3750000,selesai,Tinggi,2026-09,Wednesday,14
+310,NKS-20260916-310,FEB Unmul Rina 67,2026-09-16 13:26:00,2026-09-18 18:26:00,2,Paket 4,Nasi Kotak,20000,100,2000000,dibatalkan,Tinggi,2026-09,Wednesday,13
+311,NKS-20261022-311,Pengajian Nadia 36,2026-10-22 15:54:00,2026-10-23 19:54:00,1,Snack Box 3,Snack Box,10000,25,250000,selesai,Tinggi,2026-10,Thursday,15
+312,NKS-20260901-312,BEM Ekonomi 74,2026-09-01 11:39:00,2026-09-01 12:39:00,0,Paket 4,Nasi Kotak,20000,40,800000,selesai,Tinggi,2026-09,Tuesday,11
+312,NKS-20260901-312,BEM Ekonomi 74,2026-09-01 11:39:00,2026-09-01 12:39:00,0,Paket 2 Ayam Bumbu,Nasi Kotak,17000,20,340000,selesai,Tinggi,2026-09,Tuesday,11
+312,NKS-20260901-312,BEM Ekonomi 74,2026-09-01 11:39:00,2026-09-01 12:39:00,0,Paket 5,Nasi Kotak,25000,30,750000,selesai,Tinggi,2026-09,Tuesday,11
+313,NKS-20260907-313,Pengajian Rina 111,2026-09-07 12:12:00,2026-09-08 13:12:00,1,Paket 5,Nasi Kotak,25000,30,750000,selesai,Tinggi,2026-09,Monday,12
+313,NKS-20260907-313,Pengajian Rina 111,2026-09-07 12:12:00,2026-09-08 13:12:00,1,Paket 3,Nasi Kotak,17000,15,255000,selesai,Tinggi,2026-09,Monday,12
+313,NKS-20260907-313,Pengajian Rina 111,2026-09-07 12:12:00,2026-09-08 13:12:00,1,Paket 4,Nasi Kotak,20000,10,200000,selesai,Tinggi,2026-09,Monday,12
+314,NKS-20260903-314,RSUD AWS Hendra 40,2026-09-03 17:10:00,2026-09-06 22:10:00,3,Paket 5,Nasi Kotak,25000,50,1250000,selesai,Sedang,2026-09,Thursday,17
+315,NKS-20260912-315,Pengajian Sari 49,2026-09-12 14:24:00,2026-09-13 19:24:00,1,Snackbox 1,Snack Box,5000,25,125000,selesai,Tinggi,2026-09,Saturday,14
+315,NKS-20260912-315,Pengajian Sari 49,2026-09-12 14:24:00,2026-09-13 19:24:00,1,Paket Bebek,Nasi Kotak,33000,25,825000,selesai,Tinggi,2026-09,Saturday,14
+315,NKS-20260912-315,Pengajian Sari 49,2026-09-12 14:24:00,2026-09-13 19:24:00,1,Snack Box 2,Snack Box,7000,20,140000,selesai,Tinggi,2026-09,Saturday,14
+316,NKS-20261115-316,FEB Unmul Sistem Informasi 78,2026-11-15 10:31:00,2026-11-22 12:31:00,7,Paket 2 Ayam Bumbu,Nasi Kotak,17000,15,255000,selesai,Normal,2026-11,Sunday,10
+316,NKS-20261115-316,FEB Unmul Sistem Informasi 78,2026-11-15 10:31:00,2026-11-22 12:31:00,7,Snackbox 1,Snack Box,5000,150,750000,selesai,Tinggi,2026-11,Sunday,10
+317,NKS-20260910-317,BEM Loa Bakung 44,2026-09-10 10:58:00,2026-09-13 15:58:00,3,Snackbox 1,Snack Box,5000,20,100000,selesai,Normal,2026-09,Thursday,10
+318,NKS-20260907-318,Ibu Yusuf 68,2026-09-07 18:01:00,2026-09-14 20:01:00,7,Paket 4,Nasi Kotak,20000,15,300000,selesai,Normal,2026-09,Monday,18
+319,NKS-20260923-319,Komunitas Rina 3,2026-09-23 12:26:00,2026-09-24 15:26:00,1,Paket 2,Nasi Kotak,15000,25,375000,selesai,Tinggi,2026-09,Wednesday,12
+320,NKS-20261119-320,Bapak Sempaja 29,2026-11-19 17:29:00,2026-11-22 21:29:00,3,Paket 4,Nasi Kotak,20000,75,1500000,selesai,Tinggi,2026-11,Thursday,17
+321,NKS-20261031-321,Kantor Dinas Loa Bakung 77,2026-10-31 13:15:00,2026-11-03 14:15:00,3,Paket 2,Nasi Kotak,15000,75,1125000,selesai,Tinggi,2026-10,Saturday,13
+322,NKS-20261016-322,Kantor Dinas Antasari 24,2026-10-16 09:44:00,2026-10-18 10:44:00,2,Paket 3,Nasi Kotak,17000,10,170000,selesai,Normal,2026-10,Friday,9
+323,NKS-20261003-323,BEM Loa Bakung 44,2026-10-03 11:48:00,2026-10-08 14:48:00,5,Snack Box Premium,Snack Box,25000,40,1000000,selesai,Sedang,2026-10,Saturday,11
+324,NKS-20261010-324,BEM Fajar 55,2026-10-10 09:07:00,2026-10-15 12:07:00,5,Paket Bebek,Nasi Kotak,33000,10,330000,selesai,Normal,2026-10,Saturday,9
+324,NKS-20261010-324,BEM Fajar 55,2026-10-10 09:07:00,2026-10-15 12:07:00,5,Paket 4,Nasi Kotak,20000,100,2000000,selesai,Tinggi,2026-10,Saturday,9
+324,NKS-20261010-324,BEM Fajar 55,2026-10-10 09:07:00,2026-10-15 12:07:00,5,Paket Spesial,Nasi Kotak,30000,15,450000,selesai,Tinggi,2026-10,Saturday,9
+325,NKS-20261013-325,Bapak Rizky 114,2026-10-13 17:47:00,2026-10-14 19:47:00,1,Snackbox 1,Snack Box,5000,30,150000,selesai,Tinggi,2026-10,Tuesday,17
+325,NKS-20261013-325,Bapak Rizky 114,2026-10-13 17:47:00,2026-10-14 19:47:00,1,Paket 4,Nasi Kotak,20000,10,200000,selesai,Tinggi,2026-10,Tuesday,17
+326,NKS-20261109-326,FEB Unmul Hukum 99,2026-11-09 19:18:00,2026-11-12 23:18:00,3,Paket 3,Nasi Kotak,17000,10,170000,selesai,Normal,2026-11,Monday,19
+326,NKS-20261109-326,FEB Unmul Hukum 99,2026-11-09 19:18:00,2026-11-12 23:18:00,3,Paket 2 Ayam Bumbu,Nasi Kotak,17000,100,1700000,selesai,Tinggi,2026-11,Monday,19
+326,NKS-20261109-326,FEB Unmul Hukum 99,2026-11-09 19:18:00,2026-11-12 23:18:00,3,Paket 1,Nasi Kotak,12000,100,1200000,selesai,Tinggi,2026-11,Monday,19
+327,NKS-20261027-327,Kantor Dinas Ekonomi 57,2026-10-27 20:28:00,2026-10-30 00:28:00,2,Paket 2,Nasi Kotak,15000,50,750000,selesai,Sedang,2026-10,Tuesday,20
+327,NKS-20261027-327,Kantor Dinas Ekonomi 57,2026-10-27 20:28:00,2026-10-30 00:28:00,2,Snack Box 3,Snack Box,10000,25,250000,selesai,Tinggi,2026-10,Tuesday,20
+328,NKS-20261018-328,Fakultas Teknik Vorvo 25,2026-10-18 13:50:00,2026-10-18 14:50:00,0,Paket Spesial,Nasi Kotak,30000,15,450000,selesai,Tinggi,2026-10,Sunday,13
+328,NKS-20261018-328,Fakultas Teknik Vorvo 25,2026-10-18 13:50:00,2026-10-18 14:50:00,0,Snack Box 4,Snack Box,12000,100,1200000,selesai,Tinggi,2026-10,Sunday,13
+329,NKS-20260905-329,FKIP Unmul Rizky 45,2026-09-05 11:05:00,2026-09-05 13:05:00,0,Snackbox 5,Snack Box,15000,100,1500000,selesai,Tinggi,2026-09,Saturday,11
+329,NKS-20260905-329,FKIP Unmul Rizky 45,2026-09-05 11:05:00,2026-09-05 13:05:00,0,Paket 2,Nasi Kotak,15000,40,600000,selesai,Tinggi,2026-09,Saturday,11
+329,NKS-20260905-329,FKIP Unmul Rizky 45,2026-09-05 11:05:00,2026-09-05 13:05:00,0,Paket 2 Ayam Bumbu,Nasi Kotak,17000,10,170000,selesai,Tinggi,2026-09,Saturday,11
+330,NKS-20260930-330,Fakultas Teknik Loa Bakung 15,2026-09-30 17:55:00,2026-10-01 20:55:00,1,Snack Box Premium,Snack Box,25000,15,375000,selesai,Tinggi,2026-09,Wednesday,17
+330,NKS-20260930-330,Fakultas Teknik Loa Bakung 15,2026-09-30 17:55:00,2026-10-01 20:55:00,1,Paket 3,Nasi Kotak,17000,30,510000,selesai,Tinggi,2026-09,Wednesday,17
+331,NKS-20260916-331,FKIP Unmul Hukum 46,2026-09-16 20:14:00,2026-09-23 21:14:00,7,Paket 5,Nasi Kotak,25000,50,1250000,selesai,Sedang,2026-09,Wednesday,20
+332,NKS-20261116-332,FEB Unmul Rizky 30,2026-11-16 09:00:00,2026-11-17 11:00:00,1,Paket 4,Nasi Kotak,20000,30,600000,selesai,Tinggi,2026-11,Monday,9
+332,NKS-20261116-332,FEB Unmul Rizky 30,2026-11-16 09:00:00,2026-11-17 11:00:00,1,Snack Box 3,Snack Box,10000,100,1000000,selesai,Tinggi,2026-11,Monday,9
+333,NKS-20261103-333,Kantor Dinas Ekonomi 57,2026-11-03 19:23:00,2026-11-04 23:23:00,1,Snack Box 2,Snack Box,7000,20,140000,selesai,Tinggi,2026-11,Tuesday,19
+333,NKS-20261103-333,Kantor Dinas Ekonomi 57,2026-11-03 19:23:00,2026-11-04 23:23:00,1,Paket 4,Nasi Kotak,20000,150,3000000,selesai,Tinggi,2026-11,Tuesday,19
+333,NKS-20261103-333,Kantor Dinas Ekonomi 57,2026-11-03 19:23:00,2026-11-04 23:23:00,1,Snack Box 3,Snack Box,10000,100,1000000,selesai,Tinggi,2026-11,Tuesday,19
+334,NKS-20261110-334,Komunitas Loa Bakung 47,2026-11-10 12:23:00,2026-11-12 13:23:00,2,Snack Box Premium,Snack Box,25000,150,3750000,selesai,Tinggi,2026-11,Tuesday,12
+334,NKS-20261110-334,Komunitas Loa Bakung 47,2026-11-10 12:23:00,2026-11-12 13:23:00,2,Snack Box 4,Snack Box,12000,10,120000,selesai,Tinggi,2026-11,Tuesday,12
+335,NKS-20261104-335,Panitia Seminar Air Hitam 52,2026-11-04 19:51:00,2026-11-05 23:51:00,1,Paket 4,Nasi Kotak,20000,75,1500000,selesai,Tinggi,2026-11,Wednesday,19
+336,NKS-20261113-336,Karang Taruna Rina 93,2026-11-13 09:23:00,2026-11-15 10:23:00,2,Paket 4,Nasi Kotak,20000,50,1000000,selesai,Sedang,2026-11,Friday,9
+336,NKS-20261113-336,Karang Taruna Rina 93,2026-11-13 09:23:00,2026-11-15 10:23:00,2,Paket 3,Nasi Kotak,17000,25,425000,selesai,Tinggi,2026-11,Friday,9
+336,NKS-20261113-336,Karang Taruna Rina 93,2026-11-13 09:23:00,2026-11-15 10:23:00,2,Paket 2 Ayam Bumbu,Nasi Kotak,17000,20,340000,selesai,Tinggi,2026-11,Friday,9
+337,NKS-20261025-337,Himpunan Mahasiswa Rizky 89,2026-10-25 17:41:00,2026-10-27 20:41:00,2,Snack Box 3,Snack Box,10000,15,150000,selesai,Normal,2026-10,Sunday,17
+337,NKS-20261025-337,Himpunan Mahasiswa Rizky 89,2026-10-25 17:41:00,2026-10-27 20:41:00,2,Snack Box 2,Snack Box,7000,20,140000,selesai,Sedang,2026-10,Sunday,17
+338,NKS-20261024-338,FKIP Unmul Sempaja 87,2026-10-24 13:39:00,2026-10-26 16:39:00,2,Snack Box 4,Snack Box,12000,75,900000,selesai,Tinggi,2026-10,Saturday,13
+339,NKS-20260920-339,Bapak Vorvo 35,2026-09-20 12:48:00,2026-09-21 15:48:00,1,Paket 4,Nasi Kotak,20000,20,400000,selesai,Tinggi,2026-09,Sunday,12
+339,NKS-20260920-339,Bapak Vorvo 35,2026-09-20 12:48:00,2026-09-21 15:48:00,1,Paket 2 Ayam Bumbu,Nasi Kotak,17000,20,340000,selesai,Tinggi,2026-09,Sunday,12
+340,NKS-20261107-340,FEB Unmul Sistem Informasi 78,2026-11-07 18:39:00,2026-11-08 19:39:00,1,Snack Box Premium,Snack Box,25000,15,375000,selesai,Tinggi,2026-11,Saturday,18
+340,NKS-20261107-340,FEB Unmul Sistem Informasi 78,2026-11-07 18:39:00,2026-11-08 19:39:00,1,Snack Box 3,Snack Box,10000,100,1000000,selesai,Tinggi,2026-11,Saturday,18
+340,NKS-20261107-340,FEB Unmul Sistem Informasi 78,2026-11-07 18:39:00,2026-11-08 19:39:00,1,Paket 4,Nasi Kotak,20000,20,400000,selesai,Tinggi,2026-11,Saturday,18
+341,NKS-20260906-341,Pengajian Informatika 72,2026-09-06 20:45:00,2026-09-07 22:45:00,1,Snackbox 1,Snack Box,5000,150,750000,selesai,Tinggi,2026-09,Sunday,20
+341,NKS-20260906-341,Pengajian Informatika 72,2026-09-06 20:45:00,2026-09-07 22:45:00,1,Snackbox 5,Snack Box,15000,40,600000,selesai,Tinggi,2026-09,Sunday,20
+342,NKS-20261015-342,UKM Antasari 76,2026-10-15 20:19:00,2026-10-16 22:19:00,1,Snackbox 1,Snack Box,5000,25,125000,selesai,Tinggi,2026-10,Thursday,20
+342,NKS-20261015-342,UKM Antasari 76,2026-10-15 20:19:00,2026-10-16 22:19:00,1,Paket 5,Nasi Kotak,25000,25,625000,selesai,Tinggi,2026-10,Thursday,20
+343,NKS-20261101-343,Ibu Vorvo 65,2026-11-01 13:50:00,2026-11-02 16:50:00,1,Snackbox 1,Snack Box,5000,50,250000,selesai,Tinggi,2026-11,Sunday,13
+343,NKS-20261101-343,Ibu Vorvo 65,2026-11-01 13:50:00,2026-11-02 16:50:00,1,Paket 1,Nasi Kotak,12000,20,240000,selesai,Tinggi,2026-11,Sunday,13
+344,NKS-20260922-344,Bank Kaltimtara Sempaja 63,2026-09-22 10:05:00,2026-09-23 11:05:00,1,Paket 1,Nasi Kotak,12000,20,240000,dibatalkan,Tinggi,2026-09,Tuesday,10
+345,NKS-20261115-345,FKIP Unmul Antasari 16,2026-11-15 13:45:00,2026-11-17 14:45:00,2,Snack Box Premium,Snack Box,25000,15,375000,selesai,Normal,2026-11,Sunday,13
+346,NKS-20261012-346,Panitia Seminar Air Hitam 52,2026-10-12 19:55:00,2026-10-14 21:55:00,2,Snackbox 5,Snack Box,15000,30,450000,selesai,Sedang,2026-10,Monday,19
+347,NKS-20260916-347,Karang Taruna Ekonomi 88,2026-09-16 09:20:00,2026-09-17 13:20:00,1,Snack Box 4,Snack Box,12000,10,120000,selesai,Tinggi,2026-09,Wednesday,9
+347,NKS-20260916-347,Karang Taruna Ekonomi 88,2026-09-16 09:20:00,2026-09-17 13:20:00,1,Paket 3,Nasi Kotak,17000,20,340000,selesai,Tinggi,2026-09,Wednesday,9
+347,NKS-20260916-347,Karang Taruna Ekonomi 88,2026-09-16 09:20:00,2026-09-17 13:20:00,1,Paket 2 Ayam Bumbu,Nasi Kotak,17000,75,1275000,selesai,Tinggi,2026-09,Wednesday,9
+348,NKS-20261119-348,RSUD AWS Nadia 66,2026-11-19 15:57:00,2026-11-21 19:57:00,2,Snackbox 1,Snack Box,5000,75,375000,selesai,Tinggi,2026-11,Thursday,15
+349,NKS-20261101-349,Pengajian Loa Bakung 95,2026-11-01 14:08:00,2026-11-03 15:08:00,2,Snack Box Premium,Snack Box,25000,20,500000,selesai,Normal,2026-11,Sunday,14
+350,NKS-20260929-350,Komunitas Air Hitam 109,2026-09-29 17:17:00,2026-10-04 20:17:00,5,Snack Box 4,Snack Box,12000,15,180000,selesai,Normal,2026-09,Tuesday,17
+350,NKS-20260929-350,Komunitas Air Hitam 109,2026-09-29 17:17:00,2026-10-04 20:17:00,5,Paket 2,Nasi Kotak,15000,10,150000,selesai,Normal,2026-09,Tuesday,17
+351,NKS-20261013-351,FEB Unmul Vorvo 71,2026-10-13 20:58:00,2026-10-14 23:58:00,1,Snack Box 3,Snack Box,10000,25,250000,selesai,Tinggi,2026-10,Tuesday,20
+352,NKS-20260930-352,Komunitas Sistem Informasi 62,2026-09-30 20:41:00,2026-10-03 01:41:00,2,Paket 1,Nasi Kotak,12000,30,360000,selesai,Sedang,2026-09,Wednesday,20
+353,NKS-20260927-353,BEM Loa Bakung 44,2026-09-27 17:43:00,2026-09-29 19:43:00,2,Paket 4,Nasi Kotak,20000,15,300000,selesai,Normal,2026-09,Sunday,17
+353,NKS-20260927-353,BEM Loa Bakung 44,2026-09-27 17:43:00,2026-09-29 19:43:00,2,Snack Box 3,Snack Box,10000,50,500000,selesai,Sedang,2026-09,Sunday,17
+353,NKS-20260927-353,BEM Loa Bakung 44,2026-09-27 17:43:00,2026-09-29 19:43:00,2,Paket 1,Nasi Kotak,12000,15,180000,selesai,Tinggi,2026-09,Sunday,17
+354,NKS-20260902-354,UKM Ekonomi 5,2026-09-02 15:54:00,2026-09-04 16:54:00,2,Snack Box 3,Snack Box,10000,150,1500000,selesai,Tinggi,2026-09,Wednesday,15
+354,NKS-20260902-354,UKM Ekonomi 5,2026-09-02 15:54:00,2026-09-04 16:54:00,2,Paket 3,Nasi Kotak,17000,20,340000,selesai,Tinggi,2026-09,Wednesday,15
+354,NKS-20260902-354,UKM Ekonomi 5,2026-09-02 15:54:00,2026-09-04 16:54:00,2,Paket Spesial,Nasi Kotak,30000,25,750000,selesai,Tinggi,2026-09,Wednesday,15
+355,NKS-20261005-355,Bank Kaltimtara Sistem Informasi 69,2026-10-05 20:43:00,2026-10-05 23:43:00,0,Paket 2 Ayam Bumbu,Nasi Kotak,17000,20,340000,selesai,Tinggi,2026-10,Monday,20
+355,NKS-20261005-355,Bank Kaltimtara Sistem Informasi 69,2026-10-05 20:43:00,2026-10-05 23:43:00,0,Paket Spesial,Nasi Kotak,30000,20,600000,selesai,Tinggi,2026-10,Monday,20
+355,NKS-20261005-355,Bank Kaltimtara Sistem Informasi 69,2026-10-05 20:43:00,2026-10-05 23:43:00,0,Snackbox 5,Snack Box,15000,15,225000,selesai,Tinggi,2026-10,Monday,20
+356,NKS-20261109-356,Pengajian Informatika 18,2026-11-09 17:44:00,2026-11-14 20:44:00,5,Snack Box 3,Snack Box,10000,15,150000,selesai,Normal,2026-11,Monday,17
+356,NKS-20261109-356,Pengajian Informatika 18,2026-11-09 17:44:00,2026-11-14 20:44:00,5,Snack Box 2,Snack Box,7000,20,140000,selesai,Sedang,2026-11,Monday,17
+357,NKS-20261102-357,RSUD AWS Fajar 38,2026-11-02 20:42:00,2026-11-03 23:42:00,1,Paket 1,Nasi Kotak,12000,10,120000,selesai,Tinggi,2026-11,Monday,20
+357,NKS-20261102-357,RSUD AWS Fajar 38,2026-11-02 20:42:00,2026-11-03 23:42:00,1,Snack Box 3,Snack Box,10000,100,1000000,selesai,Tinggi,2026-11,Monday,20
+357,NKS-20261102-357,RSUD AWS Fajar 38,2026-11-02 20:42:00,2026-11-03 23:42:00,1,Paket 2,Nasi Kotak,15000,20,300000,selesai,Tinggi,2026-11,Monday,20
+358,NKS-20261106-358,Fakultas Teknik Fajar 116,2026-11-06 16:21:00,2026-11-07 17:21:00,1,Paket 1,Nasi Kotak,12000,50,600000,selesai,Tinggi,2026-11,Friday,16
+358,NKS-20261106-358,Fakultas Teknik Fajar 116,2026-11-06 16:21:00,2026-11-07 17:21:00,1,Snack Box Premium,Snack Box,25000,20,500000,selesai,Tinggi,2026-11,Friday,16
+358,NKS-20261106-358,Fakultas Teknik Fajar 116,2026-11-06 16:21:00,2026-11-07 17:21:00,1,Snack Box 2,Snack Box,7000,150,1050000,selesai,Tinggi,2026-11,Friday,16
+359,NKS-20261003-359,Kantor Dinas Loa Bakung 59,2026-10-03 19:32:00,2026-10-05 23:32:00,2,Paket Spesial,Nasi Kotak,30000,50,1500000,selesai,Sedang,2026-10,Saturday,19
+359,NKS-20261003-359,Kantor Dinas Loa Bakung 59,2026-10-03 19:32:00,2026-10-05 23:32:00,2,Paket 2 Ayam Bumbu,Nasi Kotak,17000,75,1275000,selesai,Tinggi,2026-10,Saturday,19
+359,NKS-20261003-359,Kantor Dinas Loa Bakung 59,2026-10-03 19:32:00,2026-10-05 23:32:00,2,Paket Bebek,Nasi Kotak,33000,150,4950000,selesai,Tinggi,2026-10,Saturday,19
+360,NKS-20260908-360,Himpunan Mahasiswa Nadia 92,2026-09-08 11:21:00,2026-09-09 15:21:00,1,Snack Box 2,Snack Box,7000,10,70000,selesai,Tinggi,2026-09,Tuesday,11
+360,NKS-20260908-360,Himpunan Mahasiswa Nadia 92,2026-09-08 11:21:00,2026-09-09 15:21:00,1,Snackbox 1,Snack Box,5000,10,50000,selesai,Tinggi,2026-09,Tuesday,11
+360,NKS-20260908-360,Himpunan Mahasiswa Nadia 92,2026-09-08 11:21:00,2026-09-09 15:21:00,1,Paket 4,Nasi Kotak,20000,50,1000000,selesai,Tinggi,2026-09,Tuesday,11
+361,NKS-20261017-361,Bapak Rizky 100,2026-10-17 16:32:00,2026-10-18 19:32:00,1,Paket 4,Nasi Kotak,20000,150,3000000,selesai,Tinggi,2026-10,Saturday,16
+361,NKS-20261017-361,Bapak Rizky 100,2026-10-17 16:32:00,2026-10-18 19:32:00,1,Snackbox 5,Snack Box,15000,150,2250000,selesai,Tinggi,2026-10,Saturday,16
+361,NKS-20261017-361,Bapak Rizky 100,2026-10-17 16:32:00,2026-10-18 19:32:00,1,Snackbox 1,Snack Box,5000,100,500000,selesai,Tinggi,2026-10,Saturday,16
+362,NKS-20261109-362,Pengajian Informatika 72,2026-11-09 16:55:00,2026-11-14 21:55:00,5,Snack Box 2,Snack Box,7000,50,350000,selesai,Sedang,2026-11,Monday,16
+362,NKS-20261109-362,Pengajian Informatika 72,2026-11-09 16:55:00,2026-11-14 21:55:00,5,Paket 2,Nasi Kotak,15000,20,300000,selesai,Sedang,2026-11,Monday,16
+362,NKS-20261109-362,Pengajian Informatika 72,2026-11-09 16:55:00,2026-11-14 21:55:00,5,Paket 4,Nasi Kotak,20000,40,800000,selesai,Tinggi,2026-11,Monday,16
+363,NKS-20261102-363,Bapak Loa Bakung 96,2026-11-02 13:54:00,2026-11-04 15:54:00,2,Snackbox 5,Snack Box,15000,15,225000,selesai,Normal,2026-11,Monday,13
+364,NKS-20261022-364,UKM Sempaja 19,2026-10-22 14:42:00,2026-10-29 15:42:00,7,Snackbox 1,Snack Box,5000,50,250000,selesai,Sedang,2026-10,Thursday,14
+364,NKS-20261022-364,UKM Sempaja 19,2026-10-22 14:42:00,2026-10-29 15:42:00,7,Snackbox 5,Snack Box,15000,20,300000,selesai,Sedang,2026-10,Thursday,14
+365,NKS-20261107-365,RSUD AWS Antasari 1,2026-11-07 15:22:00,2026-11-12 19:22:00,5,Snack Box 2,Snack Box,7000,10,70000,selesai,Normal,2026-11,Saturday,15
+366,NKS-20261005-366,Ibu Yusuf 68,2026-10-05 19:39:00,2026-10-08 22:39:00,3,Snack Box Premium,Snack Box,25000,75,1875000,selesai,Tinggi,2026-10,Monday,19
+366,NKS-20261005-366,Ibu Yusuf 68,2026-10-05 19:39:00,2026-10-08 22:39:00,3,Paket 2,Nasi Kotak,15000,25,375000,selesai,Tinggi,2026-10,Monday,19
+366,NKS-20261005-366,Ibu Yusuf 68,2026-10-05 19:39:00,2026-10-08 22:39:00,3,Paket 1,Nasi Kotak,12000,75,900000,selesai,Tinggi,2026-10,Monday,19
+367,NKS-20261025-367,Fakultas Teknik Ekonomi 43,2026-10-25 19:35:00,2026-10-26 00:35:00,0,Paket 3,Nasi Kotak,17000,25,425000,selesai,Tinggi,2026-10,Sunday,19
+368,NKS-20261001-368,BEM Loa Bakung 44,2026-10-01 20:47:00,2026-10-08 23:47:00,7,Paket Spesial,Nasi Kotak,30000,50,1500000,dibatalkan,Sedang,2026-10,Thursday,20
+368,NKS-20261001-368,BEM Loa Bakung 44,2026-10-01 20:47:00,2026-10-08 23:47:00,7,Snackbox 1,Snack Box,5000,30,150000,dibatalkan,Tinggi,2026-10,Thursday,20
+368,NKS-20261001-368,BEM Loa Bakung 44,2026-10-01 20:47:00,2026-10-08 23:47:00,7,Paket 1,Nasi Kotak,12000,15,180000,dibatalkan,Tinggi,2026-10,Thursday,20
+369,NKS-20260928-369,Pengajian Antasari 84,2026-09-28 18:23:00,2026-09-29 22:23:00,1,Snackbox 5,Snack Box,15000,30,450000,selesai,Tinggi,2026-09,Monday,18
+369,NKS-20260928-369,Pengajian Antasari 84,2026-09-28 18:23:00,2026-09-29 22:23:00,1,Snack Box 4,Snack Box,12000,10,120000,selesai,Tinggi,2026-09,Monday,18
+369,NKS-20260928-369,Pengajian Antasari 84,2026-09-28 18:23:00,2026-09-29 22:23:00,1,Snack Box Premium,Snack Box,25000,100,2500000,selesai,Tinggi,2026-09,Monday,18
+370,NKS-20261004-370,UKM Informatika 117,2026-10-04 14:39:00,2026-10-04 19:39:00,0,Paket 4,Nasi Kotak,20000,75,1500000,selesai,Tinggi,2026-10,Sunday,14
+370,NKS-20261004-370,UKM Informatika 117,2026-10-04 14:39:00,2026-10-04 19:39:00,0,Snackbox 5,Snack Box,15000,10,150000,selesai,Tinggi,2026-10,Sunday,14
+371,NKS-20260921-371,RSUD AWS Informatika 81,2026-09-21 15:54:00,2026-09-24 16:54:00,3,Paket 3,Nasi Kotak,17000,75,1275000,selesai,Tinggi,2026-09,Monday,15
+372,NKS-20261110-372,Pengajian Loa Bakung 95,2026-11-10 14:50:00,2026-11-10 15:50:00,0,Snackbox 5,Snack Box,15000,20,300000,selesai,Tinggi,2026-11,Tuesday,14
+372,NKS-20261110-372,Pengajian Loa Bakung 95,2026-11-10 14:50:00,2026-11-10 15:50:00,0,Snack Box Premium,Snack Box,25000,100,2500000,selesai,Tinggi,2026-11,Tuesday,14
+372,NKS-20261110-372,Pengajian Loa Bakung 95,2026-11-10 14:50:00,2026-11-10 15:50:00,0,Paket 2 Ayam Bumbu,Nasi Kotak,17000,75,1275000,selesai,Tinggi,2026-11,Tuesday,14
+373,NKS-20260925-373,Komunitas Rina 3,2026-09-25 20:41:00,2026-09-27 00:41:00,1,Snackbox 1,Snack Box,5000,30,150000,selesai,Tinggi,2026-09,Friday,20
+373,NKS-20260925-373,Komunitas Rina 3,2026-09-25 20:41:00,2026-09-27 00:41:00,1,Paket 5,Nasi Kotak,25000,10,250000,selesai,Tinggi,2026-09,Friday,20
+373,NKS-20260925-373,Komunitas Rina 3,2026-09-25 20:41:00,2026-09-27 00:41:00,1,Snack Box 3,Snack Box,10000,40,400000,selesai,Tinggi,2026-09,Friday,20
+374,NKS-20261031-374,RSUD AWS Fajar 38,2026-10-31 12:43:00,2026-10-31 14:43:00,0,Paket 3,Nasi Kotak,17000,75,1275000,selesai,Tinggi,2026-10,Saturday,12
+375,NKS-20261005-375,BEM Loa Bakung 44,2026-10-05 17:16:00,2026-10-06 20:16:00,1,Paket Bebek,Nasi Kotak,33000,40,1320000,selesai,Tinggi,2026-10,Monday,17
+376,NKS-20261023-376,Komunitas Sistem Informasi 62,2026-10-23 15:18:00,2026-10-26 20:18:00,3,Paket Bebek,Nasi Kotak,33000,30,990000,selesai,Sedang,2026-10,Friday,15
+376,NKS-20261023-376,Komunitas Sistem Informasi 62,2026-10-23 15:18:00,2026-10-26 20:18:00,3,Snack Box Premium,Snack Box,25000,75,1875000,selesai,Tinggi,2026-10,Friday,15
+376,NKS-20261023-376,Komunitas Sistem Informasi 62,2026-10-23 15:18:00,2026-10-26 20:18:00,3,Snack Box 2,Snack Box,7000,10,70000,selesai,Tinggi,2026-10,Friday,15
+377,NKS-20261011-377,Bapak Vorvo 35,2026-10-11 13:48:00,2026-10-12 14:48:00,1,Paket Spesial,Nasi Kotak,30000,15,450000,selesai,Tinggi,2026-10,Sunday,13
+378,NKS-20261031-378,Ibu Dewi 79,2026-10-31 18:00:00,2026-11-02 19:00:00,2,Snack Box 4,Snack Box,12000,15,180000,selesai,Normal,2026-10,Saturday,18
+378,NKS-20261031-378,Ibu Dewi 79,2026-10-31 18:00:00,2026-11-02 19:00:00,2,Paket 5,Nasi Kotak,25000,40,1000000,selesai,Sedang,2026-10,Saturday,18
+378,NKS-20261031-378,Ibu Dewi 79,2026-10-31 18:00:00,2026-11-02 19:00:00,2,Paket 4,Nasi Kotak,20000,40,800000,selesai,Tinggi,2026-10,Saturday,18
+379,NKS-20261004-379,Komunitas Samarinda Seberang 119,2026-10-04 14:57:00,2026-10-05 18:57:00,1,Snackbox 1,Snack Box,5000,25,125000,selesai,Tinggi,2026-10,Sunday,14
+379,NKS-20261004-379,Komunitas Samarinda Seberang 119,2026-10-04 14:57:00,2026-10-05 18:57:00,1,Paket 5,Nasi Kotak,25000,15,375000,selesai,Tinggi,2026-10,Sunday,14
+379,NKS-20261004-379,Komunitas Samarinda Seberang 119,2026-10-04 14:57:00,2026-10-05 18:57:00,1,Paket 2,Nasi Kotak,15000,100,1500000,selesai,Tinggi,2026-10,Sunday,14
+380,NKS-20261005-380,Pengajian Informatika 18,2026-10-05 09:15:00,2026-10-07 10:15:00,2,Paket 2 Ayam Bumbu,Nasi Kotak,17000,20,340000,selesai,Normal,2026-10,Monday,9
+380,NKS-20261005-380,Pengajian Informatika 18,2026-10-05 09:15:00,2026-10-07 10:15:00,2,Snackbox 5,Snack Box,15000,25,375000,selesai,Sedang,2026-10,Monday,9
+381,NKS-20261013-381,FEB Unmul Dewi 106,2026-10-13 17:40:00,2026-10-18 21:40:00,5,Paket 3,Nasi Kotak,17000,75,1275000,selesai,Tinggi,2026-10,Tuesday,17
+381,NKS-20261013-381,FEB Unmul Dewi 106,2026-10-13 17:40:00,2026-10-18 21:40:00,5,Snack Box 4,Snack Box,12000,100,1200000,selesai,Tinggi,2026-10,Tuesday,17
+381,NKS-20261013-381,FEB Unmul Dewi 106,2026-10-13 17:40:00,2026-10-18 21:40:00,5,Snackbox 1,Snack Box,5000,15,75000,selesai,Tinggi,2026-10,Tuesday,17
+382,NKS-20260916-382,FEB Unmul Antasari 98,2026-09-16 13:32:00,2026-09-21 16:32:00,5,Paket 3,Nasi Kotak,17000,10,170000,selesai,Normal,2026-09,Wednesday,13
+382,NKS-20260916-382,FEB Unmul Antasari 98,2026-09-16 13:32:00,2026-09-21 16:32:00,5,Snackbox 5,Snack Box,15000,150,2250000,selesai,Tinggi,2026-09,Wednesday,13
+383,NKS-20260915-383,Pengajian Antasari 103,2026-09-15 20:17:00,2026-09-17 22:17:00,2,Snackbox 5,Snack Box,15000,100,1500000,selesai,Tinggi,2026-09,Tuesday,20
+383,NKS-20260915-383,Pengajian Antasari 103,2026-09-15 20:17:00,2026-09-17 22:17:00,2,Paket 3,Nasi Kotak,17000,100,1700000,selesai,Tinggi,2026-09,Tuesday,20
+383,NKS-20260915-383,Pengajian Antasari 103,2026-09-15 20:17:00,2026-09-17 22:17:00,2,Paket 5,Nasi Kotak,25000,75,1875000,selesai,Tinggi,2026-09,Tuesday,20
+384,NKS-20260915-384,Bapak Rizky 100,2026-09-15 18:11:00,2026-09-17 19:11:00,2,Snackbox 5,Snack Box,15000,25,375000,selesai,Normal,2026-09,Tuesday,18
+385,NKS-20260915-385,FKIP Unmul Rizky 45,2026-09-15 17:15:00,2026-09-15 22:15:00,0,Paket Bebek,Nasi Kotak,33000,20,660000,selesai,Tinggi,2026-09,Tuesday,17
+386,NKS-20260920-386,Bank Kaltimtara Sistem Informasi 69,2026-09-20 17:09:00,2026-09-25 21:09:00,5,Paket 2,Nasi Kotak,15000,30,450000,selesai,Sedang,2026-09,Sunday,17
+386,NKS-20260920-386,Bank Kaltimtara Sistem Informasi 69,2026-09-20 17:09:00,2026-09-25 21:09:00,5,Paket 1,Nasi Kotak,12000,40,480000,selesai,Sedang,2026-09,Sunday,17
+386,NKS-20260920-386,Bank Kaltimtara Sistem Informasi 69,2026-09-20 17:09:00,2026-09-25 21:09:00,5,Paket 5,Nasi Kotak,25000,10,250000,selesai,Tinggi,2026-09,Sunday,17
+387,NKS-20260914-387,Komunitas Sistem Informasi 61,2026-09-14 20:07:00,2026-09-17 23:07:00,3,Paket 5,Nasi Kotak,25000,20,500000,selesai,Normal,2026-09,Monday,20
+388,NKS-20261028-388,Panitia Seminar Air Hitam 52,2026-10-28 10:10:00,2026-10-29 15:10:00,1,Snack Box 2,Snack Box,7000,15,105000,selesai,Tinggi,2026-10,Wednesday,10
+389,NKS-20260926-389,Bapak Loa Bakung 96,2026-09-26 08:54:00,2026-10-01 11:54:00,5,Snack Box 3,Snack Box,10000,20,200000,selesai,Normal,2026-09,Saturday,8
+389,NKS-20260926-389,Bapak Loa Bakung 96,2026-09-26 08:54:00,2026-10-01 11:54:00,5,Paket Spesial,Nasi Kotak,30000,10,300000,selesai,Sedang,2026-09,Saturday,8
+389,NKS-20260926-389,Bapak Loa Bakung 96,2026-09-26 08:54:00,2026-10-01 11:54:00,5,Paket 2,Nasi Kotak,15000,75,1125000,selesai,Tinggi,2026-09,Saturday,8
+390,NKS-20261003-390,Komunitas Sistem Informasi 62,2026-10-03 13:16:00,2026-10-08 15:16:00,5,Snackbox 1,Snack Box,5000,50,250000,selesai,Sedang,2026-10,Saturday,13
+391,NKS-20261112-391,Ibu Dewi 79,2026-11-12 10:50:00,2026-11-17 13:50:00,5,Paket 5,Nasi Kotak,25000,75,1875000,dibatalkan,Tinggi,2026-11,Thursday,10
+391,NKS-20261112-391,Ibu Dewi 79,2026-11-12 10:50:00,2026-11-17 13:50:00,5,Snack Box 2,Snack Box,7000,75,525000,dibatalkan,Tinggi,2026-11,Thursday,10
+391,NKS-20261112-391,Ibu Dewi 79,2026-11-12 10:50:00,2026-11-17 13:50:00,5,Paket 1,Nasi Kotak,12000,40,480000,dibatalkan,Tinggi,2026-11,Thursday,10
+392,NKS-20261003-392,RSUD AWS Hendra 8,2026-10-03 19:01:00,2026-10-04 22:01:00,1,Paket 5,Nasi Kotak,25000,75,1875000,selesai,Tinggi,2026-10,Saturday,19
+392,NKS-20261003-392,RSUD AWS Hendra 8,2026-10-03 19:01:00,2026-10-04 22:01:00,1,Snack Box 4,Snack Box,12000,40,480000,selesai,Tinggi,2026-10,Saturday,19
+393,NKS-20260908-393,BEM Ekonomi 74,2026-09-08 09:54:00,2026-09-08 12:54:00,0,Paket Spesial,Nasi Kotak,30000,15,450000,selesai,Tinggi,2026-09,Tuesday,9
+393,NKS-20260908-393,BEM Ekonomi 74,2026-09-08 09:54:00,2026-09-08 12:54:00,0,Snack Box 3,Snack Box,10000,40,400000,selesai,Tinggi,2026-09,Tuesday,9
+393,NKS-20260908-393,BEM Ekonomi 74,2026-09-08 09:54:00,2026-09-08 12:54:00,0,Snackbox 1,Snack Box,5000,50,250000,selesai,Tinggi,2026-09,Tuesday,9
+394,NKS-20261117-394,Pengajian Informatika 18,2026-11-17 13:29:00,2026-11-18 14:29:00,1,Paket 2,Nasi Kotak,15000,15,225000,selesai,Tinggi,2026-11,Tuesday,13
+394,NKS-20261117-394,Pengajian Informatika 18,2026-11-17 13:29:00,2026-11-18 14:29:00,1,Paket 1,Nasi Kotak,12000,10,120000,selesai,Tinggi,2026-11,Tuesday,13
+394,NKS-20261117-394,Pengajian Informatika 18,2026-11-17 13:29:00,2026-11-18 14:29:00,1,Snackbox 1,Snack Box,5000,50,250000,selesai,Tinggi,2026-11,Tuesday,13
+395,NKS-20261021-395,Bapak Sari 90,2026-10-21 08:18:00,2026-10-22 12:18:00,1,Paket 2 Ayam Bumbu,Nasi Kotak,17000,75,1275000,selesai,Tinggi,2026-10,Wednesday,8
+395,NKS-20261021-395,Bapak Sari 90,2026-10-21 08:18:00,2026-10-22 12:18:00,1,Snackbox 1,Snack Box,5000,15,75000,selesai,Tinggi,2026-10,Wednesday,8
+396,NKS-20261119-396,Panitia Seminar Rizky 22,2026-11-19 20:57:00,2026-11-20 00:57:00,0,Paket 2 Ayam Bumbu,Nasi Kotak,17000,25,425000,selesai,Tinggi,2026-11,Thursday,20
+396,NKS-20261119-396,Panitia Seminar Rizky 22,2026-11-19 20:57:00,2026-11-20 00:57:00,0,Paket Bebek,Nasi Kotak,33000,100,3300000,selesai,Tinggi,2026-11,Thursday,20
+397,NKS-20260920-397,FKIP Unmul Loa Bakung 51,2026-09-20 12:29:00,2026-09-22 13:29:00,2,Snack Box Premium,Snack Box,25000,75,1875000,selesai,Tinggi,2026-09,Sunday,12
+397,NKS-20260920-397,FKIP Unmul Loa Bakung 51,2026-09-20 12:29:00,2026-09-22 13:29:00,2,Snack Box 2,Snack Box,7000,50,350000,selesai,Tinggi,2026-09,Sunday,12
+397,NKS-20260920-397,FKIP Unmul Loa Bakung 51,2026-09-20 12:29:00,2026-09-22 13:29:00,2,Paket Spesial,Nasi Kotak,30000,15,450000,selesai,Tinggi,2026-09,Sunday,12
+398,NKS-20261113-398,Bapak Rizky 100,2026-11-13 20:12:00,2026-11-16 21:12:00,3,Paket Bebek,Nasi Kotak,33000,30,990000,selesai,Sedang,2026-11,Friday,20
+398,NKS-20261113-398,Bapak Rizky 100,2026-11-13 20:12:00,2026-11-16 21:12:00,3,Paket 1,Nasi Kotak,12000,40,480000,selesai,Sedang,2026-11,Friday,20
+399,NKS-20261021-399,UKM Antasari 76,2026-10-21 09:02:00,2026-10-21 12:02:00,0,Paket 3,Nasi Kotak,17000,30,510000,selesai,Tinggi,2026-10,Wednesday,9
+399,NKS-20261021-399,UKM Antasari 76,2026-10-21 09:02:00,2026-10-21 12:02:00,0,Snack Box 4,Snack Box,12000,75,900000,selesai,Tinggi,2026-10,Wednesday,9
+399,NKS-20261021-399,UKM Antasari 76,2026-10-21 09:02:00,2026-10-21 12:02:00,0,Snackbox 1,Snack Box,5000,25,125000,selesai,Tinggi,2026-10,Wednesday,9
+400,NKS-20261111-400,Panitia Seminar Ekonomi 54,2026-11-11 14:22:00,2026-11-13 18:22:00,2,Paket 5,Nasi Kotak,25000,20,500000,selesai,Normal,2026-11,Wednesday,14
+400,NKS-20261111-400,Panitia Seminar Ekonomi 54,2026-11-11 14:22:00,2026-11-13 18:22:00,2,Snack Box 3,Snack Box,10000,50,500000,selesai,Sedang,2026-11,Wednesday,14
+401,NKS-20261111-401,FKIP Unmul Sempaja 87,2026-11-11 13:09:00,2026-11-12 14:09:00,1,Paket 5,Nasi Kotak,25000,100,2500000,selesai,Tinggi,2026-11,Wednesday,13
+401,NKS-20261111-401,FKIP Unmul Sempaja 87,2026-11-11 13:09:00,2026-11-12 14:09:00,1,Paket 1,Nasi Kotak,12000,75,900000,selesai,Tinggi,2026-11,Wednesday,13
+401,NKS-20261111-401,FKIP Unmul Sempaja 87,2026-11-11 13:09:00,2026-11-12 14:09:00,1,Snackbox 5,Snack Box,15000,15,225000,selesai,Tinggi,2026-11,Wednesday,13
+402,NKS-20261115-402,FKIP Unmul Antasari 16,2026-11-15 12:29:00,2026-11-16 16:29:00,1,Paket 2,Nasi Kotak,15000,75,1125000,selesai,Tinggi,2026-11,Sunday,12
+402,NKS-20261115-402,FKIP Unmul Antasari 16,2026-11-15 12:29:00,2026-11-16 16:29:00,1,Snack Box 2,Snack Box,7000,75,525000,selesai,Tinggi,2026-11,Sunday,12
+403,NKS-20261012-403,Bapak Rina 17,2026-10-12 13:29:00,2026-10-14 15:29:00,2,Snack Box 2,Snack Box,7000,150,1050000,selesai,Tinggi,2026-10,Monday,13
+403,NKS-20261012-403,Bapak Rina 17,2026-10-12 13:29:00,2026-10-14 15:29:00,2,Paket 3,Nasi Kotak,17000,40,680000,selesai,Tinggi,2026-10,Monday,13
+403,NKS-20261012-403,Bapak Rina 17,2026-10-12 13:29:00,2026-10-14 15:29:00,2,Snackbox 1,Snack Box,5000,150,750000,selesai,Tinggi,2026-10,Monday,13
+404,NKS-20261027-404,Pengajian Antasari 84,2026-10-27 09:00:00,2026-10-29 11:00:00,2,Paket 1,Nasi Kotak,12000,30,360000,selesai,Sedang,2026-10,Tuesday,9
+404,NKS-20261027-404,Pengajian Antasari 84,2026-10-27 09:00:00,2026-10-29 11:00:00,2,Snack Box Premium,Snack Box,25000,30,750000,selesai,Sedang,2026-10,Tuesday,9
+404,NKS-20261027-404,Pengajian Antasari 84,2026-10-27 09:00:00,2026-10-29 11:00:00,2,Paket 2 Ayam Bumbu,Nasi Kotak,17000,75,1275000,selesai,Tinggi,2026-10,Tuesday,9
+405,NKS-20261103-405,UKM Ekonomi 5,2026-11-03 08:20:00,2026-11-05 10:20:00,2,Paket 1,Nasi Kotak,12000,100,1200000,selesai,Tinggi,2026-11,Tuesday,8
+406,NKS-20260916-406,UKM Yusuf 85,2026-09-16 20:18:00,2026-09-19 21:18:00,3,Paket 5,Nasi Kotak,25000,75,1875000,selesai,Tinggi,2026-09,Wednesday,20
+406,NKS-20260916-406,UKM Yusuf 85,2026-09-16 20:18:00,2026-09-19 21:18:00,3,Paket 3,Nasi Kotak,17000,100,1700000,selesai,Tinggi,2026-09,Wednesday,20
+407,NKS-20261108-407,Fakultas Teknik Loa Bakung 102,2026-11-08 10:57:00,2026-11-13 15:57:00,5,Snackbox 5,Snack Box,15000,100,1500000,selesai,Tinggi,2026-11,Sunday,10
+408,NKS-20261028-408,FKIP Unmul Sempaja 87,2026-10-28 09:20:00,2026-10-28 13:20:00,0,Snack Box 2,Snack Box,7000,10,70000,selesai,Tinggi,2026-10,Wednesday,9
+409,NKS-20260925-409,Panitia Seminar Informatika 27,2026-09-25 09:01:00,2026-09-27 13:01:00,2,Paket 3,Nasi Kotak,17000,10,170000,selesai,Normal,2026-09,Friday,9
+410,NKS-20261012-410,RSUD AWS Nadia 66,2026-10-12 20:45:00,2026-10-13 22:45:00,1,Paket 1,Nasi Kotak,12000,20,240000,selesai,Tinggi,2026-10,Monday,20
+410,NKS-20261012-410,RSUD AWS Nadia 66,2026-10-12 20:45:00,2026-10-13 22:45:00,1,Snackbox 1,Snack Box,5000,20,100000,selesai,Tinggi,2026-10,Monday,20
+410,NKS-20261012-410,RSUD AWS Nadia 66,2026-10-12 20:45:00,2026-10-13 22:45:00,1,Paket 4,Nasi Kotak,20000,40,800000,selesai,Tinggi,2026-10,Monday,20
+411,NKS-20261015-411,Pengajian Sari 49,2026-10-15 10:17:00,2026-10-15 13:17:00,0,Paket 2,Nasi Kotak,15000,150,2250000,selesai,Tinggi,2026-10,Thursday,10
+411,NKS-20261015-411,Pengajian Sari 49,2026-10-15 10:17:00,2026-10-15 13:17:00,0,Paket Bebek,Nasi Kotak,33000,25,825000,selesai,Tinggi,2026-10,Thursday,10
+411,NKS-20261015-411,Pengajian Sari 49,2026-10-15 10:17:00,2026-10-15 13:17:00,0,Paket Spesial,Nasi Kotak,30000,15,450000,selesai,Tinggi,2026-10,Thursday,10
+412,NKS-20261105-412,Himpunan Mahasiswa Dewi 91,2026-11-05 20:41:00,2026-11-07 00:41:00,1,Paket 4,Nasi Kotak,20000,20,400000,selesai,Tinggi,2026-11,Thursday,20
+412,NKS-20261105-412,Himpunan Mahasiswa Dewi 91,2026-11-05 20:41:00,2026-11-07 00:41:00,1,Snack Box Premium,Snack Box,25000,15,375000,selesai,Tinggi,2026-11,Thursday,20
+412,NKS-20261105-412,Himpunan Mahasiswa Dewi 91,2026-11-05 20:41:00,2026-11-07 00:41:00,1,Paket Spesial,Nasi Kotak,30000,30,900000,selesai,Tinggi,2026-11,Thursday,20
+413,NKS-20260928-413,RSUD AWS Nadia 66,2026-09-28 20:28:00,2026-09-29 23:28:00,1,Snack Box 3,Snack Box,10000,100,1000000,selesai,Tinggi,2026-09,Monday,20
+413,NKS-20260928-413,RSUD AWS Nadia 66,2026-09-28 20:28:00,2026-09-29 23:28:00,1,Paket Spesial,Nasi Kotak,30000,20,600000,selesai,Tinggi,2026-09,Monday,20
+413,NKS-20260928-413,RSUD AWS Nadia 66,2026-09-28 20:28:00,2026-09-29 23:28:00,1,Snack Box 4,Snack Box,12000,50,600000,selesai,Tinggi,2026-09,Monday,20
+414,NKS-20261027-414,BEM Sistem Informasi 53,2026-10-27 13:23:00,2026-10-30 17:23:00,3,Snackbox 1,Snack Box,5000,50,250000,selesai,Sedang,2026-10,Tuesday,13
+415,NKS-20261007-415,Bank Kaltimtara Yusuf 21,2026-10-07 08:00:00,2026-10-10 09:00:00,3,Snack Box 3,Snack Box,10000,25,250000,dibatalkan,Normal,2026-10,Wednesday,8
+415,NKS-20261007-415,Bank Kaltimtara Yusuf 21,2026-10-07 08:00:00,2026-10-10 09:00:00,3,Paket 4,Nasi Kotak,20000,100,2000000,dibatalkan,Tinggi,2026-10,Wednesday,8
+416,NKS-20260907-416,Bapak Vorvo 35,2026-09-07 09:41:00,2026-09-07 12:41:00,0,Paket 1,Nasi Kotak,12000,25,300000,selesai,Tinggi,2026-09,Monday,9
+417,NKS-20261002-417,Fakultas Teknik Loa Bakung 15,2026-10-02 13:08:00,2026-10-02 15:08:00,0,Paket 2 Ayam Bumbu,Nasi Kotak,17000,15,255000,selesai,Tinggi,2026-10,Friday,13
+417,NKS-20261002-417,Fakultas Teknik Loa Bakung 15,2026-10-02 13:08:00,2026-10-02 15:08:00,0,Paket 2,Nasi Kotak,15000,75,1125000,selesai,Tinggi,2026-10,Friday,13
+417,NKS-20261002-417,Fakultas Teknik Loa Bakung 15,2026-10-02 13:08:00,2026-10-02 15:08:00,0,Snack Box 4,Snack Box,12000,50,600000,selesai,Tinggi,2026-10,Friday,13
+418,NKS-20261017-418,FEB Unmul Air Hitam 9,2026-10-17 14:13:00,2026-10-19 18:13:00,2,Paket 2 Ayam Bumbu,Nasi Kotak,17000,15,255000,selesai,Normal,2026-10,Saturday,14
+418,NKS-20261017-418,FEB Unmul Air Hitam 9,2026-10-17 14:13:00,2026-10-19 18:13:00,2,Snack Box 2,Snack Box,7000,25,175000,selesai,Sedang,2026-10,Saturday,14
+419,NKS-20260925-419,Bapak Rina 17,2026-09-25 10:45:00,2026-09-27 11:45:00,2,Snack Box 4,Snack Box,12000,75,900000,selesai,Tinggi,2026-09,Friday,10
+420,NKS-20261019-420,UKM Yusuf 85,2026-10-19 11:45:00,2026-10-24 14:45:00,5,Snack Box 2,Snack Box,7000,30,210000,selesai,Sedang,2026-10,Monday,11
+421,NKS-20260909-421,Bapak Loa Bakung 96,2026-09-09 17:05:00,2026-09-09 19:05:00,0,Paket 1,Nasi Kotak,12000,150,1800000,selesai,Tinggi,2026-09,Wednesday,17
+422,NKS-20260903-422,Karang Taruna Loa Bakung 97,2026-09-03 20:28:00,2026-09-10 21:28:00,7,Paket Spesial,Nasi Kotak,30000,40,1200000,selesai,Sedang,2026-09,Thursday,20
+422,NKS-20260903-422,Karang Taruna Loa Bakung 97,2026-09-03 20:28:00,2026-09-10 21:28:00,7,Paket 3,Nasi Kotak,17000,25,425000,selesai,Sedang,2026-09,Thursday,20
+422,NKS-20260903-422,Karang Taruna Loa Bakung 97,2026-09-03 20:28:00,2026-09-10 21:28:00,7,Paket 2,Nasi Kotak,15000,30,450000,selesai,Tinggi,2026-09,Thursday,20
+423,NKS-20261004-423,Karang Taruna Ekonomi 88,2026-10-04 11:06:00,2026-10-06 16:06:00,2,Paket 4,Nasi Kotak,20000,150,3000000,selesai,Tinggi,2026-10,Sunday,11
+423,NKS-20261004-423,Karang Taruna Ekonomi 88,2026-10-04 11:06:00,2026-10-06 16:06:00,2,Paket 2,Nasi Kotak,15000,20,300000,selesai,Tinggi,2026-10,Sunday,11
+423,NKS-20261004-423,Karang Taruna Ekonomi 88,2026-10-04 11:06:00,2026-10-06 16:06:00,2,Paket Bebek,Nasi Kotak,33000,10,330000,selesai,Tinggi,2026-10,Sunday,11
+424,NKS-20260906-424,Karang Taruna Rina 93,2026-09-06 19:30:00,2026-09-07 00:30:00,0,Paket 2 Ayam Bumbu,Nasi Kotak,17000,75,1275000,selesai,Tinggi,2026-09,Sunday,19
+424,NKS-20260906-424,Karang Taruna Rina 93,2026-09-06 19:30:00,2026-09-07 00:30:00,0,Snackbox 1,Snack Box,5000,30,150000,selesai,Tinggi,2026-09,Sunday,19
+425,NKS-20260930-425,UKM Sempaja 19,2026-09-30 08:09:00,2026-10-02 11:09:00,2,Snackbox 1,Snack Box,5000,40,200000,selesai,Sedang,2026-09,Wednesday,8
+425,NKS-20260930-425,UKM Sempaja 19,2026-09-30 08:09:00,2026-10-02 11:09:00,2,Paket Spesial,Nasi Kotak,30000,10,300000,selesai,Sedang,2026-09,Wednesday,8
+425,NKS-20260930-425,UKM Sempaja 19,2026-09-30 08:09:00,2026-10-02 11:09:00,2,Snack Box 3,Snack Box,10000,40,400000,selesai,Tinggi,2026-09,Wednesday,8
+426,NKS-20260916-426,Bank Kaltimtara Rina 70,2026-09-16 17:43:00,2026-09-16 18:43:00,0,Paket 2 Ayam Bumbu,Nasi Kotak,17000,75,1275000,selesai,Tinggi,2026-09,Wednesday,17
+426,NKS-20260916-426,Bank Kaltimtara Rina 70,2026-09-16 17:43:00,2026-09-16 18:43:00,0,Snack Box Premium,Snack Box,25000,15,375000,selesai,Tinggi,2026-09,Wednesday,17
+427,NKS-20260916-427,BEM Loa Bakung 44,2026-09-16 08:17:00,2026-09-17 11:17:00,1,Paket 3,Nasi Kotak,17000,20,340000,selesai,Tinggi,2026-09,Wednesday,8
+427,NKS-20260916-427,BEM Loa Bakung 44,2026-09-16 08:17:00,2026-09-17 11:17:00,1,Snack Box 2,Snack Box,7000,10,70000,selesai,Tinggi,2026-09,Wednesday,8
+428,NKS-20261006-428,FKIP Unmul Antasari 115,2026-10-06 20:05:00,2026-10-06 23:05:00,0,Snackbox 1,Snack Box,5000,25,125000,selesai,Tinggi,2026-10,Tuesday,20
+428,NKS-20261006-428,FKIP Unmul Antasari 115,2026-10-06 20:05:00,2026-10-06 23:05:00,0,Paket 2,Nasi Kotak,15000,10,150000,selesai,Tinggi,2026-10,Tuesday,20
+429,NKS-20260928-429,Pengajian Informatika 72,2026-09-28 18:35:00,2026-09-30 22:35:00,2,Snack Box Premium,Snack Box,25000,30,750000,selesai,Sedang,2026-09,Monday,18
+429,NKS-20260928-429,Pengajian Informatika 72,2026-09-28 18:35:00,2026-09-30 22:35:00,2,Paket 2 Ayam Bumbu,Nasi Kotak,17000,50,850000,selesai,Tinggi,2026-09,Monday,18
+429,NKS-20260928-429,Pengajian Informatika 72,2026-09-28 18:35:00,2026-09-30 22:35:00,2,Paket 5,Nasi Kotak,25000,25,625000,selesai,Tinggi,2026-09,Monday,18
+430,NKS-20260907-430,Panitia Seminar Ekonomi 54,2026-09-07 11:01:00,2026-09-08 12:01:00,1,Paket 1,Nasi Kotak,12000,15,180000,selesai,Tinggi,2026-09,Monday,11
+431,NKS-20261024-431,Pengajian Antasari 103,2026-10-24 10:13:00,2026-10-31 12:13:00,7,Paket 5,Nasi Kotak,25000,15,375000,selesai,Normal,2026-10,Saturday,10
+431,NKS-20261024-431,Pengajian Antasari 103,2026-10-24 10:13:00,2026-10-31 12:13:00,7,Paket Bebek,Nasi Kotak,33000,10,330000,selesai,Normal,2026-10,Saturday,10
+432,NKS-20260905-432,Bapak Loa Bakung 96,2026-09-05 10:41:00,2026-09-06 11:41:00,1,Snackbox 1,Snack Box,5000,50,250000,selesai,Tinggi,2026-09,Saturday,10
+433,NKS-20261014-433,Komunitas Air Hitam 109,2026-10-14 16:36:00,2026-10-14 21:36:00,0,Snackbox 1,Snack Box,5000,25,125000,selesai,Tinggi,2026-10,Wednesday,16
+434,NKS-20261103-434,BEM Air Hitam 34,2026-11-03 20:05:00,2026-11-04 21:05:00,1,Snack Box 3,Snack Box,10000,10,100000,dibatalkan,Tinggi,2026-11,Tuesday,20
+435,NKS-20261105-435,BEM Fajar 55,2026-11-05 20:54:00,2026-11-05 23:54:00,0,Snackbox 5,Snack Box,15000,15,225000,selesai,Tinggi,2026-11,Thursday,20
+435,NKS-20261105-435,BEM Fajar 55,2026-11-05 20:54:00,2026-11-05 23:54:00,0,Paket Bebek,Nasi Kotak,33000,75,2475000,selesai,Tinggi,2026-11,Thursday,20
+435,NKS-20261105-435,BEM Fajar 55,2026-11-05 20:54:00,2026-11-05 23:54:00,0,Paket Spesial,Nasi Kotak,30000,50,1500000,selesai,Tinggi,2026-11,Thursday,20
+436,NKS-20260906-436,Bapak Sempaja 29,2026-09-06 17:35:00,2026-09-06 21:35:00,0,Snackbox 5,Snack Box,15000,50,750000,selesai,Tinggi,2026-09,Sunday,17
+436,NKS-20260906-436,Bapak Sempaja 29,2026-09-06 17:35:00,2026-09-06 21:35:00,0,Paket 3,Nasi Kotak,17000,25,425000,selesai,Tinggi,2026-09,Sunday,17
+436,NKS-20260906-436,Bapak Sempaja 29,2026-09-06 17:35:00,2026-09-06 21:35:00,0,Paket Bebek,Nasi Kotak,33000,20,660000,selesai,Tinggi,2026-09,Sunday,17
+437,NKS-20261110-437,Ibu Air Hitam 101,2026-11-10 13:30:00,2026-11-17 14:30:00,7,Paket Bebek,Nasi Kotak,33000,25,825000,selesai,Normal,2026-11,Tuesday,13
+437,NKS-20261110-437,Ibu Air Hitam 101,2026-11-10 13:30:00,2026-11-17 14:30:00,7,Paket 2,Nasi Kotak,15000,25,375000,selesai,Sedang,2026-11,Tuesday,13
+437,NKS-20261110-437,Ibu Air Hitam 101,2026-11-10 13:30:00,2026-11-17 14:30:00,7,Snack Box 4,Snack Box,12000,40,480000,selesai,Tinggi,2026-11,Tuesday,13
+438,NKS-20261114-438,FEB Unmul Antasari 98,2026-11-14 17:01:00,2026-11-14 20:01:00,0,Paket 3,Nasi Kotak,17000,20,340000,selesai,Tinggi,2026-11,Saturday,17
+438,NKS-20261114-438,FEB Unmul Antasari 98,2026-11-14 17:01:00,2026-11-14 20:01:00,0,Snack Box 3,Snack Box,10000,25,250000,selesai,Tinggi,2026-11,Saturday,17
+438,NKS-20261114-438,FEB Unmul Antasari 98,2026-11-14 17:01:00,2026-11-14 20:01:00,0,Paket 5,Nasi Kotak,25000,15,375000,selesai,Tinggi,2026-11,Saturday,17
+439,NKS-20261030-439,RSUD AWS Informatika 81,2026-10-30 16:28:00,2026-10-31 20:28:00,1,Paket 2,Nasi Kotak,15000,30,450000,selesai,Tinggi,2026-10,Friday,16
+439,NKS-20261030-439,RSUD AWS Informatika 81,2026-10-30 16:28:00,2026-10-31 20:28:00,1,Paket 5,Nasi Kotak,25000,15,375000,selesai,Tinggi,2026-10,Friday,16
+439,NKS-20261030-439,RSUD AWS Informatika 81,2026-10-30 16:28:00,2026-10-31 20:28:00,1,Snackbox 1,Snack Box,5000,150,750000,selesai,Tinggi,2026-10,Friday,16
+440,NKS-20261026-440,BEM Ekonomi 74,2026-10-26 17:54:00,2026-10-29 19:54:00,3,Paket Spesial,Nasi Kotak,30000,150,4500000,selesai,Tinggi,2026-10,Monday,17
+441,NKS-20260906-441,Komunitas Samarinda Seberang 119,2026-09-06 18:59:00,2026-09-09 21:59:00,3,Snack Box 4,Snack Box,12000,150,1800000,selesai,Tinggi,2026-09,Sunday,18
+442,NKS-20261029-442,Panitia Seminar Sari 6,2026-10-29 12:47:00,2026-10-30 14:47:00,1,Snack Box Premium,Snack Box,25000,75,1875000,selesai,Tinggi,2026-10,Thursday,12
+443,NKS-20260902-443,Bank Kaltimtara Sempaja 63,2026-09-02 08:01:00,2026-09-03 09:01:00,1,Snack Box 4,Snack Box,12000,40,480000,selesai,Tinggi,2026-09,Wednesday,8
+444,NKS-20261001-444,FKIP Unmul Hukum 46,2026-10-01 10:34:00,2026-10-01 12:34:00,0,Snack Box 3,Snack Box,10000,100,1000000,selesai,Tinggi,2026-10,Thursday,10
+444,NKS-20261001-444,FKIP Unmul Hukum 46,2026-10-01 10:34:00,2026-10-01 12:34:00,0,Paket 4,Nasi Kotak,20000,15,300000,selesai,Tinggi,2026-10,Thursday,10
+444,NKS-20261001-444,FKIP Unmul Hukum 46,2026-10-01 10:34:00,2026-10-01 12:34:00,0,Paket Spesial,Nasi Kotak,30000,150,4500000,selesai,Tinggi,2026-10,Thursday,10
+445,NKS-20260926-445,BEM Ekonomi 74,2026-09-26 09:18:00,2026-10-01 12:18:00,5,Snack Box 4,Snack Box,12000,20,240000,selesai,Normal,2026-09,Saturday,9
+445,NKS-20260926-445,BEM Ekonomi 74,2026-09-26 09:18:00,2026-10-01 12:18:00,5,Paket 2,Nasi Kotak,15000,25,375000,selesai,Sedang,2026-09,Saturday,9
+445,NKS-20260926-445,BEM Ekonomi 74,2026-09-26 09:18:00,2026-10-01 12:18:00,5,Paket Bebek,Nasi Kotak,33000,25,825000,selesai,Sedang,2026-09,Saturday,9
+446,NKS-20260904-446,RSUD AWS Hendra 40,2026-09-04 08:39:00,2026-09-04 13:39:00,0,Snack Box 3,Snack Box,10000,15,150000,dibatalkan,Tinggi,2026-09,Friday,8
+446,NKS-20260904-446,RSUD AWS Hendra 40,2026-09-04 08:39:00,2026-09-04 13:39:00,0,Snackbox 5,Snack Box,15000,30,450000,dibatalkan,Tinggi,2026-09,Friday,8
+446,NKS-20260904-446,RSUD AWS Hendra 40,2026-09-04 08:39:00,2026-09-04 13:39:00,0,Paket 4,Nasi Kotak,20000,15,300000,dibatalkan,Tinggi,2026-09,Friday,8
+447,NKS-20260916-447,Ibu Vorvo 65,2026-09-16 18:33:00,2026-09-16 23:33:00,0,Paket 1,Nasi Kotak,12000,30,360000,selesai,Tinggi,2026-09,Wednesday,18
+447,NKS-20260916-447,Ibu Vorvo 65,2026-09-16 18:33:00,2026-09-16 23:33:00,0,Snack Box Premium,Snack Box,25000,100,2500000,selesai,Tinggi,2026-09,Wednesday,18
+447,NKS-20260916-447,Ibu Vorvo 65,2026-09-16 18:33:00,2026-09-16 23:33:00,0,Paket 3,Nasi Kotak,17000,150,2550000,selesai,Tinggi,2026-09,Wednesday,18
+448,NKS-20260920-448,Ibu Yusuf 75,2026-09-20 12:27:00,2026-09-22 15:27:00,2,Snack Box 2,Snack Box,7000,10,70000,selesai,Normal,2026-09,Sunday,12
+449,NKS-20261104-449,FKIP Unmul Sempaja 87,2026-11-04 13:40:00,2026-11-04 14:40:00,0,Snack Box 3,Snack Box,10000,75,750000,selesai,Tinggi,2026-11,Wednesday,13
+450,NKS-20260902-450,Pengajian Yusuf 120,2026-09-02 11:43:00,2026-09-05 16:43:00,3,Paket Spesial,Nasi Kotak,30000,10,300000,selesai,Normal,2026-09,Wednesday,11
+450,NKS-20260902-450,Pengajian Yusuf 120,2026-09-02 11:43:00,2026-09-05 16:43:00,3,Paket 1,Nasi Kotak,12000,40,480000,selesai,Sedang,2026-09,Wednesday,11
+451,NKS-20261019-451,Bapak Rizky 114,2026-10-19 17:20:00,2026-10-22 18:20:00,3,Snack Box 4,Snack Box,12000,40,480000,selesai,Sedang,2026-10,Monday,17
+451,NKS-20261019-451,Bapak Rizky 114,2026-10-19 17:20:00,2026-10-22 18:20:00,3,Paket Spesial,Nasi Kotak,30000,20,600000,selesai,Sedang,2026-10,Monday,17
+452,NKS-20261002-452,FEB Unmul Air Hitam 20,2026-10-02 14:57:00,2026-10-05 18:57:00,3,Snackbox 5,Snack Box,15000,30,450000,selesai,Sedang,2026-10,Friday,14
+453,NKS-20261025-453,Bapak Sari 90,2026-10-25 09:24:00,2026-10-28 12:24:00,3,Snack Box Premium,Snack Box,25000,100,2500000,selesai,Tinggi,2026-10,Sunday,9
+454,NKS-20260904-454,BEM Air Hitam 34,2026-09-04 19:30:00,2026-09-07 00:30:00,2,Snack Box 3,Snack Box,10000,75,750000,selesai,Tinggi,2026-09,Friday,19
+454,NKS-20260904-454,BEM Air Hitam 34,2026-09-04 19:30:00,2026-09-07 00:30:00,2,Paket Spesial,Nasi Kotak,30000,30,900000,selesai,Tinggi,2026-09,Friday,19
+455,NKS-20261026-455,Fakultas Teknik Fajar 116,2026-10-26 20:08:00,2026-10-28 21:08:00,2,Paket 5,Nasi Kotak,25000,10,250000,selesai,Normal,2026-10,Monday,20
+455,NKS-20261026-455,Fakultas Teknik Fajar 116,2026-10-26 20:08:00,2026-10-28 21:08:00,2,Paket 3,Nasi Kotak,17000,20,340000,selesai,Sedang,2026-10,Monday,20
+455,NKS-20261026-455,Fakultas Teknik Fajar 116,2026-10-26 20:08:00,2026-10-28 21:08:00,2,Snack Box 4,Snack Box,12000,50,600000,selesai,Tinggi,2026-10,Monday,20
+456,NKS-20261015-456,BEM Air Hitam 34,2026-10-15 14:35:00,2026-10-16 16:35:00,1,Snack Box 2,Snack Box,7000,25,175000,selesai,Tinggi,2026-10,Thursday,14
+457,NKS-20261028-457,FEB Unmul Sistem Informasi 78,2026-10-28 08:38:00,2026-10-29 10:38:00,1,Paket 3,Nasi Kotak,17000,150,2550000,dibatalkan,Tinggi,2026-10,Wednesday,8
+458,NKS-20261104-458,FEB Unmul Ekonomi 26,2026-11-04 10:54:00,2026-11-05 15:54:00,1,Snack Box 2,Snack Box,7000,75,525000,dibatalkan,Tinggi,2026-11,Wednesday,10
+459,NKS-20261114-459,FEB Unmul Sistem Informasi 78,2026-11-14 10:04:00,2026-11-16 14:04:00,2,Paket 5,Nasi Kotak,25000,30,750000,dibatalkan,Sedang,2026-11,Saturday,10
+459,NKS-20261114-459,FEB Unmul Sistem Informasi 78,2026-11-14 10:04:00,2026-11-16 14:04:00,2,Paket 3,Nasi Kotak,17000,10,170000,dibatalkan,Sedang,2026-11,Saturday,10
+460,NKS-20260910-460,Bapak Sempaja 29,2026-09-10 16:30:00,2026-09-12 17:30:00,2,Paket 4,Nasi Kotak,20000,100,2000000,selesai,Tinggi,2026-09,Thursday,16
+461,NKS-20260903-461,FEB Unmul Dewi 106,2026-09-03 09:42:00,2026-09-03 13:42:00,0,Snack Box 3,Snack Box,10000,20,200000,diproses,Tinggi,2026-09,Thursday,9
+461,NKS-20260903-461,FEB Unmul Dewi 106,2026-09-03 09:42:00,2026-09-03 13:42:00,0,Snack Box 2,Snack Box,7000,75,525000,diproses,Tinggi,2026-09,Thursday,9
+462,NKS-20261002-462,Bapak Rina 17,2026-10-02 19:15:00,2026-10-04 21:15:00,2,Paket 2,Nasi Kotak,15000,20,300000,diproses,Normal,2026-10,Friday,19
+463,NKS-20260904-463,Bapak Rizky 114,2026-09-04 14:30:00,2026-09-05 17:30:00,1,Snack Box 3,Snack Box,10000,30,300000,dikonfirmasi,Tinggi,2026-09,Friday,14
+463,NKS-20260904-463,Bapak Rizky 114,2026-09-04 14:30:00,2026-09-05 17:30:00,1,Paket 1,Nasi Kotak,12000,15,180000,dikonfirmasi,Tinggi,2026-09,Friday,14
+463,NKS-20260904-463,Bapak Rizky 114,2026-09-04 14:30:00,2026-09-05 17:30:00,1,Paket Spesial,Nasi Kotak,30000,150,4500000,dikonfirmasi,Tinggi,2026-09,Friday,14
+464,NKS-20261005-464,Himpunan Mahasiswa Rizky 37,2026-10-05 10:52:00,2026-10-06 14:52:00,1,Snackbox 5,Snack Box,15000,75,1125000,diproses,Tinggi,2026-10,Monday,10
+464,NKS-20261005-464,Himpunan Mahasiswa Rizky 37,2026-10-05 10:52:00,2026-10-06 14:52:00,1,Snackbox 1,Snack Box,5000,30,150000,diproses,Tinggi,2026-10,Monday,10
+464,NKS-20261005-464,Himpunan Mahasiswa Rizky 37,2026-10-05 10:52:00,2026-10-06 14:52:00,1,Snack Box 4,Snack Box,12000,30,360000,diproses,Tinggi,2026-10,Monday,10
+465,NKS-20261118-465,FEB Unmul Dewi 106,2026-11-18 10:04:00,2026-11-20 14:04:00,2,Snack Box Premium,Snack Box,25000,40,1000000,siap,Sedang,2026-11,Wednesday,10
+465,NKS-20261118-465,FEB Unmul Dewi 106,2026-11-18 10:04:00,2026-11-20 14:04:00,2,Snackbox 1,Snack Box,5000,40,200000,siap,Tinggi,2026-11,Wednesday,10
+466,NKS-20260905-466,Bapak Sempaja 4,2026-09-05 15:53:00,2026-09-08 16:53:00,3,Snack Box 4,Snack Box,12000,25,300000,dikonfirmasi,Normal,2026-09,Saturday,15
+466,NKS-20260905-466,Bapak Sempaja 4,2026-09-05 15:53:00,2026-09-08 16:53:00,3,Snackbox 5,Snack Box,15000,30,450000,dikonfirmasi,Sedang,2026-09,Saturday,15
+466,NKS-20260905-466,Bapak Sempaja 4,2026-09-05 15:53:00,2026-09-08 16:53:00,3,Paket Bebek,Nasi Kotak,33000,25,825000,dikonfirmasi,Tinggi,2026-09,Saturday,15
+467,NKS-20261013-467,Pengajian Nadia 36,2026-10-13 12:18:00,2026-10-16 16:18:00,3,Paket Spesial,Nasi Kotak,30000,20,600000,diproses,Normal,2026-10,Tuesday,12
+468,NKS-20260905-468,Kantor Dinas Hendra 60,2026-09-05 10:24:00,2026-09-08 11:24:00,3,Snack Box 3,Snack Box,10000,15,150000,dikonfirmasi,Normal,2026-09,Saturday,10
+468,NKS-20260905-468,Kantor Dinas Hendra 60,2026-09-05 10:24:00,2026-09-08 11:24:00,3,Paket Spesial,Nasi Kotak,30000,15,450000,dikonfirmasi,Sedang,2026-09,Saturday,10
+469,NKS-20261112-469,BEM Ekonomi 74,2026-11-12 19:55:00,2026-11-15 00:55:00,2,Paket 1,Nasi Kotak,12000,15,180000,menunggu_konfirmasi,Normal,2026-11,Thursday,19
+469,NKS-20261112-469,BEM Ekonomi 74,2026-11-12 19:55:00,2026-11-15 00:55:00,2,Snack Box Premium,Snack Box,25000,150,3750000,menunggu_konfirmasi,Tinggi,2026-11,Thursday,19
+470,NKS-20260921-470,Bapak Rina 17,2026-09-21 20:47:00,2026-09-26 23:47:00,5,Snack Box 3,Snack Box,10000,40,400000,menunggu_konfirmasi,Sedang,2026-09,Monday,20
+470,NKS-20260921-470,Bapak Rina 17,2026-09-21 20:47:00,2026-09-26 23:47:00,5,Paket Spesial,Nasi Kotak,30000,75,2250000,menunggu_konfirmasi,Tinggi,2026-09,Monday,20
+471,NKS-20260901-471,Bapak Hendra 82,2026-09-01 09:08:00,2026-09-04 10:08:00,3,Snackbox 1,Snack Box,5000,75,375000,dikonfirmasi,Tinggi,2026-09,Tuesday,9
+472,NKS-20260920-472,Karang Taruna Ekonomi 88,2026-09-20 11:54:00,2026-09-20 16:54:00,0,Snack Box 2,Snack Box,7000,15,105000,menunggu_konfirmasi,Tinggi,2026-09,Sunday,11
+473,NKS-20260914-473,Pengajian Antasari 103,2026-09-14 15:55:00,2026-09-14 16:55:00,0,Paket 5,Nasi Kotak,25000,15,375000,siap,Tinggi,2026-09,Monday,15
+474,NKS-20261012-474,Karang Taruna Sari 112,2026-10-12 18:27:00,2026-10-17 23:27:00,5,Snackbox 5,Snack Box,15000,50,750000,siap,Sedang,2026-10,Monday,18
+474,NKS-20261012-474,Karang Taruna Sari 112,2026-10-12 18:27:00,2026-10-17 23:27:00,5,Paket 1,Nasi Kotak,12000,50,600000,siap,Tinggi,2026-10,Monday,18
+474,NKS-20261012-474,Karang Taruna Sari 112,2026-10-12 18:27:00,2026-10-17 23:27:00,5,Snack Box Premium,Snack Box,25000,75,1875000,siap,Tinggi,2026-10,Monday,18
+475,NKS-20261015-475,UKM Ekonomi 5,2026-10-15 14:15:00,2026-10-18 15:15:00,3,Paket Bebek,Nasi Kotak,33000,10,330000,menunggu_konfirmasi,Normal,2026-10,Thursday,14
+475,NKS-20261015-475,UKM Ekonomi 5,2026-10-15 14:15:00,2026-10-18 15:15:00,3,Snack Box Premium,Snack Box,25000,50,1250000,menunggu_konfirmasi,Sedang,2026-10,Thursday,14
+475,NKS-20261015-475,UKM Ekonomi 5,2026-10-15 14:15:00,2026-10-18 15:15:00,3,Paket 5,Nasi Kotak,25000,25,625000,menunggu_konfirmasi,Tinggi,2026-10,Thursday,14
+476,NKS-20261111-476,Ibu Loa Bakung 94,2026-11-11 17:31:00,2026-11-14 22:31:00,3,Paket Spesial,Nasi Kotak,30000,50,1500000,diproses,Sedang,2026-11,Wednesday,17
+476,NKS-20261111-476,Ibu Loa Bakung 94,2026-11-11 17:31:00,2026-11-14 22:31:00,3,Paket 2,Nasi Kotak,15000,10,150000,diproses,Sedang,2026-11,Wednesday,17
+477,NKS-20260915-477,Bapak Rina 17,2026-09-15 15:58:00,2026-09-16 18:58:00,1,Snackbox 1,Snack Box,5000,40,200000,siap,Tinggi,2026-09,Tuesday,15
+477,NKS-20260915-477,Bapak Rina 17,2026-09-15 15:58:00,2026-09-16 18:58:00,1,Paket Spesial,Nasi Kotak,30000,75,2250000,siap,Tinggi,2026-09,Tuesday,15
+478,NKS-20260921-478,Karang Taruna Loa Bakung 97,2026-09-21 18:09:00,2026-09-24 19:09:00,3,Paket Bebek,Nasi Kotak,33000,150,4950000,menunggu_konfirmasi,Tinggi,2026-09,Monday,18
+478,NKS-20260921-478,Karang Taruna Loa Bakung 97,2026-09-21 18:09:00,2026-09-24 19:09:00,3,Paket 5,Nasi Kotak,25000,20,500000,menunggu_konfirmasi,Tinggi,2026-09,Monday,18
+478,NKS-20260921-478,Karang Taruna Loa Bakung 97,2026-09-21 18:09:00,2026-09-24 19:09:00,3,Snackbox 5,Snack Box,15000,30,450000,menunggu_konfirmasi,Tinggi,2026-09,Monday,18
+479,NKS-20260924-479,Bapak Sari 90,2026-09-24 08:27:00,2026-09-26 10:27:00,2,Snack Box 4,Snack Box,12000,100,1200000,siap,Tinggi,2026-09,Thursday,8
+480,NKS-20261118-480,BEM Loa Bakung 31,2026-11-18 14:54:00,2026-11-21 16:54:00,3,Paket 3,Nasi Kotak,17000,25,425000,menunggu_konfirmasi,Normal,2026-11,Wednesday,14
+480,NKS-20261118-480,BEM Loa Bakung 31,2026-11-18 14:54:00,2026-11-21 16:54:00,3,Snackbox 1,Snack Box,5000,40,200000,menunggu_konfirmasi,Sedang,2026-11,Wednesday,14
+481,NKS-20260922-481,Bank Kaltimtara Antasari 13,2026-09-22 18:58:00,2026-09-25 21:58:00,3,Snackbox 5,Snack Box,15000,100,1500000,dikonfirmasi,Tinggi,2026-09,Tuesday,18
+481,NKS-20260922-481,Bank Kaltimtara Antasari 13,2026-09-22 18:58:00,2026-09-25 21:58:00,3,Paket Spesial,Nasi Kotak,30000,30,900000,dikonfirmasi,Tinggi,2026-09,Tuesday,18
+481,NKS-20260922-481,Bank Kaltimtara Antasari 13,2026-09-22 18:58:00,2026-09-25 21:58:00,3,Paket Bebek,Nasi Kotak,33000,50,1650000,dikonfirmasi,Tinggi,2026-09,Tuesday,18
+482,NKS-20260919-482,Bank Kaltimtara Samarinda Seberang 23,2026-09-19 14:44:00,2026-09-21 15:44:00,2,Snack Box 4,Snack Box,12000,15,180000,menunggu_konfirmasi,Normal,2026-09,Saturday,14
+483,NKS-20261118-483,Bank Kaltimtara Sempaja 39,2026-11-18 14:55:00,2026-11-20 16:55:00,2,Paket Bebek,Nasi Kotak,33000,50,1650000,diproses,Sedang,2026-11,Wednesday,14
+483,NKS-20261118-483,Bank Kaltimtara Sempaja 39,2026-11-18 14:55:00,2026-11-20 16:55:00,2,Paket 2,Nasi Kotak,15000,150,2250000,diproses,Tinggi,2026-11,Wednesday,14
+484,NKS-20261108-484,Komunitas Sistem Informasi 62,2026-11-08 11:33:00,2026-11-13 16:33:00,5,Snack Box 4,Snack Box,12000,30,360000,siap,Sedang,2026-11,Sunday,11
+484,NKS-20261108-484,Komunitas Sistem Informasi 62,2026-11-08 11:33:00,2026-11-13 16:33:00,5,Paket 2 Ayam Bumbu,Nasi Kotak,17000,15,255000,siap,Sedang,2026-11,Sunday,11
+484,NKS-20261108-484,Komunitas Sistem Informasi 62,2026-11-08 11:33:00,2026-11-13 16:33:00,5,Snackbox 1,Snack Box,5000,25,125000,siap,Sedang,2026-11,Sunday,11
+485,NKS-20261012-485,BEM Dewi 104,2026-10-12 20:39:00,2026-10-13 01:39:00,0,Snack Box 2,Snack Box,7000,20,140000,diproses,Tinggi,2026-10,Monday,20
+485,NKS-20261012-485,BEM Dewi 104,2026-10-12 20:39:00,2026-10-13 01:39:00,0,Paket 4,Nasi Kotak,20000,75,1500000,diproses,Tinggi,2026-10,Monday,20
+486,NKS-20260901-486,FKIP Unmul Hukum 46,2026-09-01 09:24:00,2026-09-01 14:24:00,0,Paket 2 Ayam Bumbu,Nasi Kotak,17000,30,510000,siap,Tinggi,2026-09,Tuesday,9
+486,NKS-20260901-486,FKIP Unmul Hukum 46,2026-09-01 09:24:00,2026-09-01 14:24:00,0,Paket 5,Nasi Kotak,25000,20,500000,siap,Tinggi,2026-09,Tuesday,9
+486,NKS-20260901-486,FKIP Unmul Hukum 46,2026-09-01 09:24:00,2026-09-01 14:24:00,0,Snack Box 4,Snack Box,12000,150,1800000,siap,Tinggi,2026-09,Tuesday,9
+487,NKS-20261103-487,Fakultas Teknik Vorvo 25,2026-11-03 13:04:00,2026-11-05 16:04:00,2,Snack Box 4,Snack Box,12000,50,600000,menunggu_konfirmasi,Sedang,2026-11,Tuesday,13
+487,NKS-20261103-487,Fakultas Teknik Vorvo 25,2026-11-03 13:04:00,2026-11-05 16:04:00,2,Paket Bebek,Nasi Kotak,33000,10,330000,menunggu_konfirmasi,Sedang,2026-11,Tuesday,13
+487,NKS-20261103-487,Fakultas Teknik Vorvo 25,2026-11-03 13:04:00,2026-11-05 16:04:00,2,Paket 4,Nasi Kotak,20000,10,200000,menunggu_konfirmasi,Sedang,2026-11,Tuesday,13
+488,NKS-20261106-488,Pengajian Informatika 72,2026-11-06 19:52:00,2026-11-08 23:52:00,2,Paket Bebek,Nasi Kotak,33000,10,330000,diproses,Normal,2026-11,Friday,19
+488,NKS-20261106-488,Pengajian Informatika 72,2026-11-06 19:52:00,2026-11-08 23:52:00,2,Paket 1,Nasi Kotak,12000,40,480000,diproses,Sedang,2026-11,Friday,19
+488,NKS-20261106-488,Pengajian Informatika 72,2026-11-06 19:52:00,2026-11-08 23:52:00,2,Paket 2,Nasi Kotak,15000,30,450000,diproses,Tinggi,2026-11,Friday,19
+489,NKS-20261102-489,FEB Unmul Antasari 98,2026-11-02 19:40:00,2026-11-06 00:40:00,3,Paket Bebek,Nasi Kotak,33000,15,495000,siap,Normal,2026-11,Monday,19
+489,NKS-20261102-489,FEB Unmul Antasari 98,2026-11-02 19:40:00,2026-11-06 00:40:00,3,Paket 5,Nasi Kotak,25000,40,1000000,siap,Sedang,2026-11,Monday,19
+489,NKS-20261102-489,FEB Unmul Antasari 98,2026-11-02 19:40:00,2026-11-06 00:40:00,3,Paket Spesial,Nasi Kotak,30000,100,3000000,siap,Tinggi,2026-11,Monday,19
+490,NKS-20261016-490,Kantor Dinas Loa Bakung 77,2026-10-16 09:22:00,2026-10-16 10:22:00,0,Paket 1,Nasi Kotak,12000,30,360000,menunggu_konfirmasi,Tinggi,2026-10,Friday,9
+490,NKS-20261016-490,Kantor Dinas Loa Bakung 77,2026-10-16 09:22:00,2026-10-16 10:22:00,0,Snack Box 3,Snack Box,10000,25,250000,menunggu_konfirmasi,Tinggi,2026-10,Friday,9
+490,NKS-20261016-490,Kantor Dinas Loa Bakung 77,2026-10-16 09:22:00,2026-10-16 10:22:00,0,Paket 2,Nasi Kotak,15000,20,300000,menunggu_konfirmasi,Tinggi,2026-10,Friday,9
+491,NKS-20260907-491,RSUD AWS Sari 50,2026-09-07 17:24:00,2026-09-09 18:24:00,2,Snack Box Premium,Snack Box,25000,25,625000,menunggu_konfirmasi,Normal,2026-09,Monday,17
+491,NKS-20260907-491,RSUD AWS Sari 50,2026-09-07 17:24:00,2026-09-09 18:24:00,2,Snackbox 1,Snack Box,5000,25,125000,menunggu_konfirmasi,Sedang,2026-09,Monday,17
+491,NKS-20260907-491,RSUD AWS Sari 50,2026-09-07 17:24:00,2026-09-09 18:24:00,2,Paket Spesial,Nasi Kotak,30000,150,4500000,menunggu_konfirmasi,Tinggi,2026-09,Monday,17
+492,NKS-20261021-492,Bapak Rizky 100,2026-10-21 11:03:00,2026-10-21 15:03:00,0,Snack Box 2,Snack Box,7000,15,105000,dikonfirmasi,Tinggi,2026-10,Wednesday,11
+492,NKS-20261021-492,Bapak Rizky 100,2026-10-21 11:03:00,2026-10-21 15:03:00,0,Paket 2 Ayam Bumbu,Nasi Kotak,17000,10,170000,dikonfirmasi,Tinggi,2026-10,Wednesday,11
+492,NKS-20261021-492,Bapak Rizky 100,2026-10-21 11:03:00,2026-10-21 15:03:00,0,Paket 4,Nasi Kotak,20000,50,1000000,dikonfirmasi,Tinggi,2026-10,Wednesday,11
+493,NKS-20261006-493,Bank Kaltimtara Rina 58,2026-10-06 14:09:00,2026-10-11 18:09:00,5,Paket 2 Ayam Bumbu,Nasi Kotak,17000,25,425000,dikonfirmasi,Normal,2026-10,Tuesday,14
+493,NKS-20261006-493,Bank Kaltimtara Rina 58,2026-10-06 14:09:00,2026-10-11 18:09:00,5,Snackbox 5,Snack Box,15000,15,225000,dikonfirmasi,Sedang,2026-10,Tuesday,14
+493,NKS-20261006-493,Bank Kaltimtara Rina 58,2026-10-06 14:09:00,2026-10-11 18:09:00,5,Paket 3,Nasi Kotak,17000,100,1700000,dikonfirmasi,Tinggi,2026-10,Tuesday,14
+494,NKS-20261105-494,Ibu Vorvo 65,2026-11-05 09:38:00,2026-11-06 10:38:00,1,Paket 2,Nasi Kotak,15000,25,375000,dikonfirmasi,Tinggi,2026-11,Thursday,9
+494,NKS-20261105-494,Ibu Vorvo 65,2026-11-05 09:38:00,2026-11-06 10:38:00,1,Paket 1,Nasi Kotak,12000,10,120000,dikonfirmasi,Tinggi,2026-11,Thursday,9
+495,NKS-20261009-495,Pengajian Antasari 84,2026-10-09 13:19:00,2026-10-09 16:19:00,0,Snack Box 2,Snack Box,7000,100,700000,diproses,Tinggi,2026-10,Friday,13
+495,NKS-20261009-495,Pengajian Antasari 84,2026-10-09 13:19:00,2026-10-09 16:19:00,0,Snack Box 3,Snack Box,10000,10,100000,diproses,Tinggi,2026-10,Friday,13
+496,NKS-20261009-496,Bank Kaltimtara Sistem Informasi 69,2026-10-09 12:20:00,2026-10-11 13:20:00,2,Snackbox 5,Snack Box,15000,20,300000,menunggu_konfirmasi,Normal,2026-10,Friday,12
+497,NKS-20261029-497,RSUD AWS Hukum 42,2026-10-29 15:06:00,2026-11-01 17:06:00,3,Snackbox 5,Snack Box,15000,15,225000,diproses,Normal,2026-10,Thursday,15
+497,NKS-20261029-497,RSUD AWS Hukum 42,2026-10-29 15:06:00,2026-11-01 17:06:00,3,Snack Box Premium,Snack Box,25000,50,1250000,diproses,Sedang,2026-10,Thursday,15
+497,NKS-20261029-497,RSUD AWS Hukum 42,2026-10-29 15:06:00,2026-11-01 17:06:00,3,Snackbox 1,Snack Box,5000,30,150000,diproses,Tinggi,2026-10,Thursday,15
+498,NKS-20260923-498,Karang Taruna Informatika 7,2026-09-23 13:27:00,2026-09-26 15:27:00,3,Paket Spesial,Nasi Kotak,30000,15,450000,dikonfirmasi,Normal,2026-09,Wednesday,13
+498,NKS-20260923-498,Karang Taruna Informatika 7,2026-09-23 13:27:00,2026-09-26 15:27:00,3,Paket Bebek,Nasi Kotak,33000,20,660000,dikonfirmasi,Sedang,2026-09,Wednesday,13
+499,NKS-20260913-499,FEB Unmul Rina 67,2026-09-13 19:49:00,2026-09-15 00:49:00,1,Snack Box 2,Snack Box,7000,20,140000,dikonfirmasi,Tinggi,2026-09,Sunday,19
+499,NKS-20260913-499,FEB Unmul Rina 67,2026-09-13 19:49:00,2026-09-15 00:49:00,1,Paket Spesial,Nasi Kotak,30000,40,1200000,dikonfirmasi,Tinggi,2026-09,Sunday,19
+500,NKS-20261021-500,Komunitas Sistem Informasi 61,2026-10-21 12:33:00,2026-10-23 15:33:00,2,Snack Box Premium,Snack Box,25000,20,500000,menunggu_konfirmasi,Normal,2026-10,Wednesday,12
