@@ -1,4 +1,4 @@
-# Nasi Kampus Samarinda — Frontend (Pelanggan & Dasbor Pemilik)
+# Nasi Kampus Samarinda 
 
 Proyek Capstone **Asah 2026 (A26-CS079)**. Aplikasi web pemesanan katering **Nasi Kotak** dan **Snack Box** untuk UMKM **Nasi Kampus Samarinda**, dibangun dengan **React 19 + Vite + React Router 7 + CSS**.
 
