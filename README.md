@@ -67,3 +67,24 @@ Untuk mengganti foto dummy dengan foto asli: cukup timpa file di dalam `public/a
 Diatur terpusat di [`src/config.js`](./src/config.js):
 - **WhatsApp Admin**: `+62 813-5097-1640` (`6281350971640`)
 - **Email**: `nasikampussamarinda@gmail.com`
+
+## 5. Business Intelligence & Analytics (Data Science)
+
+Dashboard analitik penjualan, komposisi kategori menu, dan rincian pengeluaran bahan baku terhubung langsung dengan dataset transaksi UMKM menggunakan **Google Looker Studio**.
+
+- **Link Dashboard Interaktif** [Buka Dashboard Bisnis - Nasi Kampus Samarinda](https://datastudio.google.com/reporting/7124f91e-11b9-413e-9b3a-454568050ddb)
+- **URL Embed** `https://datastudio.google.com/embed/reporting/7124f91e-11b9-413e-9b3a-454568050ddb/page/XuxDG`
+- **Kode Sematan (`<iframe>`) untuk Web**
+  ```html
+  <iframe width="600" height="450" src="[https://datastudio.google.com/embed/reporting/7124f91e-11b9-413e-9b3a-454568050ddb/page/XuxDG](https://datastudio.google.com/embed/reporting/7124f91e-11b9-413e-9b3a-454568050ddb/page/XuxDG)" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+
+Ringkasan Metrik Utama
+- Total Omzet Rp 862.940.000 dari 500 transaksi (50.180 porsi terjual)
+- Total Pengeluaran Bahan Baku Rp 29.651.000 (pengeluaran tertinggi pada Ayam Potong Broiler dan Beras Premium)
+- Proporsi Penjualan Nasi Kotak (67,9%) dan Snack Box (32,1%)
+
+Arsip Data Science
+- schema_nasi_kampus.sql — Skema relasional database MySQL (nasi_kampus_db)
+- dummy_nasikampus.ipynb — Generator dataset simulasi transaksi berbasis 14 menu resmi
+- EDA_Nasi_Kampus_Samarinda.ipynb — Data Wrangling, Exploratory Data Analysis (EDA), dan pembersihan dataset
+- dataset_pesanan_clean_for_ai.csv — Dataset bersih beserta fitur label_prioritas_ai untuk pelatihan model klasifikasi AI
