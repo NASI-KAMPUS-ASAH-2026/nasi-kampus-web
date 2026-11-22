@@ -88,3 +88,14 @@ Arsip Data Science
 - dummy_nasikampus.ipynb — Generator dataset simulasi transaksi berbasis 14 menu
 - EDA_Nasi_Kampus_Samarinda.ipynb — Data Wrangling, Exploratory Data Analysis (EDA), dan pembersihan dataset
 - dataset_pesanan_clean_for_ai.csv — Dataset bersih beserta fitur label_prioritas_ai untuk pelatihan model klasifikasi AI
+
+## 6. AI Model Development (AI Engineer)
+
+Pengembangan model Machine Learning untuk klasifikasi prioritas pesanan UMKM Nasi Kampus Samarinda menggunakan Python dan Scikit-learn dengan algoritma **Logistic Regression** dan **Random Forest**.
+
+- Model Terpilih: Random Forest Classifier (Accuracy 100% pada data testing).
+- Fitur Input: Total Porsi dan Lead Time Hari.
+- Kategori Prediksi: Normal, Sedang, dan Tinggi.
+- Dataset: 500 data pesanan dari dataset Data Science.
+- File Model: random_forest_nasikampus.pkl - Model hasil training yang disimpan.
+- File ipynb: AI_Model_Nasi_Kampus_Samarinda.ipynb - Pengembangan model ML, mulai dari data preparation, training, evaluasi, hingga penyimpanan model.
