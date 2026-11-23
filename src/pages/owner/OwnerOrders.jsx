@@ -61,19 +61,8 @@ export default function OwnerOrders() {
       </header>
 
       <section className="panel owner-filter-panel" aria-label="Filter daftar pesanan">
-        <div className="chips" role="group" aria-label="Filter status pesanan">
-          <button type="button" className="chip" aria-pressed={statusParam === 'all'} onClick={() => setStatus('all')}>
-            Semua Status
-          </button>
-          {ORDER_STATUSES.map((st) => (
-            <button key={st.id} type="button" className="chip" aria-pressed={statusParam === st.id} onClick={() => setStatus(st.id)}>
-              {st.id}
-            </button>
-          ))}
-        </div>
-
         <div className="owner-filter-row">
-          <div className="search">
+          <div className="search" style={{ flex: '1 1 240px' }}>
             <Icon name="search" size={18} />
             <input type="search" value={q} onChange={(e) => { setQ(e.target.value); setPage(1); }}
               placeholder="Cari kode pesanan atau nama pelanggan…" aria-label="Cari kode pesanan atau nama pelanggan" />
@@ -82,6 +71,26 @@ export default function OwnerOrders() {
                 <Icon name="close" size={14} />
               </button>
             )}
+          </div>
+
+          {/* Dropdown Status Pesanan */}
+          <div className="filter-select-wrap" style={{ minWidth: 210 }}>
+            <select
+              className="filter-select"
+              value={statusParam}
+              onChange={(e) => setStatus(e.target.value)}
+              aria-label="Filter status pesanan"
+            >
+              <option value="all">Semua Status Pesanan</option>
+              {ORDER_STATUSES.map((st) => (
+                <option key={st.id} value={st.id}>
+                  {st.id}
+                </option>
+              ))}
+            </select>
+            <span className="filter-select-icon" aria-hidden="true">
+              <Icon name="chevronDown" size={16} />
+            </span>
           </div>
 
           <div className="date-filters">

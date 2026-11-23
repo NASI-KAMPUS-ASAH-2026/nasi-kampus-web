@@ -6,6 +6,24 @@ export function StatusBadge({ status, size }) {
   return <span className={`badge badge--${m.tone}${size === 'sm' ? ' badge--sm' : ''}`}><i aria-hidden="true" />{m.id}</span>;
 }
 
+export function AdminStatusBadge({ status, size }) {
+  const toneMap = {
+    'Menunggu Konfirmasi': 'warning',
+    'Dikonfirmasi': 'info',
+    'Ditolak': 'error',
+    'Sedang Dipersiapkan': 'orange',
+    'Siap Dijemput': 'success',
+    'Selesai': 'neutral',
+  };
+  const tone = toneMap[status] || 'neutral';
+  return <span className={`badge badge--${tone}${size === 'sm' ? ' badge--sm' : ''}`}><i aria-hidden="true" />{status}</span>;
+}
+
+export function PaymentBadge({ status, size }) {
+  const tone = status === 'Lunas' ? 'success' : status === 'DP' ? 'warning' : 'error';
+  return <span className={`badge badge--${tone}${size === 'sm' ? ' badge--sm' : ''}`}><i aria-hidden="true" />{status}</span>;
+}
+
 export function Alert({ tone = 'info', title, children, icon, className = '', role }) {
   return (
     <div className={`alert alert--${tone} ${className}`} role={role || (tone === 'error' ? 'alert' : 'note')}>

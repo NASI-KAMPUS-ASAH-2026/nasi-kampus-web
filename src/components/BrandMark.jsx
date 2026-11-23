@@ -12,6 +12,7 @@ export default function BrandMark({ size = 46 }) {
         alt=""
         width={size}
         height={size}
+        style={{ width: `${size}px`, height: `${size}px` }}
         className="brand-logo"
         loading="eager"
         decoding="sync"

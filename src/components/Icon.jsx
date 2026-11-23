@@ -35,6 +35,7 @@ const PATHS = {
   lock: 'M6 11h12v10H6V11zm2 0V7a4 4 0 018 0v4',
   filter: 'M4 5h16l-6 8v6l-4-2v-4L4 5z',
   eye: 'M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12zm10 3a3 3 0 100-6 3 3 0 000 6z',
+  eyeOff: 'M17.94 17.94A10.07 10.07 0 0112 20c-7 0-11-8-11-8a18.45 18.45 0 015.06-5.94M9.9 4.24A9.12 9.12 0 0112 4c7 0 11 8 11 8a18.5 18.5 0 01-2.16 3.19m-6.72-1.07a3 3 0 11-4.24-4.24M1 1l22 22',
   receipt: 'M6 3h12v18l-3-2-3 2-3-2-3 2V3zm3 5h6m-6 4h6m-6 4h3',
   wallet: 'M3 7h16a2 2 0 012 2v9a2 2 0 01-2 2H3V7zm0 0V5a2 2 0 012-2h11M16 13h.01',
   x: 'M15 9l-6 6m0-6l6 6M12 22a10 10 0 110-20 10 10 0 010 20z',
@@ -47,6 +48,8 @@ const PATHS = {
   bell: 'M18 8A6 6 0 006 8c0 7-3 9-3 9h24s-3-2-3-9M13.73 21a2 2 0 01-3.46 0',
   sun: 'M12 3v2m0 14v2m9-9h-2M5 12H3m15.364-6.364l-1.414 1.414M7.05 16.95l-1.414 1.414m12.728 0l-1.414-1.414M7.05 7.05L5.636 5.636M12 8a4 4 0 100 8 4 4 0 000-8z',
   moon: 'M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z',
+  edit: 'M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7 M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z',
+  layers: 'M12 2L2 7l10 5 10-5-10-5z M2 17l10 5 10-5 M2 12l10 5 10-5',
 };
 
 export default function Icon({ name, size = 20, className, strokeWidth = 2 }) {
@@ -110,6 +113,27 @@ export default function Icon({ name, size = 20, className, strokeWidth = 2 }) {
         <path d="M2.5 6.5l9.5 6 9.5-6" />
         <path d="M3 18l5.5-5" />
         <path d="M21 18l-5.5-5" />
+      </svg>
+    );
+  }
+
+  if (name === 'edit') {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        aria-hidden="true"
+        focusable="false"
+      >
+        <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+        <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
       </svg>
     );
   }

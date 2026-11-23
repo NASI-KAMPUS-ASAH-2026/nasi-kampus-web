@@ -5,20 +5,30 @@ import Icon from '../components/Icon';
 import { useTheme } from '../context/ThemeContext';
 import { useScrollToTopOnNavigate } from './CustomerLayout';
 import { ownerAuth } from '../services/ownerAuth';
+import { kitchenAuth } from '../services/kitchenAuth';
 
 const NAV = [
   { to: '/owner/dashboard', label: 'Ringkasan', icon: 'grid' },
   { to: '/owner/orders', label: 'Daftar Pesanan', icon: 'list' },
+  { to: '/owner/ingredients', label: 'Master Bahan', icon: 'box' },
+  { to: '/owner/purchases', label: 'Pembelian Bahan', icon: 'receipt' },
   { to: '/owner/reports', label: 'Laporan', icon: 'chart' },
 ];
 
 export default function OwnerLayout() {
   const [drawerOpen, setDrawerOpen] = useState(false);
+  const [showLogoutModal, setShowLogoutModal] = useState(false);
   const { pathname } = useLocation();
   const navigate = useNavigate();
   const { theme, toggleTheme } = useTheme();
   const toggleRef = useRef(null);
   useScrollToTopOnNavigate();
+
+  useEffect(() => {
+    if (kitchenAuth.isAuthenticated() && !ownerAuth.isAuthenticated()) {
+      navigate('/dapur/dashboard', { replace: true });
+    }
+  }, [navigate]);
 
   useEffect(() => setDrawerOpen(false), [pathname]);
 
@@ -34,7 +44,8 @@ export default function OwnerLayout() {
     return () => window.removeEventListener('keydown', onKey);
   }, [drawerOpen]);
 
-  const onLogout = () => {
+  const handleConfirmLogout = () => {
+    setShowLogoutModal(false);
     ownerAuth.logout();
     navigate('/login');
   };
@@ -74,7 +85,7 @@ export default function OwnerLayout() {
           <Link to="/" className="owner-foot-link">
             <Icon name="home" size={17} /> Lihat Situs Pelanggan
           </Link>
-          <button type="button" className="owner-foot-link owner-foot-btn" onClick={onLogout}>
+          <button type="button" className="owner-foot-link owner-foot-btn" onClick={() => setShowLogoutModal(true)}>
             <Icon name="logout" size={17} /> Keluar
           </button>
         </div>
@@ -112,6 +123,48 @@ export default function OwnerLayout() {
           </div>
         </main>
       </div>
+
+      {/* Modal Konfirmasi Keluar */}
+      {showLogoutModal && (
+        <div className="kitchen-modal-backdrop" onClick={() => setShowLogoutModal(false)}>
+          <div className="kitchen-modal" style={{ maxWidth: 420 }} onClick={(e) => e.stopPropagation()}>
+            <div className="kitchen-modal-head">
+              <h3 style={{ margin: 0, fontSize: 16, display: 'flex', alignItems: 'center', gap: 8 }}>
+                <Icon name="logout" size={18} /> Konfirmasi Keluar
+              </h3>
+              <button
+                type="button"
+                className="owner-close-btn"
+                onClick={() => setShowLogoutModal(false)}
+                aria-label="Tutup"
+              >
+                <Icon name="close" size={18} />
+              </button>
+            </div>
+            <div className="kitchen-modal-body">
+              <p style={{ margin: 0, fontSize: 14, lineHeight: 1.5 }}>
+                Apakah Anda yakin ingin keluar dari akun <strong>Pemilik</strong>? Anda harus masuk kembali untuk mengakses data usaha.
+              </p>
+            </div>
+            <div className="kitchen-modal-foot" style={{ display: 'flex', justifyContent: 'flex-end', gap: 8 }}>
+              <button
+                type="button"
+                className="btn btn-ghost btn-sm"
+                onClick={() => setShowLogoutModal(false)}
+              >
+                Batal
+              </button>
+              <button
+                type="button"
+                className="btn btn-primary btn-sm"
+                onClick={handleConfirmLogout}
+              >
+                Ya, Keluar
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
